@@ -603,8 +603,8 @@ echo '
     <meta name="robots" content="noindex, nofollow" />
     <meta name="googlebot" content="noindex, nofollow" />
     <meta name="bingbot" content="noindex, nofollow" />
-    <link href="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/ciel.png" rel="shortcut icon" type="image/x-icon">
-    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/ciel.png"/>
+    <link href="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/ciel-phantomhive.jpg" rel="shortcut icon" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/ciel-phantomhive.jpg"/>
     <script src="https://unpkg.com/typewriter-effect@2.18.2/dist/core.js"></script>
     <style>
     @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap");
@@ -1471,7 +1471,7 @@ echo '<input type="hidden" name="charset">
 <tr>
 <td><span class="header_vars">User:</span></td>
 <td><span class="header_values" id="header_userid">'. $uid . ' [ ' . $user . ' ] </span><span class="header_vars"> Group: </span><span class="header_values" id="header_groupid">' . $gid . ' [ ' . $group . ' ]</span> </td>
-<td width="12%" rowspan="8"><img style="border-radius:100px;" width="300" height="170" alt="alfa team 2012" draggable="false" src="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/ciel.png" /></td>
+<td width="12%" rowspan="8"><img style="border-radius:100px;" width="250" height="170" alt="alfa team 2012" draggable="false" src="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/ciel.png" /></td>
 </tr>
 <tr>
 <td><span class="header_vars">PHP:</span></td>
