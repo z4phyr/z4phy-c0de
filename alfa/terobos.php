@@ -120,7 +120,7 @@ if (is_logged_in()) {
       <input type="password" id="password" name="password">
       <input type="submit" value="Login Ketua">
       <audio controls autoplay hidden>
-      <source src="https://kacamataopung.com/media/get-my-way.mp3" type="audio/mpeg">
+      <source src="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/Joji-GOU.mp3" type="audio/mpeg">
       </audio>
       </form>
       </body>
