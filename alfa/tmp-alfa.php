@@ -1,5 +1,5 @@
 <?php
-//Created By NuLz Ganteng
+// Z4PHY C0D3
 $session_dir = "/tmp/.sessions/";
 $tmp_dir = "/tmp/";
 if (is_dir($session_dir)) {
