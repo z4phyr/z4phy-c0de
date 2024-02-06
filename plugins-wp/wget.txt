@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/plugins-wp/wp-file-manager.zip
+https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/plugins-wp/wordfence.7.11.1.zip
