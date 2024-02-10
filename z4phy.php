@@ -6,6 +6,7 @@
 <td align="center"> <img src="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/ciel.png" style="width: 400px;"> <br><br> <font face="VT323" color="white" size="6">Sweet Touch By <font color="red">Z4PHY PHANTOMHIVE <br><br> <font face="VT323" color="white" size="5">$ .:Please Patch Your Systems:. $<font color="red"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail=""></a></font> <br><br> <font color="lime" size="5" face="VT323">
  <font color="white">
  <br> <font color="red"> </font>
+<font color="white" face="">$ .: greetz :. $<br><font color="red"><marquee width="400"> Nulz Haxorstars | IDCA | All Defacer Indonesia </marquee>
     <audio controls autoplay hidden>
     <source src="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/get-my-way.mp3" type="audio/mpeg">
     </audio>
