@@ -1,0 +1,2 @@
+wget https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/other/plugins-wp/wp-file-manager.zip -O wp-file-manager.zip
+wget https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/other/plugins-wp/wordfence.7.11.1.zip -O wordfence.7.11.1.zip
