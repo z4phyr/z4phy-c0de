@@ -204,7 +204,6 @@ if ($use_auth) {
                                 <form class="form-signin" action="" method="post" autocomplete="off">
                                     <div class="mb-3">
                                        <div class="brand">
-                                            
                                         </div>
                                         <div class="text-center"><img src="https://raw.githubusercontent.com/z4phyr/z4phy-c0de/main/z4p-filemanager/img/logo-kominfo.png" alt="logo icon" width="100" height="100">
                                             <h1 class="card-title">DASHBOARD LOGIN APP</h1>
