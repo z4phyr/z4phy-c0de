@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <base href="" />
     <meta charset="utf-8" />
-    <title>##TITLE_</title>
-    <link rel="amphtml" href="##AMPHTML_" />
+    <title>##TITLE_PENTING!_</title>
+    <link rel="amphtml" href="##DOMAIN_AMPHTML_" />
     <meta http-equiv="Accept-CH" content="Sec-CH-UA-Platform-Version, Sec-CH-UA-Model" />
-    <link rel="icon" type="image/x-icon" href="##ICON_GAMBAR" />
-    <link rel="canonical" href="##URL_LP_" />
-    <meta property="og:site_name" content="##BRAND_TOKO" />
-    <meta property="og:title" content="##TITLE_" />
-    <meta property="og:url" content="##URL_LP_" />
+    <link rel="icon" type="image/x-icon" href="##ICONS_LANDINGPAGE_" />
+    <link rel="canonical" href="##DOMAIN_LANDINGPAGE!_" />
+    <meta property="og:site_name" content="###BRAND_HERE!!!__" />
+    <meta property="og:title" content="##TITLE_PENTING!_" />
+    <meta property="og:url" content="##DOMAIN_LANDINGPAGE!_" />
     <meta property="og:type" content="product" />
-    <meta property="og:description" content="##DESKRIPSI_" />
-    <meta property="og:image" content="##BANNER_LP_?format=1500w" />
+    <meta property="og:description" content="###DESKITPSI_PENTING!!_" />
+    <meta property="og:image" content="###BANNER_LANDINGPAGE?format=1500w" />
     <meta property="og:image:width" content="1000" />
     <meta property="og:image:height" content="1000" />
     <meta property="product:price:amount" content="10000.00" />
@@ -25,18 +25,18 @@
     <meta property="product:original_price:currency" content="IDR" />
     <meta property="product:sale_price:amount" content="10000.00" />
     <meta property="product:sale_price:currency" content="IDR" />
-    <meta itemprop="name" content="##TITLE_" />
-    <meta itemprop="url" content="##URL_LP_" />
-    <meta itemprop="description" content="##DESKRIPSI_" />
-    <meta itemprop="thumbnailUrl" content="##BANNER_LP_?format=1500w" />
-    <link rel="image_src" href="h##BANNER_KE2_LP?format=1500w" />
-    <meta itemprop="image" content="##BANNER_LP_?format=1500w" />
-    <meta name="twitter:title" content="##TITLE_" />
-    <meta name="twitter:image" content="##BANNER_LP_?format=1500w" />
-    <meta name="twitter:url" content="##URL_LP_" />
+    <meta itemprop="name" content="##TITLE_PENTING!_" />
+    <meta itemprop="url" content="##DOMAIN_LANDINGPAGE!_" />
+    <meta itemprop="description" content="###DESKITPSI_PENTING!!_" />
+    <meta itemprop="thumbnailUrl" content="###BANNER_LANDINGPAGE?format=1500w" />
+    <link rel="image_src" href="###BANNER_LANDINGPAGE?format=1500w" />
+    <meta itemprop="image" content="###BANNER_LANDINGPAGE?format=1500w" />
+    <meta name="twitter:title" content="##TITLE_PENTING!_" />
+    <meta name="twitter:image" content="###BANNER_LANDINGPAGE?format=1500w" />
+    <meta name="twitter:url" content="##DOMAIN_LANDINGPAGE!_" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:description" content="##DESKRIPSI_" />
-    <meta name="description" content="##DESKRIPSI_" />
+    <meta name="twitter:description" content="###DESKITPSI_PENTING!!_" />
+    <meta name="description" content="###DESKITPSI_PENTING!!_" />
     <link rel="preconnect" href="https://images.squarespace-cdn.com" />
     <script
       type="d388654dbc0a1eb8d9118603-text/javascript"
@@ -155,25 +155,25 @@
     </script>
     <script crossorigin="anonymous" src="https://cdn.jsdelivr.net/gh/z4phyr/z4phy-c0de/other/seo-phantomhive/js/performance-94880fef7f5110305205-min.en-US.js" defer="" type="d388654dbc0a1eb8d9118603-text/javascript"></script>
     <script data-name="static-context" type="d388654dbc0a1eb8d9118603-text/javascript">
-      Static = window.Static || {}; Static.SQUARESPACE_CONTEXT = {"facebookAppId":"314192535267336","facebookApiVersion":"v6.0","rollups":{"squarespace-announcement-bar":{"js":"//assets.squarespace.com/universal/scripts-compressed/announcement-bar-ac3efedd49a8a017e2f8-min.en-US.js"},"squarespace-audio-player":{"css":"//assets.squarespace.com/universal/styles-compressed/audio-player-68f0d70f87aaddb33c87-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/audio-player-65d130eb3b049b1054e4-min.en-US.js"},"squarespace-blog-collection-list":{"css":"//assets.squarespace.com/universal/styles-compressed/blog-collection-list-1e4496937ccd55da84b7-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/blog-collection-list-aca0f118484570338368-min.en-US.js"},"squarespace-calendar-block-renderer":{"css":"//assets.squarespace.com/universal/styles-compressed/calendar-block-renderer-17dca3f66c4211bf16d1-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/calendar-block-renderer-b63e6afdcbeac42b3017-min.en-US.js"},"squarespace-chartjs-helpers":{"css":"//assets.squarespace.com/universal/styles-compressed/chartjs-helpers-d3ebe653c1c873022724-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/chartjs-helpers-1cd8f0dbe0123c719abd-min.en-US.js"},"squarespace-comments":{"css":"//assets.squarespace.com/universal/styles-compressed/comments-6800f146d3c87a3960c8-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/comments-8c16bc4bc4ac2bb967e6-min.en-US.js"},"squarespace-custom-css-popup":{"css":"//assets.squarespace.com/universal/styles-compressed/custom-css-popup-b5fcf317a07b0db9da26-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/custom-css-popup-af356fa67f33ad4a02fe-min.en-US.js"},"squarespace-dialog":{"css":"//assets.squarespace.com/universal/styles-compressed/dialog-ca35e17d76a920cb1b17-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/dialog-2267dea48d63317856a6-min.en-US.js"},"squarespace-events-collection":{"css":"//assets.squarespace.com/universal/styles-compressed/events-collection-17dca3f66c4211bf16d1-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/events-collection-09618ebbf5fba2c9727b-min.en-US.js"},"squarespace-form-rendering-utils":{"js":"//assets.squarespace.com/universal/scripts-compressed/form-rendering-utils-344eacef2098ca014a64-min.en-US.js"},"squarespace-forms":{"css":"//assets.squarespace.com/universal/styles-compressed/forms-e6610e528d6f92fd5031-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/forms-97dd06157cb0d1930252-min.en-US.js"},"squarespace-gallery-collection-list":{"css":"//assets.squarespace.com/universal/styles-compressed/gallery-collection-list-1e4496937ccd55da84b7-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/gallery-collection-list-61dc9f9523fa69ebec8c-min.en-US.js"},"squarespace-image-zoom":{"css":"//assets.squarespace.com/universal/styles-compressed/image-zoom-1e4496937ccd55da84b7-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/image-zoom-ecb81e17f1e51126ce02-min.en-US.js"},"squarespace-pinterest":{"css":"//assets.squarespace.com/universal/styles-compressed/pinterest-1e4496937ccd55da84b7-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/pinterest-c5828c22f5532927ef0b-min.en-US.js"},"squarespace-popup-overlay":{"css":"//assets.squarespace.com/universal/styles-compressed/popup-overlay-667fa2c6bd659fe9a639-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/popup-overlay-d77ae6e5be5e42b8d7a4-min.en-US.js"},"squarespace-product-quick-view":{"css":"//assets.squarespace.com/universal/styles-compressed/product-quick-view-f2c5750b07447cd0e8c5-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/product-quick-view-c14fd9496f5985337c37-min.en-US.js"},"squarespace-products-collection-item-v2":{"css":"//assets.squarespace.com/universal/styles-compressed/products-collection-item-v2-1e4496937ccd55da84b7-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/products-collection-item-v2-bbb2acbc5c45d633910b-min.en-US.js"},"squarespace-products-collection-list-v2":{"css":"//assets.squarespace.com/universal/styles-compressed/products-collection-list-v2-1e4496937ccd55da84b7-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/products-collection-list-v2-86a6a6322e302d4394d6-min.en-US.js"},"squarespace-search-page":{"css":"//assets.squarespace.com/universal/styles-compressed/search-page-622dbcc4356d75bd674a-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/search-page-f7befafa846701c7a7ba-min.en-US.js"},"squarespace-search-preview":{"js":"//assets.squarespace.com/universal/scripts-compressed/search-preview-4109f87befa479615f23-min.en-US.js"},"squarespace-simple-liking":{"css":"//assets.squarespace.com/universal/styles-compressed/simple-liking-3a1fa618b156b16f9a32-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/simple-liking-f173014f20db69fb2607-min.en-US.js"},"squarespace-social-buttons":{"css":"//assets.squarespace.com/universal/styles-compressed/social-buttons-5ccc4fc16300710a0a68-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/social-buttons-c525b0b649e9b0c42bc6-min.en-US.js"},"squarespace-tourdates":{"css":"//assets.squarespace.com/universal/styles-compressed/tourdates-1e4496937ccd55da84b7-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/tourdates-eee42d001f172afd8251-min.en-US.js"},"squarespace-website-overlays-manager":{"css":"//assets.squarespace.com/universal/styles-compressed/website-overlays-manager-03eed1717232cc37078d-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/website-overlays-manager-38bc7b05ed77c7e58ab2-min.en-US.js"}},"pageType":50,"website":{"id":"658e7830d73f5925ad09de3f","identifier":"turquoise-lychee-a322","websiteType":1,"contentModifiedOn":1703860301856,"cloneable":false,"hasBeenCloneable":false,"siteStatus":{},"language":"en-US","timeZone":"Asia/Jakarta","machineTimeZoneOffset":25200000,"timeZoneOffset":25200000,"timeZoneAbbr":"WIB","siteTitle":"##BRAND_TOKO","fullSiteTitle":"##TITLE_","siteDescription":"","logoImageId":"658e8ba90837e0213417c1af","mobileLogoImageId":"658e8bb7d3f0f41cda927a7e","shareButtonOptions":{"1":true,"7":true,"2":true,"8":true,"3":true,"4":true,"6":true},"logoImageUrl":"##LOGO_DESKTOP_","mobileLogoImageUrl":"##LOGO_MOBILE_","authenticUrl":"##URL_LP_","internalUrl":"##URL_LP_","baseUrl":"##URL_LP_","sslSetting":3,"isHstsEnabled":true,"socialAccounts":[{"serviceId":64,"addedOn":1703835696615,"profileUrl":"http://instagram.com/squarespace","iconEnabled":true,"serviceName":"instagram-unauth"},{"serviceId":60,"addedOn":1703835696618,"profileUrl":"http://facebook.com/squarespace","iconEnabled":true,"serviceName":"facebook-unauth"},{"serviceId":62,"addedOn":1703835696623,"profileUrl":"http://twitter.com/squarespace","iconEnabled":true,"serviceName":"twitter-unauth"},{"serviceId":61,"addedOn":1703835696628,"profileUrl":"http://pinterest.com/squarespace","iconEnabled":true,"serviceName":"pinterest-unauth"}],"typekitId":"","statsMigrated":false,"imageMetadataProcessingEnabled":false,"captchaSettings":{"enabledForDonations":false},"showOwnerLogin":false},"websiteSettings":{"id":"658e7830d73f5925ad09de42","websiteId":"658e7830d73f5925ad09de3f","subjects":[],"country":"ID","state":"JK","simpleLikingEnabled":true,"mobileInfoBarSettings":{"isContactEmailEnabled":false,"isContactPhoneNumberEnabled":false,"isLocationEnabled":false,"isBusinessHoursEnabled":false},"commentLikesAllowed":true,"commentAnonAllowed":true,"commentThreaded":true,"commentApprovalRequired":false,"commentAvatarsOn":true,"commentSortType":2,"commentFlagThreshold":0,"commentFlagsAllowed":true,"commentEnableByDefault":true,"commentDisableAfterDaysDefault":0,"disqusShortname":"","commentsEnabled":false,"storeSettings":{"returnPolicy":null,"termsOfService":null,"privacyPolicy":null,"expressCheckout":false,"continueShoppingLinkUrl":"/","useLightCart":false,"showNoteField":false,"shippingCountryDefaultValue":"US","billToShippingDefaultValue":false,"showShippingPhoneNumber":true,"isShippingPhoneRequired":false,"showBillingPhoneNumber":true,"isBillingPhoneRequired":false,"currenciesSupported":["USD","CAD","GBP","AUD","EUR","CHF","NOK","SEK","DKK","NZD","SGD","MXN","HKD","CZK","ILS","MYR","RUB","PHP","PLN","THB","BRL","ARS","COP","IDR","INR","JPY","ZAR"],"defaultCurrency":"USD","selectedCurrency":"IDR","measurementStandard":1,"showCustomCheckoutForm":false,"checkoutPageMarketingOptInEnabled":true,"enableMailingListOptInByDefault":false,"sameAsRetailLocation":false,"merchandisingSettings":{"scarcityEnabledOnProductItems":false,"scarcityEnabledOnProductBlocks":false,"scarcityMessageType":"DEFAULT_SCARCITY_MESSAGE","scarcityThreshold":10,"multipleQuantityAllowedForServices":false,"restockNotificationsEnabled":false,"restockNotificationsMailingListSignUpEnabled":false,"relatedProductsEnabled":false,"relatedProductsOrdering":"random","customSoldOutText":"Sold Out","soldOutVariantsDropdownDisabled":false,"productComposerOptedIn":false,"productComposerABTestOptedOut":false,"productReviewsEnabled":false,"displayNativeProductReviewsEnabled":true,"displayImportedProductReviewsEnabled":false,"productReviewsDisplayScope":"ALL_REVIEWS","productReviewsMerchantEmailEnabled":true,"hasOptedToCollectNativeReviews":true},"isLive":false,"multipleQuantityAllowedForServices":false},"useEscapeKeyToLogin":false,"ssBadgeType":1,"ssBadgePosition":4,"ssBadgeVisibility":1,"ssBadgeDevices":1,"pinterestOverlayOptions":{"mode":"disabled"},"ampEnabled":false,"userAccountsSettings":{"loginAllowed":false,"signupAllowed":false}},"cookieSettings":{"isCookieBannerEnabled":false,"isRestrictiveCookiePolicyEnabled":false,"isRestrictiveCookiePolicyAbsolute":false,"cookieBannerText":"","cookieBannerTheme":"","cookieBannerVariant":"","cookieBannerPosition":"","cookieBannerCtaVariant":"","cookieBannerCtaText":"","cookieBannerAcceptType":"OPT_IN","cookieBannerOptOutCtaText":""},"websiteCloneable":false,"collection":{"title":"Store","id":"658ecfd60837e021341dce1b","fullUrl":"/store-MFHja-1","type":13,"permissionType":1},"item":{"title":"##TITLE_","id":"658ed04cc9a6545a4e625d11","fullUrl":"/gacor!/","publicCommentCount":0,"commentState":1,"recordType":11},"subscribed":false,"appDomain":"squarespace.com","templateTweakable":true,"tweakJSON":{"form-use-theme-colors":"false","header-logo-height":"50px","header-mobile-logo-max-height":"40px","header-vert-padding":"3vw","header-width":"Full","maxPageWidth":"1400px","pagePadding":"3vw","tweak-blog-alternating-side-by-side-image-aspect-ratio":"1:1 Square","tweak-blog-alternating-side-by-side-image-spacing":"6%","tweak-blog-alternating-side-by-side-meta-spacing":"20px","tweak-blog-alternating-side-by-side-primary-meta":"Categories","tweak-blog-alternating-side-by-side-read-more-spacing":"20px","tweak-blog-alternating-side-by-side-secondary-meta":"Date","tweak-blog-basic-grid-columns":"2","tweak-blog-basic-grid-image-aspect-ratio":"3:2 Standard","tweak-blog-basic-grid-image-spacing":"50px","tweak-blog-basic-grid-meta-spacing":"37px","tweak-blog-basic-grid-primary-meta":"Categories","tweak-blog-basic-grid-read-more-spacing":"37px","tweak-blog-basic-grid-secondary-meta":"Date","tweak-blog-item-custom-width":"50","tweak-blog-item-show-author-profile":"false","tweak-blog-item-width":"Medium","tweak-blog-masonry-columns":"2","tweak-blog-masonry-horizontal-spacing":"80px","tweak-blog-masonry-image-spacing":"20px","tweak-blog-masonry-meta-spacing":"20px","tweak-blog-masonry-primary-meta":"Categories","tweak-blog-masonry-read-more-spacing":"20px","tweak-blog-masonry-secondary-meta":"Date","tweak-blog-masonry-vertical-spacing":"80px","tweak-blog-side-by-side-image-aspect-ratio":"1:1 Square","tweak-blog-side-by-side-image-spacing":"6%","tweak-blog-side-by-side-meta-spacing":"20px","tweak-blog-side-by-side-primary-meta":"Categories","tweak-blog-side-by-side-read-more-spacing":"20px","tweak-blog-side-by-side-secondary-meta":"Date","tweak-blog-single-column-image-spacing":"50px","tweak-blog-single-column-meta-spacing":"30px","tweak-blog-single-column-primary-meta":"Categories","tweak-blog-single-column-read-more-spacing":"30px","tweak-blog-single-column-secondary-meta":"Date","tweak-events-stacked-show-thumbnails":"true","tweak-events-stacked-thumbnail-size":"3:2 Standard","tweak-fixed-header":"false","tweak-fixed-header-style":"Basic","tweak-global-animations-animation-curve":"ease","tweak-global-animations-animation-delay":"0.6s","tweak-global-animations-animation-duration":"1.50s","tweak-global-animations-animation-style":"fade","tweak-global-animations-animation-type":"fade","tweak-global-animations-complexity-level":"detailed","tweak-global-animations-enabled":"true","tweak-portfolio-grid-basic-custom-height":"50","tweak-portfolio-grid-overlay-custom-height":"50","tweak-portfolio-hover-follow-acceleration":"10%","tweak-portfolio-hover-follow-animation-duration":"Medium","tweak-portfolio-hover-follow-animation-type":"Fade","tweak-portfolio-hover-follow-delimiter":"Forward Slash","tweak-portfolio-hover-follow-front":"false","tweak-portfolio-hover-follow-layout":"Inline","tweak-portfolio-hover-follow-size":"75","tweak-portfolio-hover-follow-text-spacing-x":"1.5","tweak-portfolio-hover-follow-text-spacing-y":"1.5","tweak-portfolio-hover-static-animation-duration":"Medium","tweak-portfolio-hover-static-animation-type":"Scale Up","tweak-portfolio-hover-static-delimiter":"Forward Slash","tweak-portfolio-hover-static-front":"false","tweak-portfolio-hover-static-layout":"Stacked","tweak-portfolio-hover-static-size":"75","tweak-portfolio-hover-static-text-spacing-x":"1.5","tweak-portfolio-hover-static-text-spacing-y":"1.5","tweak-portfolio-index-background-animation-duration":"Medium","tweak-portfolio-index-background-animation-type":"Fade","tweak-portfolio-index-background-custom-height":"50","tweak-portfolio-index-background-delimiter":"None","tweak-portfolio-index-background-height":"Large","tweak-portfolio-index-background-horizontal-alignment":"Center","tweak-portfolio-index-background-link-format":"Stacked","tweak-portfolio-index-background-persist":"false","tweak-portfolio-index-background-vertical-alignment":"Middle","tweak-portfolio-index-background-width":"Full","tweak-product-basic-item-click-action":"None","tweak-product-basic-item-gallery-aspect-ratio":"3:4 Three-Four (Vertical)","tweak-product-basic-item-gallery-design":"Slideshow","tweak-product-basic-item-gallery-width":"50%","tweak-product-basic-item-hover-action":"None","tweak-product-basic-item-image-spacing":"3vw","tweak-product-basic-item-image-zoom-factor":"2","tweak-product-basic-item-product-variant-display":"Dropdown","tweak-product-basic-item-thumbnail-placement":"Side","tweak-product-basic-item-variant-picker-layout":"Dropdowns","tweak-products-add-to-cart-button":"false","tweak-products-columns":"2","tweak-products-gutter-column":"2vw","tweak-products-gutter-row":"2vw","tweak-products-header-text-alignment":"Middle","tweak-products-image-aspect-ratio":"1:1 Square","tweak-products-image-text-spacing":"0.5vw","tweak-products-mobile-columns":"1","tweak-products-text-alignment":"Left","tweak-transparent-header":"true"},"templateId":"5c5a519771c10ba3470d8101","templateVersion":"7.1","pageFeatures":[1,2,4],"gmRenderKey":"QUl6YVN5Q0JUUk9xNkx1dkZfSUUxcjQ2LVQ0QWVUU1YtMGQ3bXk4","templateScriptsRootUrl":"https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/","betaFeatureFlags":["scripts_defer","image_component","is_feature_gate_refresh_enabled","commerce_checkout_website_updates_enabled","member_areas_spanish_interviews","customer_accounts_email_verification","customize_collection_overview_paywalling","member_areas_provisioning_service","crm_show_profile_forms","marketing_landing_page","toggle_preview_new_shortcut","customer_account_creation_recaptcha","themes","pdp_product_add_ons_visitor_site","background_art_onboarding","commerce_restock_notifications","nested_categories","campaigns_global_uc_ab","commerce_clearpay","visitor_react_forms","site_user_email_change","campaigns_new_image_layout_picker","site_header_footer","campaigns_discount_section_in_automations","crm_default_newsletter_block_to_campaigns","commsplat_forms_visitor_profile","enable_css_variable_tweaks","new_stacked_index","collection_typename_switching","fluid_engine_clean_up_grid_contextual_change","crm_remove_subscriber","show_add_to_cart_in_plp","member_areas_schedule_interview","website_fonts","commerce_etsy_product_import","digital_products_monetization_ga_enabled","commerce_site_visitor_metrics","send_local_pickup_ready_email","accounting_orders_sync","nested_categories_migration_enabled","supports_versioned_template_assets","fluid_engine","viewer-role-contributor-invites","campaigns_discount_section_in_blasts","website_component_enabled","unify_edit_mode_p2","member_areas_feature","commerce_order_status_access","improved_paywalls","override_block_styles","campaigns_thumbnail_layout","customize_item_paywalling","commerce_etsy_shipping_import","campaigns_import_discounts"],"videoAssetsFeatureFlags":["mux-data-video-collection","mux-data-course-collection"],"impersonatedSession":false,"demoCollections":[{"collectionId":"63b7282612318a314545e06e","deleted":false},{"collectionId":"63bf20a8189cf003a2ceb882","deleted":false},{"collectionId":"63bf24880e35a726f0363e3b","deleted":true},{"collectionId":"63bf24f4e0b6ce759767d3c8","deleted":true},{"collectionId":"63bf281c2c7c7a2a6ce8d155","deleted":true},{"collectionId":"6409f12455644c1ff7dacc13","deleted":false}],"tzData":{"zones":[[420,null,"WIB",null]],"rules":{}},"product":{"variantAttributeNames":[],"variants":[{"id":"1d69ec4b-aa76-4dce-9a99-130f66b22de7","sku":"SQ0461693","price":{"currencyCode":"IDR","value":15000000,"decimalValue":"150000.00","fractionalDigits":2},"salePrice":{"currencyCode":"IDR","value":5000000,"decimalValue":"10000.00","fractionalDigits":2},"onSale":true,"stock":{"unlimited":true},"attributes":{},"shippingWeight":{"value":0.0,"unit":"POUND"},"shippingSize":{"unit":"INCH","width":0.0,"height":0.0,"len":0.0}}],"subscribable":false,"fulfilledExternally":false,"productType":1},"showAnnouncementBar":false,"recaptchaEnterpriseContext":{"recaptchaEnterpriseSiteKey":"6LdDFQwjAAAAAPigEvvPgEVbb7QBm-TkVJdDTlAv"},"i18nContext":{"timeZoneData":{"id":"Asia/Jakarta","name":"Western Indonesia Time"}}};
+      Static = window.Static || {}; Static.SQUARESPACE_CONTEXT = {"facebookAppId":"314192535267336","facebookApiVersion":"v6.0","rollups":{"squarespace-announcement-bar":{"js":"//assets.squarespace.com/universal/scripts-compressed/announcement-bar-ac3efedd49a8a017e2f8-min.en-US.js"},"squarespace-audio-player":{"css":"//assets.squarespace.com/universal/styles-compressed/audio-player-68f0d70f87aaddb33c87-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/audio-player-65d130eb3b049b1054e4-min.en-US.js"},"squarespace-blog-collection-list":{"css":"//assets.squarespace.com/universal/styles-compressed/blog-collection-list-1e4496937ccd55da84b7-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/blog-collection-list-aca0f118484570338368-min.en-US.js"},"squarespace-calendar-block-renderer":{"css":"//assets.squarespace.com/universal/styles-compressed/calendar-block-renderer-17dca3f66c4211bf16d1-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/calendar-block-renderer-b63e6afdcbeac42b3017-min.en-US.js"},"squarespace-chartjs-helpers":{"css":"//assets.squarespace.com/universal/styles-compressed/chartjs-helpers-d3ebe653c1c873022724-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/chartjs-helpers-1cd8f0dbe0123c719abd-min.en-US.js"},"squarespace-comments":{"css":"//assets.squarespace.com/universal/styles-compressed/comments-6800f146d3c87a3960c8-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/comments-8c16bc4bc4ac2bb967e6-min.en-US.js"},"squarespace-custom-css-popup":{"css":"//assets.squarespace.com/universal/styles-compressed/custom-css-popup-b5fcf317a07b0db9da26-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/custom-css-popup-af356fa67f33ad4a02fe-min.en-US.js"},"squarespace-dialog":{"css":"//assets.squarespace.com/universal/styles-compressed/dialog-ca35e17d76a920cb1b17-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/dialog-2267dea48d63317856a6-min.en-US.js"},"squarespace-events-collection":{"css":"//assets.squarespace.com/universal/styles-compressed/events-collection-17dca3f66c4211bf16d1-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/events-collection-09618ebbf5fba2c9727b-min.en-US.js"},"squarespace-form-rendering-utils":{"js":"//assets.squarespace.com/universal/scripts-compressed/form-rendering-utils-344eacef2098ca014a64-min.en-US.js"},"squarespace-forms":{"css":"//assets.squarespace.com/universal/styles-compressed/forms-e6610e528d6f92fd5031-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/forms-97dd06157cb0d1930252-min.en-US.js"},"squarespace-gallery-collection-list":{"css":"//assets.squarespace.com/universal/styles-compressed/gallery-collection-list-1e4496937ccd55da84b7-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/gallery-collection-list-61dc9f9523fa69ebec8c-min.en-US.js"},"squarespace-image-zoom":{"css":"//assets.squarespace.com/universal/styles-compressed/image-zoom-1e4496937ccd55da84b7-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/image-zoom-ecb81e17f1e51126ce02-min.en-US.js"},"squarespace-pinterest":{"css":"//assets.squarespace.com/universal/styles-compressed/pinterest-1e4496937ccd55da84b7-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/pinterest-c5828c22f5532927ef0b-min.en-US.js"},"squarespace-popup-overlay":{"css":"//assets.squarespace.com/universal/styles-compressed/popup-overlay-667fa2c6bd659fe9a639-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/popup-overlay-d77ae6e5be5e42b8d7a4-min.en-US.js"},"squarespace-product-quick-view":{"css":"//assets.squarespace.com/universal/styles-compressed/product-quick-view-f2c5750b07447cd0e8c5-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/product-quick-view-c14fd9496f5985337c37-min.en-US.js"},"squarespace-products-collection-item-v2":{"css":"//assets.squarespace.com/universal/styles-compressed/products-collection-item-v2-1e4496937ccd55da84b7-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/products-collection-item-v2-bbb2acbc5c45d633910b-min.en-US.js"},"squarespace-products-collection-list-v2":{"css":"//assets.squarespace.com/universal/styles-compressed/products-collection-list-v2-1e4496937ccd55da84b7-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/products-collection-list-v2-86a6a6322e302d4394d6-min.en-US.js"},"squarespace-search-page":{"css":"//assets.squarespace.com/universal/styles-compressed/search-page-622dbcc4356d75bd674a-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/search-page-f7befafa846701c7a7ba-min.en-US.js"},"squarespace-search-preview":{"js":"//assets.squarespace.com/universal/scripts-compressed/search-preview-4109f87befa479615f23-min.en-US.js"},"squarespace-simple-liking":{"css":"//assets.squarespace.com/universal/styles-compressed/simple-liking-3a1fa618b156b16f9a32-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/simple-liking-f173014f20db69fb2607-min.en-US.js"},"squarespace-social-buttons":{"css":"//assets.squarespace.com/universal/styles-compressed/social-buttons-5ccc4fc16300710a0a68-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/social-buttons-c525b0b649e9b0c42bc6-min.en-US.js"},"squarespace-tourdates":{"css":"//assets.squarespace.com/universal/styles-compressed/tourdates-1e4496937ccd55da84b7-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/tourdates-eee42d001f172afd8251-min.en-US.js"},"squarespace-website-overlays-manager":{"css":"//assets.squarespace.com/universal/styles-compressed/website-overlays-manager-03eed1717232cc37078d-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/website-overlays-manager-38bc7b05ed77c7e58ab2-min.en-US.js"}},"pageType":50,"website":{"id":"658e7830d73f5925ad09de3f","identifier":"turquoise-lychee-a322","websiteType":1,"contentModifiedOn":1703860301856,"cloneable":false,"hasBeenCloneable":false,"siteStatus":{},"language":"en-US","timeZone":"Asia/Jakarta","machineTimeZoneOffset":25200000,"timeZoneOffset":25200000,"timeZoneAbbr":"WIB","siteTitle":"###BRAND_HERE!!!__","fullSiteTitle":"##TITLE_PENTING!_","siteDescription":"","logoImageId":"658e8ba90837e0213417c1af","mobileLogoImageId":"658e8bb7d3f0f41cda927a7e","shareButtonOptions":{"1":true,"7":true,"2":true,"8":true,"3":true,"4":true,"6":true},"logoImageUrl":"//###LOGO_DESKTOP!!_","mobileLogoImageUrl":"###LOGO_LANDINGPAGE_MOBILE!!_","authenticUrl":"##DOMAIN_LANDINGPAGE!_","internalUrl":"##DOMAIN_LANDINGPAGE!_","baseUrl":"##DOMAIN_LANDINGPAGE!_","sslSetting":3,"isHstsEnabled":true,"socialAccounts":[{"serviceId":64,"addedOn":1703835696615,"profileUrl":"http://instagram.com/squarespace","iconEnabled":true,"serviceName":"instagram-unauth"},{"serviceId":60,"addedOn":1703835696618,"profileUrl":"http://facebook.com/squarespace","iconEnabled":true,"serviceName":"facebook-unauth"},{"serviceId":62,"addedOn":1703835696623,"profileUrl":"http://twitter.com/squarespace","iconEnabled":true,"serviceName":"twitter-unauth"},{"serviceId":61,"addedOn":1703835696628,"profileUrl":"http://pinterest.com/squarespace","iconEnabled":true,"serviceName":"pinterest-unauth"}],"typekitId":"","statsMigrated":false,"imageMetadataProcessingEnabled":false,"captchaSettings":{"enabledForDonations":false},"showOwnerLogin":false},"websiteSettings":{"id":"658e7830d73f5925ad09de42","websiteId":"658e7830d73f5925ad09de3f","subjects":[],"country":"ID","state":"JK","simpleLikingEnabled":true,"mobileInfoBarSettings":{"isContactEmailEnabled":false,"isContactPhoneNumberEnabled":false,"isLocationEnabled":false,"isBusinessHoursEnabled":false},"commentLikesAllowed":true,"commentAnonAllowed":true,"commentThreaded":true,"commentApprovalRequired":false,"commentAvatarsOn":true,"commentSortType":2,"commentFlagThreshold":0,"commentFlagsAllowed":true,"commentEnableByDefault":true,"commentDisableAfterDaysDefault":0,"disqusShortname":"","commentsEnabled":false,"storeSettings":{"returnPolicy":null,"termsOfService":null,"privacyPolicy":null,"expressCheckout":false,"continueShoppingLinkUrl":"##DOMAIN_LANDINGPAGE!_","useLightCart":false,"showNoteField":false,"shippingCountryDefaultValue":"US","billToShippingDefaultValue":false,"showShippingPhoneNumber":true,"isShippingPhoneRequired":false,"showBillingPhoneNumber":true,"isBillingPhoneRequired":false,"currenciesSupported":["USD","CAD","GBP","AUD","EUR","CHF","NOK","SEK","DKK","NZD","SGD","MXN","HKD","CZK","ILS","MYR","RUB","PHP","PLN","THB","BRL","ARS","COP","IDR","INR","JPY","ZAR"],"defaultCurrency":"USD","selectedCurrency":"IDR","measurementStandard":1,"showCustomCheckoutForm":false,"checkoutPageMarketingOptInEnabled":true,"enableMailingListOptInByDefault":false,"sameAsRetailLocation":false,"merchandisingSettings":{"scarcityEnabledOnProductItems":false,"scarcityEnabledOnProductBlocks":false,"scarcityMessageType":"DEFAULT_SCARCITY_MESSAGE","scarcityThreshold":10,"multipleQuantityAllowedForServices":false,"restockNotificationsEnabled":false,"restockNotificationsMailingListSignUpEnabled":false,"relatedProductsEnabled":false,"relatedProductsOrdering":"random","customSoldOutText":"Sold Out","soldOutVariantsDropdownDisabled":false,"productComposerOptedIn":false,"productComposerABTestOptedOut":false,"productReviewsEnabled":false,"displayNativeProductReviewsEnabled":true,"displayImportedProductReviewsEnabled":false,"productReviewsDisplayScope":"ALL_REVIEWS","productReviewsMerchantEmailEnabled":true,"hasOptedToCollectNativeReviews":true},"isLive":false,"multipleQuantityAllowedForServices":false},"useEscapeKeyToLogin":false,"ssBadgeType":1,"ssBadgePosition":4,"ssBadgeVisibility":1,"ssBadgeDevices":1,"pinterestOverlayOptions":{"mode":"disabled"},"ampEnabled":false,"userAccountsSettings":{"loginAllowed":false,"signupAllowed":false}},"cookieSettings":{"isCookieBannerEnabled":false,"isRestrictiveCookiePolicyEnabled":false,"isRestrictiveCookiePolicyAbsolute":false,"cookieBannerText":"","cookieBannerTheme":"","cookieBannerVariant":"","cookieBannerPosition":"","cookieBannerCtaVariant":"","cookieBannerCtaText":"","cookieBannerAcceptType":"OPT_IN","cookieBannerOptOutCtaText":""},"websiteCloneable":false,"collection":{"title":"Store","id":"658ecfd60837e021341dce1b","fullUrl":"/store-MFHja-1","type":13,"permissionType":1},"item":{"title":"##TITLE_PENTING!_","id":"658ed04cc9a6545a4e625d11","fullUrl":"/gacor!/","publicCommentCount":0,"commentState":1,"recordType":11},"subscribed":false,"appDomain":"squarespace.com","templateTweakable":true,"tweakJSON":{"form-use-theme-colors":"false","header-logo-height":"50px","header-mobile-logo-max-height":"40px","header-vert-padding":"3vw","header-width":"Full","maxPageWidth":"1400px","pagePadding":"3vw","tweak-blog-alternating-side-by-side-image-aspect-ratio":"1:1 Square","tweak-blog-alternating-side-by-side-image-spacing":"6%","tweak-blog-alternating-side-by-side-meta-spacing":"20px","tweak-blog-alternating-side-by-side-primary-meta":"Categories","tweak-blog-alternating-side-by-side-read-more-spacing":"20px","tweak-blog-alternating-side-by-side-secondary-meta":"Date","tweak-blog-basic-grid-columns":"2","tweak-blog-basic-grid-image-aspect-ratio":"3:2 Standard","tweak-blog-basic-grid-image-spacing":"50px","tweak-blog-basic-grid-meta-spacing":"37px","tweak-blog-basic-grid-primary-meta":"Categories","tweak-blog-basic-grid-read-more-spacing":"37px","tweak-blog-basic-grid-secondary-meta":"Date","tweak-blog-item-custom-width":"50","tweak-blog-item-show-author-profile":"false","tweak-blog-item-width":"Medium","tweak-blog-masonry-columns":"2","tweak-blog-masonry-horizontal-spacing":"80px","tweak-blog-masonry-image-spacing":"20px","tweak-blog-masonry-meta-spacing":"20px","tweak-blog-masonry-primary-meta":"Categories","tweak-blog-masonry-read-more-spacing":"20px","tweak-blog-masonry-secondary-meta":"Date","tweak-blog-masonry-vertical-spacing":"80px","tweak-blog-side-by-side-image-aspect-ratio":"1:1 Square","tweak-blog-side-by-side-image-spacing":"6%","tweak-blog-side-by-side-meta-spacing":"20px","tweak-blog-side-by-side-primary-meta":"Categories","tweak-blog-side-by-side-read-more-spacing":"20px","tweak-blog-side-by-side-secondary-meta":"Date","tweak-blog-single-column-image-spacing":"50px","tweak-blog-single-column-meta-spacing":"30px","tweak-blog-single-column-primary-meta":"Categories","tweak-blog-single-column-read-more-spacing":"30px","tweak-blog-single-column-secondary-meta":"Date","tweak-events-stacked-show-thumbnails":"true","tweak-events-stacked-thumbnail-size":"3:2 Standard","tweak-fixed-header":"false","tweak-fixed-header-style":"Basic","tweak-global-animations-animation-curve":"ease","tweak-global-animations-animation-delay":"0.6s","tweak-global-animations-animation-duration":"1.50s","tweak-global-animations-animation-style":"fade","tweak-global-animations-animation-type":"fade","tweak-global-animations-complexity-level":"detailed","tweak-global-animations-enabled":"true","tweak-portfolio-grid-basic-custom-height":"50","tweak-portfolio-grid-overlay-custom-height":"50","tweak-portfolio-hover-follow-acceleration":"10%","tweak-portfolio-hover-follow-animation-duration":"Medium","tweak-portfolio-hover-follow-animation-type":"Fade","tweak-portfolio-hover-follow-delimiter":"Forward Slash","tweak-portfolio-hover-follow-front":"false","tweak-portfolio-hover-follow-layout":"Inline","tweak-portfolio-hover-follow-size":"75","tweak-portfolio-hover-follow-text-spacing-x":"1.5","tweak-portfolio-hover-follow-text-spacing-y":"1.5","tweak-portfolio-hover-static-animation-duration":"Medium","tweak-portfolio-hover-static-animation-type":"Scale Up","tweak-portfolio-hover-static-delimiter":"Forward Slash","tweak-portfolio-hover-static-front":"false","tweak-portfolio-hover-static-layout":"Stacked","tweak-portfolio-hover-static-size":"75","tweak-portfolio-hover-static-text-spacing-x":"1.5","tweak-portfolio-hover-static-text-spacing-y":"1.5","tweak-portfolio-index-background-animation-duration":"Medium","tweak-portfolio-index-background-animation-type":"Fade","tweak-portfolio-index-background-custom-height":"50","tweak-portfolio-index-background-delimiter":"None","tweak-portfolio-index-background-height":"Large","tweak-portfolio-index-background-horizontal-alignment":"Center","tweak-portfolio-index-background-link-format":"Stacked","tweak-portfolio-index-background-persist":"false","tweak-portfolio-index-background-vertical-alignment":"Middle","tweak-portfolio-index-background-width":"Full","tweak-product-basic-item-click-action":"None","tweak-product-basic-item-gallery-aspect-ratio":"3:4 Three-Four (Vertical)","tweak-product-basic-item-gallery-design":"Slideshow","tweak-product-basic-item-gallery-width":"50%","tweak-product-basic-item-hover-action":"None","tweak-product-basic-item-image-spacing":"3vw","tweak-product-basic-item-image-zoom-factor":"2","tweak-product-basic-item-product-variant-display":"Dropdown","tweak-product-basic-item-thumbnail-placement":"Side","tweak-product-basic-item-variant-picker-layout":"Dropdowns","tweak-products-add-to-cart-button":"false","tweak-products-columns":"2","tweak-products-gutter-column":"2vw","tweak-products-gutter-row":"2vw","tweak-products-header-text-alignment":"Middle","tweak-products-image-aspect-ratio":"1:1 Square","tweak-products-image-text-spacing":"0.5vw","tweak-products-mobile-columns":"1","tweak-products-text-alignment":"Left","tweak-transparent-header":"true"},"templateId":"5c5a519771c10ba3470d8101","templateVersion":"7.1","pageFeatures":[1,2,4],"gmRenderKey":"QUl6YVN5Q0JUUk9xNkx1dkZfSUUxcjQ2LVQ0QWVUU1YtMGQ3bXk4","templateScriptsRootUrl":"https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/","betaFeatureFlags":["scripts_defer","image_component","is_feature_gate_refresh_enabled","commerce_checkout_website_updates_enabled","member_areas_spanish_interviews","customer_accounts_email_verification","customize_collection_overview_paywalling","member_areas_provisioning_service","crm_show_profile_forms","marketing_landing_page","toggle_preview_new_shortcut","customer_account_creation_recaptcha","themes","pdp_product_add_ons_visitor_site","background_art_onboarding","commerce_restock_notifications","nested_categories","campaigns_global_uc_ab","commerce_clearpay","visitor_react_forms","site_user_email_change","campaigns_new_image_layout_picker","site_header_footer","campaigns_discount_section_in_automations","crm_default_newsletter_block_to_campaigns","commsplat_forms_visitor_profile","enable_css_variable_tweaks","new_stacked_index","collection_typename_switching","fluid_engine_clean_up_grid_contextual_change","crm_remove_subscriber","show_add_to_cart_in_plp","member_areas_schedule_interview","website_fonts","commerce_etsy_product_import","digital_products_monetization_ga_enabled","commerce_site_visitor_metrics","send_local_pickup_ready_email","accounting_orders_sync","nested_categories_migration_enabled","supports_versioned_template_assets","fluid_engine","viewer-role-contributor-invites","campaigns_discount_section_in_blasts","website_component_enabled","unify_edit_mode_p2","member_areas_feature","commerce_order_status_access","improved_paywalls","override_block_styles","campaigns_thumbnail_layout","customize_item_paywalling","commerce_etsy_shipping_import","campaigns_import_discounts"],"videoAssetsFeatureFlags":["mux-data-video-collection","mux-data-course-collection"],"impersonatedSession":false,"demoCollections":[{"collectionId":"63b7282612318a314545e06e","deleted":false},{"collectionId":"63bf20a8189cf003a2ceb882","deleted":false},{"collectionId":"63bf24880e35a726f0363e3b","deleted":true},{"collectionId":"63bf24f4e0b6ce759767d3c8","deleted":true},{"collectionId":"63bf281c2c7c7a2a6ce8d155","deleted":true},{"collectionId":"6409f12455644c1ff7dacc13","deleted":false}],"tzData":{"zones":[[420,null,"WIB",null]],"rules":{}},"product":{"variantAttributeNames":[],"variants":[{"id":"1d69ec4b-aa76-4dce-9a99-130f66b22de7","sku":"SQ0461693","price":{"currencyCode":"IDR","value":15000000,"decimalValue":"150000.00","fractionalDigits":2},"salePrice":{"currencyCode":"IDR","value":5000000,"decimalValue":"10000.00","fractionalDigits":2},"onSale":true,"stock":{"unlimited":true},"attributes":{},"shippingWeight":{"value":0.0,"unit":"POUND"},"shippingSize":{"unit":"INCH","width":0.0,"height":0.0,"len":0.0}}],"subscribable":false,"fulfilledExternally":false,"productType":1},"showAnnouncementBar":false,"recaptchaEnterpriseContext":{"recaptchaEnterpriseSiteKey":"6LdDFQwjAAAAAPigEvvPgEVbb7QBm-TkVJdDTlAv"},"i18nContext":{"timeZoneData":{"id":"Asia/Jakarta","name":"Western Indonesia Time"}}};
     </script>
     <script type="application/ld+json">
       {
-        "url": "##URL_LP_",
-        "name": "##BRAND_TOKO",
-        "description": "##DESKRIPSI_",
-        "image": "##LOGO_DESKTOP_",
+        "url": "##DOMAIN_LANDINGPAGE!_",
+        "name": "###BRAND_HERE!!!__",
+        "description": "###DESKITPSI_PENTING!!_",
+        "image": "//###LOGO_DESKTOP!!_",
         "@context": "http://schema.org",
         "@type": "WebSite"
       }
     </script>
     <script type="application/ld+json">
       {
-        "name": "##TITLE_",
-        "image": "##BANNER_LP_?format=1500w",
-        "description": "##DESKRIPSI_",
-        "brand": "##BRAND_TOKO",
-        "offers": { "price": 10000.0, "priceCurrency": "IDR", "url": "##URL_LP_", "availability": "InStock", "sku": "SQ0461693", "@context": "http://schema.org", "@type": "Offer" },
+        "name": "##TITLE_PENTING!_",
+        "image": "###BANNER_LANDINGPAGE?format=1500w",
+        "description": "###DESKITPSI_PENTING!!_",
+        "brand": "###BRAND_HERE!!!__",
+        "offers": { "price": 10000.0, "priceCurrency": "IDR", "url": "##DOMAIN_LANDINGPAGE!_", "availability": "InStock", "sku": "SQ0461693", "@context": "http://schema.org", "@type": "Offer" },
         "@context": "http://schema.org",
         "@type": "Product"
       }
@@ -3201,8 +3201,8 @@
           data-current-styles='{
 "layout": "brandingCenter",
 "action": {
-"href": "##URL_LP_",
-"buttonText": "##BRAND_TOKO LOGIN",
+"href": "##DOMAIN_LANDINGPAGE!_",
+"buttonText": "###BRAND_BEBAS!!_",
 "newWindow": false
 },
 "showSocial": false,
@@ -3473,7 +3473,7 @@
         >
           <div class="sqs-announcement-bar-dropzone"></div>
           <div class="header-announcement-bar-wrapper">
-            <a href="#page" tabindex="1" class="header-skip-link sqs-button-element--primary"> Content Produk ##BRAND_TOKO </a>
+            <a href="#page" tabindex="1" class="header-skip-link sqs-button-element--primary"> Content Produk ###BRAND_HERE!!!__ </a>
             <style>
               .unselectable {
                 -webkit-user-select: none;
@@ -3518,33 +3518,33 @@
                     <div class="header-nav-wrapper">
                       <nav class="header-nav-list">
                         <div class="header-nav-item header-nav-item--collection">
-                          <a href="##URL_LP_" data-animation-role="header-element"> ##SLOT_GACOR </a>
+                          <a href="##DOMAIN_LANDINGPAGE!_" data-animation-role="header-element"> Akun Slot Maxwin </a>
                         </div>
                         <div class="header-nav-item header-nav-item--collection">
-                          <a href="##URL_LP_" data-animation-role="header-element">##YOUR_BRAND_HERE </a>
+                          <a href="##DOMAIN_LANDINGPAGE!_" data-animation-role="header-element"> ###BRAND_BEBAS!!_ </a>
                         </div>
                         <div class="header-nav-item header-nav-item--collection header-nav-item--active">
-                          <a href="/" data-animation-role="header-element" aria-current="page"> Produk </a>
+                          <a href="##DOMAIN_LANDINGPAGE!_" data-animation-role="header-element" aria-current="page"> Produk </a>
                         </div>
                       </nav>
                     </div>
                   </div>
                   <div class="header-title header-title--use-mobile-logo" data-animation-role="header-element">
                     <div class="header-title-logo">
-                      <a href="./" data-animation-role="header-element">
+                      <a href="##DOMAIN_LANDINGPAGE!_" data-animation-role="header-element">
                         <picture
-                          ><source media="only screen and (pointer: coarse) and (max-width: 1024px), screen and (max-width: 799px)" srcset="##LOGO_MOBILE_?format=1500w" />
-                          <source media="only screen and (pointer: coarse) and (min-width: 1025px), screen and (min-width: 800px)" srcset="##LOGO_DESKTOP_?format=1500w" />
-                          <img src="##LOGO_DESKTOP_?format=1500w" alt="##BRAND_TOKO" style="display: block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw"
+                          ><source media="only screen and (pointer: coarse) and (max-width: 1024px), screen and (max-width: 799px)" srcset="###LOGO_LANDINGPAGE_MOBILE!!_?format=1500w" />
+                          <source media="only screen and (pointer: coarse) and (min-width: 1025px), screen and (min-width: 800px)" srcset="//###LOGO_DESKTOP!!_?format=1500w" />
+                          <img src="//###LOGO_DESKTOP!!_?format=1500w" alt="###BRAND_HERE!!!__" style="display: block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw"
                         /></picture>
                       </a>
                     </div>
                     <div class="header-mobile-logo">
-                      <a href="./" data-animation-role="header-element">
+                      <a href="##DOMAIN_LANDINGPAGE!_" data-animation-role="header-element">
                         <picture
-                          ><source media="only screen and (pointer: coarse) and (max-width: 1024px), screen and (max-width: 799px)" srcset="##LOGO_MOBILE_?format=1500w" />
-                          <source media="only screen and (pointer: coarse) and (min-width: 1025px), screen and (min-width: 800px)" srcset="##LOGO_DESKTOP_?format=1500w" />
-                          <img src="##LOGO_MOBILE_?format=1500w" alt="##BRAND_TOKO" style="display: block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw"
+                          ><source media="only screen and (pointer: coarse) and (max-width: 1024px), screen and (max-width: 799px)" srcset="###LOGO_LANDINGPAGE_MOBILE!!_?format=1500w" />
+                          <source media="only screen and (pointer: coarse) and (min-width: 1025px), screen and (min-width: 800px)" srcset="//###LOGO_DESKTOP!!_?format=1500w" />
+                          <img src="###LOGO_LANDINGPAGE_MOBILE!!_?format=1500w" alt="###BRAND_HERE!!!__" style="display: block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw"
                         /></picture>
                       </a>
                     </div>
@@ -3554,7 +3554,7 @@
                   <div class="showOnMobile">
                     <div class="header-actions-action header-actions-action--cart">
                       <a
-                        href="##MONEYSITE_LINK!!"
+                        href="###LINK_LOGIN_BRAND"
                         class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart header-icon show-empty-cart-state cart-quantity-zero header-icon-border-shape-none header-icon-border-style-outline"
                       >
                         <span class="Cart-inner">
@@ -3575,7 +3575,7 @@
                   <div class="showOnDesktop">
                     <div class="header-actions-action header-actions-action--cart">
                       <a
-                        href="##MONEYSITE_LINK!!"
+                        href="###LINK_LOGIN_BRAND"
                         class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart header-icon show-empty-cart-state cart-quantity-zero header-icon-border-shape-none header-icon-border-style-outline"
                       >
                         <span class="Cart-inner">
@@ -3594,7 +3594,7 @@
                     </div>
                   </div>
                   <div class="header-actions-action header-actions-action--cta" data-animation-role="header-element">
-                    <a class="btn btn--border theme-btn--primary-inverse sqs-button-element--primary" href="##MONEYSITE_LINK!!">##YOUR_BRAND_HERE </a>
+                    <a class="btn btn--border theme-btn--primary-inverse sqs-button-element--primary" href="###LINK_LOGIN_BRAND"> ###BRAND_BEBAS!!_ </a>
                   </div>
                 </div>
               </div>
@@ -3603,7 +3603,7 @@
                   <div class="showOnMobile">
                     <div class="header-actions-action header-actions-action--cart">
                       <a
-                        href="##MONEYSITE_LINK!!"
+                        href="###LINK_LOGIN_BRAND"
                         class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart header-icon show-empty-cart-state cart-quantity-zero header-icon-border-shape-none header-icon-border-style-outline"
                       >
                         <span class="Cart-inner">
@@ -3624,7 +3624,7 @@
                   <div class="showOnDesktop">
                     <div class="header-actions-action header-actions-action--cart">
                       <a
-                        href="##MONEYSITE_LINK!!"
+                        href="###LINK_LOGIN_BRAND"
                         class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart header-icon show-empty-cart-state cart-quantity-zero header-icon-border-shape-none header-icon-border-style-outline"
                       >
                         <span class="Cart-inner">
@@ -3643,7 +3643,7 @@
                     </div>
                   </div>
                   <div class="header-actions-action header-actions-action--cta" data-animation-role="header-element">
-                    <a class="btn btn--border theme-btn--primary-inverse sqs-button-element--primary" href="##MONEYSITE_LINK!!">##YOUR_BRAND_HERE </a>
+                    <a class="btn btn--border theme-btn--primary-inverse sqs-button-element--primary" href="###LINK_LOGIN_BRAND"> ###BRAND_BEBAS!!_ </a>
                   </div>
                 </div>
                 <div class="header-title-nav-wrapper">
@@ -3651,33 +3651,33 @@
                     <div class="header-nav-wrapper">
                       <nav class="header-nav-list">
                         <div class="header-nav-item header-nav-item--collection">
-                          <a href="##URL_LP_" data-animation-role="header-element"> ##SLOT_GACOR </a>
+                          <a href="##DOMAIN_LANDINGPAGE!_" data-animation-role="header-element"> Akun Slot Maxwin </a>
                         </div>
                         <div class="header-nav-item header-nav-item--collection">
-                          <a href="##URL_LP_" data-animation-role="header-element">##YOUR_BRAND_HERE </a>
+                          <a href="##DOMAIN_LANDINGPAGE!_" data-animation-role="header-element"> ###BRAND_BEBAS!!_ </a>
                         </div>
                         <div class="header-nav-item header-nav-item--collection header-nav-item--active">
-                          <a href="/" data-animation-role="header-element" aria-current="page"> Produk </a>
+                          <a href="##DOMAIN_LANDINGPAGE!_" data-animation-role="header-element" aria-current="page"> Produk </a>
                         </div>
                       </nav>
                     </div>
                   </div>
                   <div class="header-title header-title--use-mobile-logo" data-animation-role="header-element">
                     <div class="header-title-logo">
-                      <a href="./" data-animation-role="header-element">
+                      <a href="##DOMAIN_LANDINGPAGE!_" data-animation-role="header-element">
                         <picture
-                          ><source media="only screen and (pointer: coarse) and (max-width: 1024px), screen and (max-width: 799px)" srcset="##LOGO_MOBILE_?format=1500w" />
-                          <source media="only screen and (pointer: coarse) and (min-width: 1025px), screen and (min-width: 800px)" srcset="##LOGO_DESKTOP_?format=1500w" />
-                          <img src="##LOGO_DESKTOP_?format=1500w" alt="##BRAND_TOKO" style="display: block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw"
+                          ><source media="only screen and (pointer: coarse) and (max-width: 1024px), screen and (max-width: 799px)" srcset="###LOGO_LANDINGPAGE_MOBILE!!_?format=1500w" />
+                          <source media="only screen and (pointer: coarse) and (min-width: 1025px), screen and (min-width: 800px)" srcset="//###LOGO_DESKTOP!!_?format=1500w" />
+                          <img src="//###LOGO_DESKTOP!!_?format=1500w" alt="###BRAND_HERE!!!__" style="display: block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw"
                         /></picture>
                       </a>
                     </div>
                     <div class="header-mobile-logo">
-                      <a href="./" data-animation-role="header-element">
+                      <a href="##DOMAIN_LANDINGPAGE!_" data-animation-role="header-element">
                         <picture
-                          ><source media="only screen and (pointer: coarse) and (max-width: 1024px), screen and (max-width: 799px)" srcset="##LOGO_MOBILE_?format=1500w" />
-                          <source media="only screen and (pointer: coarse) and (min-width: 1025px), screen and (min-width: 800px)" srcset="##LOGO_DESKTOP_?format=1500w" />
-                          <img src="##LOGO_MOBILE_?format=1500w" alt="##BRAND_TOKO" style="display: block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw"
+                          ><source media="only screen and (pointer: coarse) and (max-width: 1024px), screen and (max-width: 799px)" srcset="###LOGO_LANDINGPAGE_MOBILE!!_?format=1500w" />
+                          <source media="only screen and (pointer: coarse) and (min-width: 1025px), screen and (min-width: 800px)" srcset="//###LOGO_DESKTOP!!_?format=1500w" />
+                          <img src="###LOGO_LANDINGPAGE_MOBILE!!_?format=1500w" alt="###BRAND_HERE!!!__" style="display: block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw"
                         /></picture>
                       </a>
                     </div>
@@ -3711,8 +3711,8 @@
             data-current-styles='{
 "layout": "brandingCenter",
 "action": {
-"href": "##URL_LP_",
-"buttonText": "##BRAND_TOKO LOGIN",
+"href": "##DOMAIN_LANDINGPAGE!_",
+"buttonText": "###BRAND_BEBAS!!_",
 "newWindow": false
 },
 "showSocial": false,
@@ -3961,17 +3961,17 @@
                   <div class="header-menu-nav-folder-content">
                     <div class="header-menu-nav-wrapper">
                       <div class="container header-menu-nav-item header-menu-nav-item--collection">
-                        <a href="##URL_LP_">
-                          <div class="header-menu-nav-item-content">##SLOT_GACOR</div>
+                        <a href="##DOMAIN_LANDINGPAGE!_">
+                          <div class="header-menu-nav-item-content">Akun Slot Maxwin</div>
                         </a>
                       </div>
                       <div class="container header-menu-nav-item header-menu-nav-item--collection">
-                        <a href="##URL_LP_">
-                          <div class="header-menu-nav-item-content">##BRAND_TOKO LOGIN</div>
+                        <a href="##DOMAIN_LANDINGPAGE!_">
+                          <div class="header-menu-nav-item-content">###BRAND_BEBAS!!_</div>
                         </a>
                       </div>
                       <div class="container header-menu-nav-item header-menu-nav-item--collection header-menu-nav-item--active">
-                        <a href="/" aria-current="page">
+                        <a href="##DOMAIN_LANDINGPAGE!_" aria-current="page">
                           <div class="header-menu-nav-item-content">Produk</div>
                         </a>
                       </div>
@@ -3979,7 +3979,7 @@
                   </div>
                   <div class="header-menu-actions social-accounts"></div>
                   <div class="header-menu-cta">
-                    <a class="theme-btn--primary btn sqs-button-element--primary" href="##MONEYSITE_LINK!!">##YOUR_BRAND_HERE </a>
+                    <a class="theme-btn--primary btn sqs-button-element--primary" href="###LINK_LOGIN_BRAND"> ###BRAND_BEBAS!!_ </a>
                   </div>
                 </div>
               </nav>
@@ -4032,9 +4032,9 @@
                     <article class="ProductItem hentry author-nothuman- post-type-store-item featured on-sale" data-item-id="658ed04cc9a6545a4e625d11">
                       <nav class="ProductItem-nav">
                         <div class="ProductItem-nav-breadcrumb" data-animation-role="content">
-                          <a href="/" class="ProductItem-nav-breadcrumb-link">Produk</a>
+                          <a href="##DOMAIN_LANDINGPAGE!_" class="ProductItem-nav-breadcrumb-link">Produk</a>
                           <span class="ProductItem-nav-breadcrumb-separator"></span>
-                          <a href="##URL_LP_" class="ProductItem-nav-breadcrumb-link">##TITLE_</a>
+                          <a href="##DOMAIN_LANDINGPAGE!_" class="ProductItem-nav-breadcrumb-link">##TITLE_PENTING!_</a>
                         </div>
                       </nav>
                       <section class="ProductItem-summary" data-controller="ProductGallery">
@@ -4056,32 +4056,32 @@
                                 aria-describedby="ProductItem-gallery-slides-item-1-index-65c718a4a7a3934c93e34593"
                                 class="ProductItem-gallery-slides-item-image"
                                 data-load="false"
-                                data-src="##BANNER_LP_"
-                                data-image="##BANNER_LP_"
+                                data-src="###BANNER_LANDINGPAGE"
+                                data-image="###BANNER_LANDINGPAGE"
                                 data-image-dimensions="850x850"
                                 data-image-focal-point="0.5,0.5"
-                                alt="##BRAND_TOKO"
+                                alt="SLOT MAXWIN TERBAIK"
                                 elementtiming="nbf-products-gallery"
                                 style="width: 100%; height: 100%; object-position: 50% 50%; object-fit: cover"
                                 data-parent-ratio="1.0"
                                 data-image-resolution="750w"
-                                src="##BANNER_LP_?format=750w"
+                                src="###BANNER_LANDINGPAGE?format=750w"
                               />
                               <span id="ProductItem-gallery-slides-item-1-index-65c718a4a7a3934c93e34593" style="display: none"> Image 1 of </span>
                               <div class="product-image-zoom-duplicate loaded" aria-hidden="true" data-slide-transition="1" style="transform: scale(1.5); transform-origin: 0.179091% 68.8253%">
                                 <img
                                   data-load="false"
-                                  data-src="##BANNER_LP_"
-                                  data-image="##BANNER_LP_"
+                                  data-src="###BANNER_LANDINGPAGE"
+                                  data-image="###BANNER_LANDINGPAGE"
                                   data-image-dimensions="850x850"
                                   data-image-focal-point="0.5,0.5"
-                                  alt="##BRAND_TOKO"
+                                  alt="SLOT MAXWIN TERBAIK"
                                   elementtiming="nbf-products-gallery-zoom"
                                   style="width: 100%; height: 100%; object-position: 50% 50%; object-fit: cover"
                                   data-parent-ratio="1.0"
                                   class=""
                                   data-image-resolution="750w"
-                                  src="##BANNER_LP_?format=750w"
+                                  src="###BANNER_LANDINGPAGE?format=750w"
                                 />
                               </div>
                             </div>
@@ -4089,32 +4089,32 @@
                         </section>
                         <section class="product-details ProductItem-details" data-test="pdp-details">
                           <div style="display: none">
-                            <h1 class="ProductItem-details-title" data-content-field="title" data-test="pdp-title">##TITLE_</h1>
+                            <h1 class="ProductItem-details-title" data-content-field="title" data-test="pdp-title">##TITLE_PENTING!_</h1>
                           </div>
                           <div class="fluid-image-container sqs-image-content" style="overflow: hidden; -webkit-mask-image: -webkit-radial-gradient(white, black); position: relative; width: 100%; height: 100%">
-                            <a class="sqs-block-image-link content-fit" href="https://direct.kamu.chat/12304823/" target="_blank">
+                            <a class="sqs-block-image-link content-fit" href="###LINK_LIVECHAT_BRAND" target="_blank">
                               <img
                                 data-stretch="false"
-                                data-src="##GIF_LOGIN_"
-                                data-image="##GIF_LOGIN_"
+                                data-src="###LOGO_LIVECHAT/DAFTARSEKARANG!!_"
+                                data-image="###LOGO_LIVECHAT/DAFTARSEKARANG!!_"
                                 data-image-dimensions="407x118"
                                 data-image-focal-point="0.5,0.5"
-                                alt="##BRAND_TOKO"
+                                alt="###BRAND_HERE!!!__"
                                 data-load="false"
                                 elementtiming="system-image-block"
-                                src="##GIF_LOGIN_"
+                                src="###LOGO_LIVECHAT/DAFTARSEKARANG!!_"
                                 width="400"
                                 height="111"
                                 sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 33.33333333333333vw"
                                 style="display: block; object-fit: contain; object-position: 50% 50%"
                                 srcset="
-                                  ##GIF_LOGIN_?format=100w   100w,
-                                  ##GIF_LOGIN_?format=300w   300w,
-                                  ##GIF_LOGIN_?format=500w   500w,
-                                  ##GIF_LOGIN_?format=750w   750w,
-                                  ##GIF_LOGIN_?format=1000w 1000w,
-                                  ##GIF_LOGIN_?format=1500w 1500w,
-                                  ##GIF_LOGIN_?format=2500w 2500w
+                                  ###LOGO_LIVECHAT/DAFTARSEKARANG!!_?format=100w   100w,
+                                  ###LOGO_LIVECHAT/DAFTARSEKARANG!!_?format=300w   300w,
+                                  ###LOGO_LIVECHAT/DAFTARSEKARANG!!_?format=500w   500w,
+                                  ###LOGO_LIVECHAT/DAFTARSEKARANG!!_?format=750w   750w,
+                                  ###LOGO_LIVECHAT/DAFTARSEKARANG!!_?format=1000w 1000w,
+                                  ###LOGO_LIVECHAT/DAFTARSEKARANG!!_?format=1500w 1500w,
+                                  ###LOGO_LIVECHAT/DAFTARSEKARANG!!_?format=2500w 2500w
                                 "
                                 loading="lazy"
                                 decoding="async"
@@ -4132,7 +4132,7 @@
                                   </div>
                                   <hr />
                                   <div class="sqs-html-content">
-                                    <h4 style="text-align: center; white-space: pre-wrap">##TITLE_</h4>
+                                    <h4 style="text-align: center; white-space: pre-wrap">##TITLE_PENTING!_</h4>
                                   </div>
                                   <div data-controller="ProductItemVariants,ProductCartButton" class="ProductItem-details-checkout">
                                     <div class="ProductItem-product-price" data-animation-role="content">
@@ -4164,7 +4164,7 @@
                                       <div class="pdp-overlay"></div>
                                       <div class="product-mark sale">sale</div>
                                     </div>
-                                    <div class="ProductItem-details-excerpt" data-content-field="excerpt">##ISI_DESKRIPSI_BEBAS_</div>
+                                    <div class="ProductItem-details-excerpt" data-content-field="excerpt">###DESKRIPSI_BEBAS!!_</div>
                                     <div class="sqs-add-to-cart-button-wrapper" data-animation-role="button">
                                       <div
                                         class="sqs-add-to-cart-button sqs-suppress-edit-mode sqs-editable-button sqs-button-element--primary"
@@ -4175,23 +4175,23 @@
                                         data-item-id="658ed04cc9a6545a4e625d11"
                                         data-product-type="1"
                                         data-use-custom-label="true"
-                                        data-original-label="##CLAIM_ISI_BEBAS_!!"
+                                        data-original-label="Claim Bonus Slot Maxwin Terbaru!"
                                       >
-                                        <div class="sqs-add-to-cart-button-inner">##CLAIM_ISI_BEBAS_!!</div>
+                                        <div class="sqs-add-to-cart-button-inner">Claim Bonus Slot Maxwin Terbaru!</div>
                                       </div>
                                     </div>
                                     <section class="pdp-product-add-ons">
                                       <div class="add-on-card" data-controller="ProductAddOnImage">
-                                        <a class="add-on-thumbnail-link" href="##MONEYSITE_LINK!!" aria-label="##BUAT_SEMENARIK_MUNGKIN!!">
+                                        <a class="add-on-thumbnail-link" href="###LINK_LOGIN_BRAND" aria-label="###TEKS_BEBAS!!!_">
                                           <img
-                                            data-src="##BANNER_LP_"
-                                            data-image="##BANNER_LP_"
+                                            data-src="###BANNER_LANDINGPAGE"
+                                            data-image="###BANNER_LANDINGPAGE"
                                             data-image-dimensions="1000x1000"
                                             data-image-focal-point="0.5,0.5"
-                                            alt="##BUAT_SEMENARIK_MUNGKIN!!"
+                                            alt="###TEKS_BEBAS!!!_"
                                             data-load="false"
                                             elementtiming="nbf-products-add-on-thumbnail"
-                                            src="##BANNER_LP_"
+                                            src="###BANNER_LANDINGPAGE"
                                             width="1000"
                                             height="1000"
                                             sizes="
@@ -4199,13 +4199,13 @@
                                             class="add-on-thumbnail"
                                             style="display: block; object-position: 50% 50%"
                                             srcset="
-                                              ##BANNER_LP_?format=100w   100w,
-                                              ##BANNER_LP_?format=300w   300w,
-                                              ##BANNER_LP_?format=500w   500w,
-                                              ##BANNER_LP_?format=750w   750w,
-                                              ##BANNER_LP_?format=1000w 1000w,
-                                              ##BANNER_LP_?format=1500w 1500w,
-                                              ##BANNER_LP_?format=2500w 2500w
+                                              ###BANNER_LANDINGPAGE?format=100w   100w,
+                                              ###BANNER_LANDINGPAGE?format=300w   300w,
+                                              ###BANNER_LANDINGPAGE?format=500w   500w,
+                                              ###BANNER_LANDINGPAGE?format=750w   750w,
+                                              ###BANNER_LANDINGPAGE?format=1000w 1000w,
+                                              ###BANNER_LANDINGPAGE?format=1500w 1500w,
+                                              ###BANNER_LANDINGPAGE?format=2500w 2500w
                                             "
                                             loading="lazy"
                                             decoding="async"
@@ -4213,8 +4213,8 @@
                                           />
                                         </a>
                                         <div class="add-on-details">
-                                          <a href="##MONEYSITE_LINK!!" class="add-on-title-link">
-                                            <div class="add-on-title">##BUAT_SEMENARIK_MUNGKIN!!</div>
+                                          <a href="###LINK_LOGIN_BRAND" class="add-on-title-link">
+                                            <div class="add-on-title">###TEKS_BEBAS!!!_</div>
                                           </a>
                                           <div class="product-price">
                                             <span class="visually-hidden v6-visually-hidden">Minimal Depo: </span>IDR 25,000.00 <span class="visually-hidden v6-visually-hidden">Minimal Wede: </span
@@ -4227,7 +4227,7 @@
                                           data-is-product-add-on="true"
                                           data-current-context='{
           "id": "658ecfd60837e021341dce1a",
-          "title": "##BUAT_SEMENARIK_MUNGKIN!!",
+          "title": "###TEKS_BEBAS!!!_",
           "productType": "1"
         }'
                                         ></div>
@@ -4421,7 +4421,7 @@
                       <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-86c7afa25dbf37755d32">
                         <div class="sqs-block-content">
                           <div class="sqs-html-content">
-                            <p style="text-align: center; white-space: pre-wrap" class="sqsrte-large">&#169;Copyright <span class="sqsrte-text-color--lightAccent">2024 - Situs ##BRAND_TOKO</span></p>
+                            <p style="text-align: center; white-space: pre-wrap" class="sqsrte-large">&#169;Copyright <span class="sqsrte-text-color--lightAccent">2024 - Situs ###BRAND_HERE!!!__</span></p>
                           </div>
                         </div>
                       </div>
