@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @z4phy
-- 👀 I’m interested in Social Enginering
-- ⚡ Fun fact: Actualy i'm lammers 😄
-- 📩 My Contact : https://t.me/zaynphantomhive
+- 👀 I’m interested in Penetration Testing Website
+- ⚡ Fun fact: Actually i'm lammers 😄
+- 📩 My Contact : z4phy@proton.me
 
 <!---
 z4phyr/z4phyr is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
