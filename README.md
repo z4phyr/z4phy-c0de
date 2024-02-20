@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @z4phy
-- 👀 I’m interested in Penetration Testing Website
+- 👀 I’m interested in Penetration Testing
 - ⚡ Fun fact: Actually i'm lammers 😄
 - 📩 My Contact : z4phy@proton.me
 
