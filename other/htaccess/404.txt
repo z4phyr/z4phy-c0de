@@ -1,1 +1,1 @@
-ErrorDocument 404 https://domain.com
+ErrorDocument 404 https://z4phy-gg.gov
