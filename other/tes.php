@@ -120,9 +120,9 @@ text-align: left;
 <body>
 <center>
 <br>
-<font face="Kelly Slab" color="white" size="7px">WELCOME TO Tak Terlihat Shell</font><br>
+<font face="Kelly Slab" color="white" size="7px">WELCOME TO $ .: Z4PHY PHANT0MHIVE :. $</font><br>
 </h1></center>
-<center><b><font face="courier new" color="white" size="5">� Subcribe Info Cyber Hacker �</font></b></center>
+<center><b><font face="courier new" color="white" size="5">$ .: Z4PHY PHANT0MHIVE :. $</font></b></center>
 <marquee><b><fonte face="courier new" color="white" size="4">Cowok Tersakiti Team - JawaBaratCyber - And All My Friend</font></b></marquee>
 <center><audio autoplay="autoplay" controls="controls" src="https://h.top4top.io/m_16378jw0k0.m3" type="audio/mpeg"></audio></center>
 <table width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
@@ -133,7 +133,7 @@ echo "<tr><td><font color='white'>
 + system     <td>: <font color='LightBlue'>".php_uname()."<tr><td><font color='white'>
 + Coded By   <td>: <font color='LightBlue'>Zildan-Sec<tr><td><font color='white'>
 + Website<td>: <font color='LightBlue'>Zildan-Sec.my.id<tr><td><font color='white'>
-+ Youtube <td>: <font color='LightBlue'>Info Cyber Hacker</font></tr></td><br>
++ Youtube <td>: <font color='LightBlue'>$ .: Z4PHY PHANT0MHIVE :. $</font></tr></td><br>
 </table>";
 echo '<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
 <center><tr align="center"><td align="center">path : ';
